@@ -1,0 +1,11 @@
+
+Currently Loaded Modules:
+  1) gcc/6.4.0      3) cuda/9.2.148
+  2) cmake/3.18.2   4) spectrum-mpi/10.3.1.2-20200121
+
+ 
+
+/ccs/home/bzf/.lsbatch/1612899114.725653.shell: line 94: log_binary_execution_time.py: command not found
+/ccs/home/bzf/.lsbatch/1612899114.725653.shell: line 104: log_binary_execution_time.py: command not found
+mv: cannot stat 'run_lulesh.sh': No such file or directory
+/ccs/home/bzf/.lsbatch/1612899114.725653.shell: line 126: check_executable_driver.py: command not found

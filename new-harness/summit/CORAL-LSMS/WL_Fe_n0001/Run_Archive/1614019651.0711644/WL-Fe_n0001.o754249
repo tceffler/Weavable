@@ -1,0 +1,24 @@
+Running lsms using ./i_lsms_16 with 5 walkers...
+jsrun --progress ./progress_lsms.754249.txt --exit_on_error 1 --nrs 6 --tasks_per_rs 1 --cpu_per_rs 1 --gpu_per_rs 1 --bind rs /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-LSMS/WL_Fe_n0001/1614019651.0711644/build_directory/bin/wl-lsms ./i_lsms_16 -mode 1d -size_lsms 16 -num_lsms 5 -num_steps 50 -energy_calculation multistep  1> stdout.txt 2> stderr.txt
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 754249: <WL-Fe_n0001> in cluster <summit> Exited
+
+Job <WL-Fe_n0001> was submitted from host <login1> by user <bzf> in cluster <summit> at Mon Feb 22 13:47:47 2021
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <bzf> in cluster <summit> at Mon Feb 22 13:47:57 2021
+                            <42*h50n18>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Run_Archive/1614019651.0711644> was used as the working directory.
+Started at Mon Feb 22 13:47:57 2021
+Terminated at Mon Feb 22 14:48:21 2021
+Results reported at Mon Feb 22 14:48:21 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Run_Archive/1614019651.0711644/WL-Fe_n0001.e754249> for stderr output of this job.
+

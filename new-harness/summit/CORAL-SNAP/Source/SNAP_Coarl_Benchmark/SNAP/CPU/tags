@@ -1,0 +1,416 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+101	utils.f90	/^    101 FORMAT( 3X, A, \/ )$/;"	l	subroutine:print_error	file:
+111	version.f90	/^    111 FORMAT( 1X, 'SNAP: SN (Discrete Ordinates) Application Proxy' )$/;"	l	subroutine:version_print	file:
+112	version.f90	/^    112 FORMAT( 1X, 'Version Number..  ', A5 )$/;"	l	subroutine:version_print	file:
+113	version.f90	/^    113 FORMAT( 1X, 'Version Date..  ', A10 )$/;"	l	subroutine:version_print	file:
+114	version.f90	/^    114 FORMAT( 1X, 'Ran on ', I2, '-', I2, '-', I4 )$/;"	l	subroutine:version_print	file:
+115	version.f90	/^    115 FORMAT( ' at time ', I2, ':', I2, ':', I2 )$/;"	l	subroutine:version_print	file:
+121	input.f90	/^    121 FORMAT( \/, 80A, \/ )$/;"	l	subroutine:input_echo	file:
+122	input.f90	/^    122 FORMAT( 10X, 'Input Echo - Values from input or default', \/,   &$/;"	l	subroutine:input_echo	file:
+123	input.f90	/^    123 FORMAT( 2X, 'NML=invar' )$/;"	l	subroutine:input_echo	file:
+124	input.f90	/^    124 FORMAT( 5X, 'npey= ', I5, \/,                                   &$/;"	l	subroutine:input_echo	file:
+125	input.f90	/^    125 FORMAT( 5X, 'ndimen= ', I2, \/,                                 &$/;"	l	subroutine:input_echo	file:
+126	input.f90	/^    126 FORMAT( 5X, 'lx= ', ES11.4, \/,                                 &$/;"	l	subroutine:input_echo	file:
+127	input.f90	/^    127 FORMAT( 5X, 'nmom= ', I3, \/,                                   &$/;"	l	subroutine:input_echo	file:
+128	input.f90	/^    128 FORMAT( 5X, 'ng= ', I4, \/                                      &$/;"	l	subroutine:input_echo	file:
+129	input.f90	/^    129 FORMAT( 5X, 'epsi= ', ES11.4, \/,                               &$/;"	l	subroutine:input_echo	file:
+131	setup.f90	/^    131 FORMAT( 10X, 'Calculation Run-time Parameters Echo', \/, 80A, \/ )$/;"	l	subroutine:setup_echo	file:
+132	setup.f90	/^    132 FORMAT( 2X, 'Geometry' )$/;"	l	subroutine:setup_echo	file:
+133	setup.f90	/^    133 FORMAT( 4X, 'ndimen = ', I1, \/, 4X, 'nx = ', I5, \/, 4X,        &$/;"	l	subroutine:setup_echo	file:
+134	setup.f90	/^    134 FORMAT( 2X, 'Sn' )$/;"	l	subroutine:setup_echo	file:
+135	setup.f90	/^    135 FORMAT( 4X, 'nmom = ', I1, \/, 4X, 'nang = ', I4, \/, 4X,        &$/;"	l	subroutine:setup_echo	file:
+136	setup.f90	/^    136 FORMAT( 4X, '      mu              eta               xi')$/;"	l	subroutine:setup_echo	file:
+137	setup.f90	/^    137 FORMAT( 4X, ES15.8 )$/;"	l	subroutine:setup_echo	file:
+138	setup.f90	/^    138 FORMAT( 4X, ES15.8, 2X, ES15.8 )$/;"	l	subroutine:setup_echo	file:
+139	setup.f90	/^    139 FORMAT( 4X, ES15.8, 2X, ES15.8, 2X, ES15.8 )$/;"	l	subroutine:setup_echo	file:
+140	setup.f90	/^    140 FORMAT( \/, 2X, 'Material Map' )$/;"	l	subroutine:setup_echo	file:
+141	setup.f90	/^    141 FORMAT( 4X, 'mat_opt = ', I1, '   -->   nmat = ', I1 )$/;"	l	subroutine:setup_echo	file:
+142	setup.f90	/^    142 FORMAT( 4X, 'Base material (default for every cell) = 1' )$/;"	l	subroutine:setup_echo	file:
+143	setup.f90	/^    143 FORMAT( 4X, 'Material 2 present:', \/, 8X, 'Starting cell: ( ', &$/;"	l	subroutine:setup_echo	file:
+144	setup.f90	/^    144 FORMAT( \/, 2X, 'Source Map' )$/;"	l	subroutine:setup_echo	file:
+145	setup.f90	/^    145 FORMAT( 4X, 'src_opt = ', I1 )$/;"	l	subroutine:setup_echo	file:
+146	setup.f90	/^    146 FORMAT( 4X, 'Source strength per cell (where applied) = 1.0' )$/;"	l	subroutine:setup_echo	file:
+147	setup.f90	/^    147 FORMAT( 4X, 'Source map:', \/, 8X, 'Starting cell: ( ', I5,     &$/;"	l	subroutine:setup_echo	file:
+1471	setup.f90	/^    1471 FORMAT( 4X, 'MMS-generated source', \/ )$/;"	l	subroutine:setup_echo	file:
+148	setup.f90	/^    148 FORMAT( 2X, 'Pseudo Cross Sections Data' )$/;"	l	subroutine:setup_echo	file:
+149	setup.f90	/^    149 FORMAT( 4X, 'ng = ', I3 )$/;"	l	subroutine:setup_echo	file:
+150	setup.f90	/^    150 FORMAT( \/, 4X, 'Material ', I1 )$/;"	l	subroutine:setup_echo	file:
+151	setup.f90	/^    151 FORMAT( 4X, 'Group         Total         Absorption      '     &$/;"	l	subroutine:setup_echo	file:
+152	setup.f90	/^    152 FORMAT( 5X, I3, 6X, ES13.6, 3X, ES13.6, 3X, ES13.6 )$/;"	l	subroutine:setup_echo	file:
+153	setup.f90	/^    153 FORMAT( \/, 2X, 'Time-Dependent Calculation Data' )$/;"	l	subroutine:setup_echo	file:
+154	setup.f90	/^    154 FORMAT( 4X, 'tf = ', ES11.4, \/, 4X, 'nsteps = ', I4, \/, 4X,    &$/;"	l	subroutine:setup_echo	file:
+155	setup.f90	/^    155 FORMAT( 4X, 'Group        Speed' )$/;"	l	subroutine:setup_echo	file:
+156	setup.f90	/^    156 FORMAT( 5X, I3, 6X, ES11.4 )$/;"	l	subroutine:setup_echo	file:
+157	setup.f90	/^    157 FORMAT( \/, 2X, 'Solution Control Parameters' )$/;"	l	subroutine:setup_echo	file:
+158	setup.f90	/^    158 FORMAT( 4X, 'epsi = ', ES11.4, \/, 4X, 'iitm = ', I3, \/, 4X,    &$/;"	l	subroutine:setup_echo	file:
+159	setup.f90	/^    159 FORMAT( 80A, \/ )$/;"	l	subroutine:setup_echo	file:
+161	setup.f90	/^    161 FORMAT( 'slgg(nmat,nmom,ng,ng) echo', \/, 'Column-order loops:' &$/;"	l	subroutine:setup_scatp	file:
+162	setup.f90	/^    162 FORMAT( 2X, ES15.8, 2X, ES15.8, 2X, ES15.8, 2X, ES15.8 )$/;"	l	subroutine:setup_scatp	file:
+181	setup.f90	/^    181 FORMAT( \/, 2X, 'Parallelization Parameters' )$/;"	l	subroutine:setup_echo	file:
+182	setup.f90	/^    182 FORMAT( 4X, 'npey = ', I5, \/, 4X, 'npez = ', I5, \/, 4X,        &$/;"	l	subroutine:setup_echo	file:
+183	setup.f90	/^    183 FORMAT( 10X, 'Thread Support Level', \/,                        &$/;"	l	subroutine:setup_echo	file:
+184	setup.f90	/^    184 FORMAT( 4X, 'thread_level = ', I2, \/ )$/;"	l	subroutine:setup_echo	file:
+185	setup.f90	/^    185 FORMAT( 4X, '.TRUE. nested threading', \/, 6X, 'nnested = ',    &$/;"	l	subroutine:setup_echo	file:
+186	setup.f90	/^    186 FORMAT( 4X, '.FALSE. nested threading', \/, 6X, 'nnested = ',   &$/;"	l	subroutine:setup_echo	file:
+201	translv.f90	/^  201 FORMAT( 10X, 'Iteration Monitor', \/, 80A )$/;"	l	subroutine:translv	file:
+202	translv.f90	/^  202 FORMAT( \/, 1X, 30A, \/, 2X, 'Time Cycle ', I3 )$/;"	l	subroutine:translv	file:
+203	translv.f90	/^  203 FORMAT( 2X, 'Outer' )$/;"	l	subroutine:translv	file:
+204	translv.f90	/^  204 FORMAT( 1X, 20A, \/, 2X, 'Outer ', I3 )$/;"	l	subroutine:translv	file:
+205	translv.f90	/^  205 FORMAT( 2X, I3, 4X, 'Dfmxo=', ES11.4, 4X, 'No. Inners=', I5 )$/;"	l	subroutine:translv	file:
+206	translv.f90	/^  206 FORMAT( \/, 2X, 'Cycle=', I4, 4X, 'Time=', ES11.4, 4X, 'No. ',    &$/;"	l	subroutine:translv	file:
+207	translv.f90	/^  207 FORMAT( \/, 2X, '***UNCONVERGED*** Stopping Iterations!!', \/, 2X, &$/;"	l	subroutine:translv	file:
+208	translv.f90	/^  208 FORMAT( \/, 2X, 'No. Outers=', I4, 4X, 'No. Inners=', I5 )$/;"	l	subroutine:translv	file:
+209	translv.f90	/^  209 FORMAT( \/, 2X, '***UNCONVERGED*** Stopping Iterations!!', \/, 2X, &$/;"	l	subroutine:translv	file:
+210	translv.f90	/^  210 FORMAT( \/, 1X, 30A, \/, 2X, 'Total inners for all time steps, '   &$/;"	l	subroutine:translv	file:
+211	translv.f90	/^  211 FORMAT( \/, 80A, \/ )$/;"	l	subroutine:translv	file:
+221	inner.f90	/^    221 FORMAT( 4X, 'Group ', I3, 4X, ' Inner ', I5, 4X, ' Dfmxi ',    &$/;"	l	subroutine:inr_conv	file:
+301	output.f90	/^    301 FORMAT( 10X, 'Calculation Final Scalar Flux Solution', \/, 80A )$/;"	l	subroutine:output	file:
+302	output.f90	/^    302 FORMAT( \/, 1X, 35A, \/, 2X, 'Group= ', I3, 2X, ' Z Mid-Plane= ',&$/;"	l	subroutine:output	file:
+303	output.f90	/^    303 FORMAT( \/, 5X, 'y' )$/;"	l	subroutine:output	file:
+304	output.f90	/^    304 FORMAT( 4X, 'x ', I4, 2X )$/;"	l	subroutine:output	file:
+305	output.f90	/^    305 FORMAT( 1X )$/;"	l	subroutine:output	file:
+306	output.f90	/^    306 FORMAT( 2X, I4, 6(1X, ES11.4) )$/;"	l	subroutine:output	file:
+307	output.f90	/^    307 FORMAT( \/, 80A, \/ )$/;"	l	subroutine:output	file:
+321	output.f90	/^    321 FORMAT( 1X, 'flux(nx,ny,nz,ng) echo', \/, 1X, 'Column-order '   &$/;"	l	subroutine:output_flux_file	file:
+322	output.f90	/^    322 FORMAT( 1X, 'flux(nx,ny,nz,ng) and fluxm(cmom-1,nx,ny,nz,ng)'  &$/;"	l	subroutine:output_flux_file	file:
+323	output.f90	/^    323 FORMAT( \/, 2X, 'Moment = ', I1 )$/;"	l	subroutine:output_flux_file	file:
+324	output.f90	/^    324 FORMAT( 4(2X, ES17.10) )$/;"	l	subroutine:output_flux_file	file:
+401	time.f90	/^    401 FORMAT( 10X, 'Timing Summary', \/, 80A, \/ )$/;"	l	subroutine:time_summ	file:
+402	time.f90	/^    402 FORMAT( 2X, 'Code Section', T41, 'Time (seconds)', \/,          &$/;"	l	subroutine:time_summ	file:
+403	time.f90	/^    403 FORMAT( 4X, 'Parallel Setup', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+404	time.f90	/^    404 FORMAT( 4X, 'Input', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+405	time.f90	/^    405 FORMAT( 4X, 'Setup', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+406	time.f90	/^    406 FORMAT( 4X, 'Solve', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+407	time.f90	/^    407 FORMAT( 7X, 'Parameter Setup', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+408	time.f90	/^    408 FORMAT( 7X, 'Outer Source', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+409	time.f90	/^    409 FORMAT( 7X, 'Inner Iterations', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+410	time.f90	/^    410 FORMAT( 10X, 'Inner Source', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+411	time.f90	/^    411 FORMAT( 10X, 'Transport Sweeps', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+412	time.f90	/^    412 FORMAT( 10X, 'Inner Misc Ops', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+413	time.f90	/^    413 FORMAT( 7X, 'Solution Misc Ops', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+414	time.f90	/^    414 FORMAT( 4X, 'Output', T41, ES11.4 )$/;"	l	subroutine:time_summ	file:
+421	mms.f90	/^    421 FORMAT( 10X, 'MMS Verification', \/, 80A )$/;"	l	subroutine:mms_verify_1	file:
+422	mms.f90	/^    422 FORMAT( \/, 4X, 'Manufactured\/Computed Solutions Max Diff=',    &$/;"	l	subroutine:mms_verify_1	file:
+425	mms.f90	/^    425 FORMAT( \/, 4X, 'Manufactured\/Computed Solutions Min Diff=',    &$/;"	l	subroutine:mms_verify_1	file:
+428	mms.f90	/^    428 FORMAT( \/, 80A, \/ )$/;"	l	subroutine:mms_verify_1	file:
+501	snap_main.F90	/^  501 FORMAT( 2X, 'Total Execution time', T41, ES11.4, \/ )$/;"	l	program:snap_main	file:
+502	snap_main.F90	/^  502 FORMAT( 2X, 'Grind Time (nanoseconds)', 8X, ES11.4, \/, \/, 80A )$/;"	l	program:snap_main	file:
+EXTRA	Makefile	/^EXTRA = $/;"	m
+FFLAG2	Makefile	/^FFLAG2 =$/;"	m
+FFLAGS	Makefile	/^ FFLAGS = -O5 -qsimd=auto -qalias=noaryovrlp -qsuffix=cpp=f90 $/;"	m
+FORTRAN	Makefile	/^FORTRAN = mpif90$/;"	m
+MAX_CPUS_PER_NODE	bindthreads.c	14;"	d	file:
+OBJS	Makefile	/^OBJS = global.o snap_main.o utils.o version.o plib.o geom.o sn.o \\$/;"	m
+OPT	Makefile	/^OPT = yes$/;"	m
+POWER8	bindthreads.c	17;"	d	file:
+POWER9	bindthreads.c	16;"	d	file:
+PVR_VER	bindthreads.c	23;"	d	file:
+SPRN_PVR	bindthreads.c	20;"	d	file:
+SRCS	Makefile	/^SRCS = global.f90 snap_main.f90 utils.f90 version.f90 plib.f90 geom.f90 \\$/;"	m
+TARGET	Makefile	/^TARGET = snap$/;"	m
+_GNU_SOURCE	bindthreads.c	1;"	d	file:
+a	mms.f90	/^  REAL(r_knd) :: a,/;"	v	module:mms_module
+a_xs	solvar.f90	/^    t_xs, a_xs,/;"	v	module:solvar_module
+b	mms.f90	/^  REAL(r_knd) :: a, b,/;"	v	module:mms_module
+barrier	plib.f90	/^  SUBROUTINE barrier /;"	s	module:plib_module
+bcast_d_1d	plib.f90	/^  SUBROUTINE bcast_d_1d /;"	s	module:plib_module
+bcast_d_scalar	plib.f90	/^  SUBROUTINE bcast_d_scalar /;"	s	module:plib_module
+bcast_i_1d	plib.f90	/^  SUBROUTINE bcast_i_1d /;"	s	module:plib_module
+bcast_i_scalar	plib.f90	/^  SUBROUTINE bcast_i_scalar /;"	s	module:plib_module
+bindthreads	bindthreads.c	/^void bindthreads(int *ppn, int *lrank)$/;"	f
+c	mms.f90	/^  REAL(r_knd) :: a, b, c$/;"	v	module:mms_module
+cartrank	plib.f90	/^  SUBROUTINE cartrank /;"	s	module:plib_module
+cell_id	geom.f90	/^    TYPE(cell_id_/;"	k	type:diag_type
+cell_id_type	geom.f90	/^  TYPE cell_id_type$/;"	t	module:geom_module
+close_file	utils.f90	/^  SUBROUTINE close_file /;"	s	module:utils_module
+cmdarg	utils.f90	/^  SUBROUTINE cmdarg /;"	s	module:utils_module
+cmom	sn.f90	/^  INTEGER(i_knd) :: cmom,/;"	v	module:sn_module
+comm_snap	plib.f90	/^  INTEGER(i_knd) :: nproc, iproc, comm_snap,/;"	v	module:plib_module
+comm_space	plib.f90	/^  INTEGER(i_knd) :: nproc, iproc, comm_snap, comm_space,/;"	v	module:plib_module
+control_alloc	control.f90	/^  SUBROUTINE control_alloc /;"	s	module:control_module
+control_dealloc	control.f90	/^  SUBROUTINE control_dealloc$/;"	s	module:control_module
+control_module	control.f90	/^MODULE control_module$/;"	m
+cvers	version.f90	/^  CHARACTER(LEN=8) :: cvers /;"	v	module:version_module
+data_allocate	data.f90	/^  SUBROUTINE data_allocate /;"	s	module:data_module
+data_deallocate	data.f90	/^  SUBROUTINE data_deallocate$/;"	s	module:data_module
+data_module	data.f90	/^MODULE data_module$/;"	m
+dealloc_input	dealloc.f90	/^  SUBROUTINE dealloc_input /;"	s	module:dealloc_module
+dealloc_module	dealloc.f90	/^MODULE dealloc_module$/;"	m
+dealloc_solve	dealloc.f90	/^  SUBROUTINE dealloc_solve /;"	s	module:dealloc_module
+dfmxi	control.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: dfmxi$/;"	v	module:control_module
+dfmxo	control.f90	/^  REAL(r_knd) :: dt, dfmxo$/;"	v	module:control_module
+diag	geom.f90	/^  TYPE(diag_/;"	v	module:geom_module
+diag_setup	geom.f90	/^  SUBROUTINE diag_setup /;"	s	module:geom_module
+diag_type	geom.f90	/^  TYPE diag_type$/;"	t	module:geom_module
+dim1_sweep	dim1_sweep.f90	/^  SUBROUTINE dim1_sweep /;"	s	module:dim1_sweep_module
+dim1_sweep_module	dim1_sweep.f90	/^MODULE dim1_sweep_module$/;"	m
+dim3_sweep	dim3_sweep.f90	/^  SUBROUTINE dim3_sweep /;"	s	module:dim3_sweep_module
+dim3_sweep_module	dim3_sweep.f90	/^MODULE dim3_sweep_module$/;"	m
+dinv	geom.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:,:) :: dinv$/;"	v	module:geom_module
+do_nested	plib.f90	/^  LOGICAL(l_knd) :: firsty, lasty, firstz, lastz, do_nested$/;"	v	module:plib_module
+dt	control.f90	/^  REAL(r_knd) :: dt,/;"	v	module:control_module
+dx	geom.f90	/^  REAL(r_knd) :: dx,/;"	v	module:geom_module
+dy	geom.f90	/^  REAL(r_knd) :: dx, dy,/;"	v	module:geom_module
+dz	geom.f90	/^  REAL(r_knd) :: dx, dy, dz,/;"	v	module:geom_module
+ec	sn.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:) :: ec$/;"	v	module:sn_module
+epsi	control.f90	/^  REAL(r_knd) :: epsi=/;"	v	module:control_module
+error	snap_main.F90	/^  CHARACTER(LEN=64) :: error$/;"	v	program:snap_main
+eta	sn.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: mu, eta,/;"	v	module:sn_module
+expcoeff	sn.f90	/^  SUBROUTINE expcoeff /;"	s	module:sn_module
+expxs_module	expxs.f90	/^MODULE expxs_module$/;"	m
+expxs_reg	expxs.f90	/^  SUBROUTINE expxs_reg /;"	s	module:expxs_module
+expxs_slgg	expxs.f90	/^  SUBROUTINE expxs_slgg /;"	s	module:expxs_module
+firsty	plib.f90	/^  LOGICAL(l_knd) :: firsty,/;"	v	module:plib_module
+firstz	plib.f90	/^  LOGICAL(l_knd) :: firsty, lasty, firstz,/;"	v	module:plib_module
+fixup	control.f90	/^    fluxp=0, fixup=/;"	v	module:control_module
+flkx	solvar.f90	/^    t_xs, a_xs, psii, psij, psik, jb_in, jb_out, kb_in, kb_out, flkx,/;"	v	module:solvar_module
+flky	solvar.f90	/^    flky,/;"	v	module:solvar_module
+flkz	solvar.f90	/^    flky, flkz$/;"	v	module:solvar_module
+flux	solvar.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:) :: flux,/;"	v	module:solvar_module
+fluxm	solvar.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:,:) :: qtot, q2grp, fluxm,/;"	v	module:solvar_module
+fluxp	control.f90	/^    fluxp=/;"	v	module:control_module
+fluxpi	solvar.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:) :: flux, fluxpo, fluxpi,/;"	v	module:solvar_module
+fluxpo	solvar.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:) :: flux, fluxpo,/;"	v	module:solvar_module
+fmax	dim1_sweep.f90	/^  REAL(r_knd) :: fmin=zero, fmax=/;"	v	module:dim1_sweep_module
+fmax	dim3_sweep.f90	/^  REAL(r_knd) :: fmin=zero, fmax=/;"	v	module:dim3_sweep_module
+fmin	dim1_sweep.f90	/^  REAL(r_knd) :: fmin=/;"	v	module:dim1_sweep_module
+fmin	dim3_sweep.f90	/^  REAL(r_knd) :: fmin=/;"	v	module:dim3_sweep_module
+g_off	plib.f90	/^  INTEGER(i_knd), PARAMETER :: root=0, g_off /;"	v	module:plib_module
+geom_alloc	geom.f90	/^  SUBROUTINE geom_alloc /;"	s	module:geom_module
+geom_dealloc	geom.f90	/^  SUBROUTINE geom_dealloc$/;"	s	module:geom_module
+geom_module	geom.f90	/^MODULE geom_module$/;"	m
+get_pvr	bindthreads.c	/^int get_pvr(void)$/;"	f
+glmax_d	plib.f90	/^  SUBROUTINE glmax_d /;"	s	module:plib_module
+glmax_d_1d	plib.f90	/^  SUBROUTINE glmax_d_1d /;"	s	module:plib_module
+glmax_i	plib.f90	/^  SUBROUTINE glmax_i /;"	s	module:plib_module
+glmin_d	plib.f90	/^  SUBROUTINE glmin_d /;"	s	module:plib_module
+glmin_i	plib.f90	/^  SUBROUTINE glmin_i /;"	s	module:plib_module
+global_module	global.f90	/^MODULE global_module$/;"	m
+half	global.f90	/^  REAL(r_knd), PARAMETER :: half /;"	v	module:global_module
+hi	geom.f90	/^  REAL(r_knd) :: dx, dy, dz, hi$/;"	v	module:geom_module
+hj	geom.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: hj,/;"	v	module:geom_module
+hk	geom.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: hj, hk$/;"	v	module:geom_module
+i	snap_main.F90	/^  INTEGER(i_/;"	v	program:snap_main
+i_knd	global.f90	/^  INTEGER, PARAMETER :: i_knd /;"	v	module:global_module
+ib	mms.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: ib,/;"	v	module:mms_module
+ic	geom.f90	/^    INTEGER(i_knd) :: ic,/;"	k	type:cell_id_type
+ichunk	plib.f90	/^  INTEGER(i_knd) :: npey=1, npez=1, ichunk=/;"	v	module:plib_module
+ierr	snap_main.F90	/^  INTEGER(i_knd) :: ierr,/;"	v	program:snap_main
+ifile	global.f90	/^  CHARACTER(LEN=64) :: ifile,/;"	v	module:global_module
+iitm	control.f90	/^  INTEGER(i_knd) :: iitm=/;"	v	module:control_module
+incomingy	sweep.f90	/^  LOGICAL(l_knd) :: incomingy,/;"	v	module:sweep_module
+incomingz	sweep.f90	/^  LOGICAL(l_knd) :: incomingy, incomingz,/;"	v	module:sweep_module
+inner	inner.f90	/^  SUBROUTINE inner /;"	s	module:inner_module
+inner_module	inner.f90	/^MODULE inner_module$/;"	m
+input_check	input.f90	/^  SUBROUTINE input_check /;"	s	module:input_module
+input_echo	input.f90	/^  SUBROUTINE input_echo$/;"	s	module:input_module
+input_module	input.f90	/^MODULE input_module$/;"	m
+inr_conv	inner.f90	/^  SUBROUTINE inr_conv /;"	s	module:inner_module
+inr_src	inner.f90	/^  SUBROUTINE inr_src$/;"	s	module:inner_module
+inr_src_scat	inner.f90	/^  SUBROUTINE inr_src_scat /;"	s	module:inner_module
+inrdone	control.f90	/^  LOGICAL(l_knd), ALLOCATABLE, DIMENSION(:) :: inrdone$/;"	v	module:control_module
+invar	input.f90	/^    NAMELIST \/ invar /;"	n	subroutine:read_input
+iproc	plib.f90	/^  INTEGER(i_knd) :: nproc, iproc,/;"	v	module:plib_module
+it_det	control.f90	/^  INTEGER(i_knd) :: iitm=5, oitm=100, timedep=0, nsteps=1, it_det=/;"	v	module:control_module
+iunit	global.f90	/^  INTEGER(i_knd), PARAMETER :: iunit=/;"	v	module:global_module
+j	geom.f90	/^    INTEGER(i_knd) :: ic, j,/;"	k	type:cell_id_type
+jb	mms.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: ib, jb,/;"	v	module:mms_module
+jb_in	solvar.f90	/^    t_xs, a_xs, psii, psij, psik, jb_in,/;"	v	module:solvar_module
+jb_out	solvar.f90	/^    t_xs, a_xs, psii, psij, psik, jb_in, jb_out,/;"	v	module:solvar_module
+jlb	geom.f90	/^  INTEGER(i_knd) :: ny_gl, nz_gl, jlb,/;"	v	module:geom_module
+jub	geom.f90	/^  INTEGER(i_knd) :: ny_gl, nz_gl, jlb, jub,/;"	v	module:geom_module
+k	geom.f90	/^    INTEGER(i_kn/;"	k	type:cell_id_type
+kb	mms.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: ib, jb, kb$/;"	v	module:mms_module
+kb_in	solvar.f90	/^    t_xs, a_xs, psii, psij, psik, jb_in, jb_out, kb_in,/;"	v	module:solvar_module
+kb_out	solvar.f90	/^    t_xs, a_xs, psii, psij, psik, jb_in, jb_out, kb_in, kb_out,/;"	v	module:solvar_module
+klb	geom.f90	/^  INTEGER(i_knd) :: ny_gl, nz_gl, jlb, jub, klb,/;"	v	module:geom_module
+kub	geom.f90	/^  INTEGER(i_knd) :: ny_gl, nz_gl, jlb, jub, klb, kub,/;"	v	module:geom_module
+l_knd	global.f90	/^  INTEGER, PARAMETER :: l_knd /;"	v	module:global_module
+lasty	plib.f90	/^  LOGICAL(l_knd) :: firsty, lasty,/;"	v	module:plib_module
+lastz	plib.f90	/^  LOGICAL(l_knd) :: firsty, lasty, firstz, lastz,/;"	v	module:plib_module
+len	geom.f90	/^    INTEGER(i_knd) :: len$/;"	k	type:diag_type
+lma	sn.f90	/^  INTEGER(i_knd), ALLOCATABLE, DIMENSION(:) :: lma$/;"	v	module:sn_module
+lock	plib.f90	/^  INTEGER(omp_lock_/;"	v	module:plib_module
+lx	geom.f90	/^  REAL(r_knd) :: lx=/;"	v	module:geom_module
+ly	geom.f90	/^  REAL(r_knd) :: lx=one, ly=/;"	v	module:geom_module
+lz	geom.f90	/^  REAL(r_knd) :: lx=one, ly=one, lz=/;"	v	module:geom_module
+mat	data.f90	/^  INTEGER(i_knd), ALLOCATABLE, DIMENSION(:,:,:) :: mat$/;"	v	module:data_module
+mat_opt	data.f90	/^  INTEGER(i_knd) :: ng=1, mat_opt=/;"	v	module:data_module
+max_threads	plib.f90	/^    max_threads,/;"	v	module:plib_module
+mms_allocate	mms.f90	/^  SUBROUTINE mms_allocate /;"	s	module:mms_module
+mms_cells	mms.f90	/^  SUBROUTINE mms_cells$/;"	s	module:mms_module
+mms_deallocate	mms.f90	/^  SUBROUTINE mms_deallocate$/;"	s	module:mms_module
+mms_flux_1	mms.f90	/^  SUBROUTINE mms_flux_1$/;"	s	module:mms_module
+mms_flux_1_2	mms.f90	/^  SUBROUTINE mms_flux_1_2$/;"	s	module:mms_module
+mms_module	mms.f90	/^MODULE mms_module$/;"	m
+mms_setup	mms.f90	/^  SUBROUTINE mms_setup /;"	s	module:mms_module
+mms_src_1	mms.f90	/^  SUBROUTINE mms_src_1$/;"	s	module:mms_module
+mms_trigint	mms.f90	/^  SUBROUTINE mms_trigint /;"	s	module:mms_module
+mms_verify_1	mms.f90	/^  SUBROUTINE mms_verify_1 /;"	s	module:mms_module
+mtag	sweep.f90	/^  INTEGER(i_knd) :: mtag,/;"	v	module:sweep_module
+mu	sn.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: mu,/;"	v	module:sn_module
+nang	sn.f90	/^  INTEGER(i_knd) :: nang=/;"	v	module:sn_module
+nc	geom.f90	/^  INTEGER(i_knd) :: ny_gl, nz_gl, jlb, jub, klb, kub, nc,/;"	v	module:geom_module
+ndiag	geom.f90	/^  INTEGER(i_knd) :: ny_gl, nz_gl, jlb, jub, klb, kub, nc, ndiag$/;"	v	module:geom_module
+ndimen	geom.f90	/^  INTEGER(i_knd) :: ndimen=/;"	v	module:geom_module
+ng	data.f90	/^  INTEGER(i_knd) :: ng=/;"	v	module:data_module
+nmat	data.f90	/^  INTEGER(i_knd) :: nmat=/;"	v	module:data_module
+nmom	sn.f90	/^  INTEGER(i_knd) :: nang=1, nmom=/;"	v	module:sn_module
+nnested	plib.f90	/^  INTEGER(i_knd) :: npey=1, npez=1, ichunk=4, nthreads=1, nnested=/;"	v	module:plib_module
+noct	sn.f90	/^  INTEGER(i_knd) :: cmom, noct$/;"	v	module:sn_module
+npey	plib.f90	/^  INTEGER(i_knd) :: npey=/;"	v	module:plib_module
+npez	plib.f90	/^  INTEGER(i_knd) :: npey=1, npez=/;"	v	module:plib_module
+nproc	plib.f90	/^  INTEGER(i_knd) :: nproc,/;"	v	module:plib_module
+nsteps	control.f90	/^  INTEGER(i_knd) :: iitm=5, oitm=100, timedep=0, nsteps=/;"	v	module:control_module
+nthreads	plib.f90	/^  INTEGER(i_knd) :: npey=1, npez=1, ichunk=4, nthreads=/;"	v	module:plib_module
+num_grth	plib.f90	/^    max_threads, num_grth$/;"	v	module:plib_module
+nx	geom.f90	/^  INTEGER(i_knd) :: ndimen=1, nx=/;"	v	module:geom_module
+ny	geom.f90	/^  INTEGER(i_knd) :: ndimen=1, nx=4, ny=/;"	v	module:geom_module
+ny_gl	geom.f90	/^  INTEGER(i_knd) :: ny_gl,/;"	v	module:geom_module
+nz	geom.f90	/^  INTEGER(i_knd) :: ndimen=1, nx=4, ny=1, nz=/;"	v	module:geom_module
+nz_gl	geom.f90	/^  INTEGER(i_knd) :: ny_gl, nz_gl,/;"	v	module:geom_module
+octcnt	global.f90	/^  INTEGER(8) :: octcnt$/;"	v	module:global_module
+octsweep	octsweep.F90	/^  SUBROUTINE octsweep /;"	s	module:octsweep_module
+octsweep_module	octsweep.F90	/^MODULE octsweep_module$/;"	m
+ofile	global.f90	/^  CHARACTER(LEN=64) :: ifile, ofile$/;"	v	module:global_module
+oitm	control.f90	/^  INTEGER(i_knd) :: iitm=5, oitm=/;"	v	module:control_module
+one	global.f90	/^  REAL(r_knd), PARAMETER :: one /;"	v	module:global_module
+open_file	utils.f90	/^  SUBROUTINE open_file /;"	s	module:utils_module
+otr_conv	outer.f90	/^  SUBROUTINE otr_conv$/;"	s	module:outer_module
+otr_src	outer.f90	/^  SUBROUTINE otr_src$/;"	s	module:outer_module
+otr_src_scat	outer.f90	/^  SUBROUTINE otr_src_scat /;"	s	module:outer_module
+otrdone	control.f90	/^  LOGICAL(l_knd) :: otrdone$/;"	v	module:control_module
+ounit	global.f90	/^  INTEGER(i_knd), PARAMETER :: iunit=10, ounit=/;"	v	module:global_module
+outer	outer.f90	/^  SUBROUTINE outer /;"	s	module:outer_module
+outer_module	outer.f90	/^MODULE outer_module$/;"	m
+outgoingy	sweep.f90	/^  LOGICAL(l_knd) :: incomingy, incomingz, outgoingy,/;"	v	module:sweep_module
+outgoingz	sweep.f90	/^  LOGICAL(l_knd) :: incomingy, incomingz, outgoingy, outgoingz$/;"	v	module:sweep_module
+output	output.f90	/^  SUBROUTINE output$/;"	s	module:output_module
+output_flux_file	output.f90	/^  SUBROUTINE output_flux_file /;"	s	module:output_module
+output_module	output.f90	/^MODULE output_module$/;"	m
+output_recv	output.f90	/^  SUBROUTINE output_recv /;"	s	module:output_module
+output_send	output.f90	/^  SUBROUTINE output_send /;"	s	module:output_module
+param_calc	geom.f90	/^  SUBROUTINE param_calc /;"	s	module:geom_module
+pcomm_set	plib.f90	/^  SUBROUTINE pcomm_set$/;"	s	module:plib_module
+pend	plib.f90	/^  SUBROUTINE pend$/;"	s	module:plib_module
+pi	global.f90	/^  REAL(r_knd), PARAMETER :: pi /;"	v	module:global_module
+pinit	plib.f90	/^  SUBROUTINE pinit /;"	s	module:plib_module
+pinit_omp	plib.f90	/^  SUBROUTINE pinit_omp /;"	s	module:plib_module
+plib_module	plib.f90	/^MODULE plib_module$/;"	m
+plock_omp	plib.f90	/^  SUBROUTINE plock_omp /;"	s	module:plib_module
+precv_d_2d	plib.f90	/^  SUBROUTINE precv_d_2d /;"	s	module:plib_module
+precv_d_3d	plib.f90	/^  SUBROUTINE precv_d_3d /;"	s	module:plib_module
+print_error	utils.f90	/^  SUBROUTINE print_error /;"	s	module:utils_module
+psend_d_2d	plib.f90	/^  SUBROUTINE psend_d_2d /;"	s	module:plib_module
+psend_d_3d	plib.f90	/^  SUBROUTINE psend_d_3d /;"	s	module:plib_module
+psii	solvar.f90	/^    t_xs, a_xs, psii,/;"	v	module:solvar_module
+psij	solvar.f90	/^    t_xs, a_xs, psii, psij,/;"	v	module:solvar_module
+psik	solvar.f90	/^    t_xs, a_xs, psii, psij, psik,/;"	v	module:solvar_module
+ptr_in	solvar.f90	/^  REAL(r_knd), DIMENSION(:,:,:,:,:,:), POINTER :: ptr_in,/;"	v	module:solvar_module
+ptr_out	solvar.f90	/^  REAL(r_knd), DIMENSION(:,:,:,:,:,:), POINTER :: ptr_in, ptr_out$/;"	v	module:solvar_module
+q2grp	solvar.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:,:) :: qtot, q2grp,/;"	v	module:solvar_module
+qi	data.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:) :: qi,/;"	v	module:data_module
+qim	data.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:,:,:) :: qim$/;"	v	module:data_module
+qtot	solvar.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:,:) :: qtot,/;"	v	module:solvar_module
+r_knd	global.f90	/^  INTEGER, PARAMETER :: r_knd /;"	v	module:global_module
+read_input	input.f90	/^  SUBROUTINE read_input$/;"	s	module:input_module
+ref_flux	mms.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:), PUBLIC :: ref_flux$/;"	v	module:mms_module
+ref_fluxm	mms.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:,:), PUBLIC :: ref_fluxm$/;"	v	module:mms_module
+root	plib.f90	/^  INTEGER(i_knd), PARAMETER :: root=/;"	v	module:plib_module
+s_xs	solvar.f90	/^    s_xs$/;"	v	module:solvar_module
+scatp	data.f90	/^  INTEGER(i_knd) :: ng=1, mat_opt=0, src_opt=0, scatp=/;"	v	module:data_module
+setup	setup.f90	/^  SUBROUTINE setup$/;"	s	module:setup_module
+setup_alloc	setup.f90	/^  SUBROUTINE setup_alloc /;"	s	module:setup_module
+setup_angle	setup.f90	/^  SUBROUTINE setup_angle$/;"	s	module:setup_module
+setup_data	setup.f90	/^  SUBROUTINE setup_data$/;"	s	module:setup_module
+setup_delta	setup.f90	/^  SUBROUTINE setup_delta$/;"	s	module:setup_module
+setup_echo	setup.f90	/^  SUBROUTINE setup_echo /;"	s	module:setup_module
+setup_mat	setup.f90	/^  SUBROUTINE setup_mat /;"	s	module:setup_module
+setup_module	setup.f90	/^MODULE setup_module$/;"	m
+setup_scatp	setup.f90	/^  SUBROUTINE setup_scatp /;"	s	module:setup_module
+setup_src	setup.f90	/^  SUBROUTINE setup_src /;"	s	module:setup_module
+setup_vel	setup.f90	/^  SUBROUTINE setup_vel$/;"	s	module:setup_module
+siga	data.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:) :: sigt, siga,/;"	v	module:data_module
+sigs	data.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:) :: sigt, siga, sigs$/;"	v	module:data_module
+sigt	data.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:) :: sigt,/;"	v	module:data_module
+slgg	data.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:,:,:,:) :: qi, slgg$/;"	v	module:data_module
+sn_allocate	sn.f90	/^  SUBROUTINE sn_allocate /;"	s	module:sn_module
+sn_deallocate	sn.f90	/^  SUBROUTINE sn_deallocate$/;"	s	module:sn_module
+sn_module	sn.f90	/^MODULE sn_module$/;"	m
+snap_main	snap_main.F90	/^PROGRAM snap_main$/;"	p
+solvar_alloc	solvar.f90	/^  SUBROUTINE solvar_alloc /;"	s	module:solvar_module
+solvar_dealloc	solvar.f90	/^  SUBROUTINE solvar_dealloc$/;"	s	module:solvar_module
+solvar_module	solvar.f90	/^MODULE solvar_module$/;"	m
+sproc	plib.f90	/^  INTEGER(i_knd) :: nproc, iproc, comm_snap, comm_space, sproc,/;"	v	module:plib_module
+src_opt	data.f90	/^  INTEGER(i_knd) :: ng=1, mat_opt=0, src_opt=/;"	v	module:data_module
+star	snap_main.F90	/^  CHARACTER(LEN=1) :: star=/;"	v	program:snap_main
+stop_run	utils.f90	/^  SUBROUTINE stop_run /;"	s	module:utils_module
+sweep	sweep.f90	/^  SUBROUTINE sweep$/;"	s	module:sweep_module
+sweep_module	sweep.f90	/^MODULE sweep_module$/;"	m
+sweep_recv_bdry	sweep.f90	/^  SUBROUTINE sweep_recv_bdry /;"	s	module:sweep_module
+sweep_send_bdry	sweep.f90	/^  SUBROUTINE sweep_send_bdry /;"	s	module:sweep_module
+t1	snap_main.F90	/^  REAL(r_knd) :: t1,/;"	v	program:snap_main
+t2	snap_main.F90	/^  REAL(r_knd) :: t1, t2,/;"	v	program:snap_main
+t3	snap_main.F90	/^  REAL(r_knd) :: t1, t2, t3,/;"	v	program:snap_main
+t4	snap_main.F90	/^  REAL(r_knd) :: t1, t2, t3, t4,/;"	v	program:snap_main
+t5	snap_main.F90	/^  REAL(r_knd) :: t1, t2, t3, t4, t5$/;"	v	program:snap_main
+t_xs	solvar.f90	/^    t_xs,/;"	v	module:solvar_module
+tf	control.f90	/^  REAL(r_knd) :: epsi=1.0E-4_r_knd, tf=/;"	v	module:control_module
+tgrind	time.f90	/^    tsweeps=zero, tinrmisc=zero, tslvmisc=zero, tout=zero, tgrind=/;"	v	module:time_module
+thread_funneled	plib.f90	/^    thread_single, thread_funneled,/;"	v	module:plib_module
+thread_level	plib.f90	/^    zcomm, yproc, zproc, ylop, yhip, zlop, zhip, thread_level,/;"	v	module:plib_module
+thread_multiple	plib.f90	/^    thread_single, thread_funneled, thread_serialized, thread_multiple,/;"	v	module:plib_module
+thread_num	plib.f90	/^  FUNCTION thread_num /;"	f	module:plib_module
+thread_serialized	plib.f90	/^    thread_single, thread_funneled, thread_serialized,/;"	v	module:plib_module
+thread_single	plib.f90	/^    thread_single,/;"	v	module:plib_module
+time_module	time.f90	/^MODULE time_module$/;"	m
+time_summ	time.f90	/^  SUBROUTINE time_summ$/;"	s	module:time_module
+timedep	control.f90	/^  INTEGER(i_knd) :: iitm=5, oitm=100, timedep=/;"	v	module:control_module
+tinners	time.f90	/^    tslv=zero, tparam=zero, totrsrc=zero, tinners=/;"	v	module:time_module
+tinp	time.f90	/^  REAL(r_knd) :: tsnap=zero, tparset=zero, tinp=/;"	v	module:time_module
+tinrmisc	time.f90	/^    tsweeps=zero, tinrmisc=/;"	v	module:time_module
+tinrsrc	time.f90	/^    tslv=zero, tparam=zero, totrsrc=zero, tinners=zero, tinrsrc=/;"	v	module:time_module
+tolr	control.f90	/^  REAL(r_knd), PARAMETER :: tolr=/;"	v	module:control_module
+totrsrc	time.f90	/^    tslv=zero, tparam=zero, totrsrc=/;"	v	module:time_module
+tout	time.f90	/^    tsweeps=zero, tinrmisc=zero, tslvmisc=zero, tout=/;"	v	module:time_module
+tparam	time.f90	/^    tslv=zero, tparam=/;"	v	module:time_module
+tparset	time.f90	/^  REAL(r_knd) :: tsnap=zero, tparset=/;"	v	module:time_module
+translv	translv.f90	/^SUBROUTINE translv$/;"	s
+tset	time.f90	/^  REAL(r_knd) :: tsnap=zero, tparset=zero, tinp=zero, tset=/;"	v	module:time_module
+tslv	time.f90	/^    tslv=/;"	v	module:time_module
+tslvmisc	time.f90	/^    tsweeps=zero, tinrmisc=zero, tslvmisc=/;"	v	module:time_module
+tsnap	time.f90	/^  REAL(r_knd) :: tsnap=/;"	v	module:time_module
+tsweeps	time.f90	/^    tsweeps=/;"	v	module:time_module
+two	global.f90	/^  REAL(r_knd), PARAMETER :: two /;"	v	module:global_module
+utils_module	utils.f90	/^MODULE utils_module$/;"	m
+v	data.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: v,/;"	v	module:data_module
+var_bcast	input.f90	/^  SUBROUTINE var_bcast$/;"	s	module:input_module
+vdate	version.f90	/^  CHARACTER(LEN=10) :: vdate /;"	v	module:version_module
+vdelt	data.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: v, vdelt$/;"	v	module:data_module
+version	version.f90	/^  INTEGER(i_knd) :: version /;"	v	module:version_module
+version_module	version.f90	/^MODULE version_module$/;"	m
+version_print	version.f90	/^  SUBROUTINE version_print$/;"	s	module:version_module
+w	sn.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: mu, eta, xi, w,/;"	v	module:sn_module
+weta	sn.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: mu, eta, xi, w, wmu, weta,/;"	v	module:sn_module
+wmu	sn.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: mu, eta, xi, w, wmu,/;"	v	module:sn_module
+wtime	time.f90	/^  SUBROUTINE wtime /;"	s	module:time_module
+wxi	sn.f90	/^    wxi$/;"	v	module:sn_module
+xi	sn.f90	/^  REAL(r_knd), ALLOCATABLE, DIMENSION(:) :: mu, eta, xi,/;"	v	module:sn_module
+ycomm	plib.f90	/^  INTEGER(i_knd) :: nproc, iproc, comm_snap, comm_space, sproc, ycomm,/;"	v	module:plib_module
+yhip	plib.f90	/^    zcomm, yproc, zproc, ylop, yhip,/;"	v	module:plib_module
+ylop	plib.f90	/^    zcomm, yproc, zproc, ylop,/;"	v	module:plib_module
+yp_rcv	sweep.f90	/^  INTEGER(i_knd) :: mtag, yp_snd, yp_rcv,/;"	v	module:sweep_module
+yp_snd	sweep.f90	/^  INTEGER(i_knd) :: mtag, yp_snd,/;"	v	module:sweep_module
+yproc	plib.f90	/^    zcomm, yproc,/;"	v	module:plib_module
+zcomm	plib.f90	/^    zcomm,/;"	v	module:plib_module
+zero	global.f90	/^  REAL(r_knd), PARAMETER :: zero /;"	v	module:global_module
+zhip	plib.f90	/^    zcomm, yproc, zproc, ylop, yhip, zlop, zhip,/;"	v	module:plib_module
+zlop	plib.f90	/^    zcomm, yproc, zproc, ylop, yhip, zlop,/;"	v	module:plib_module
+zp_rcv	sweep.f90	/^  INTEGER(i_knd) :: mtag, yp_snd, yp_rcv, zp_snd, zp_rcv$/;"	v	module:sweep_module
+zp_snd	sweep.f90	/^  INTEGER(i_knd) :: mtag, yp_snd, yp_rcv, zp_snd,/;"	v	module:sweep_module
+zproc	plib.f90	/^    zcomm, yproc, zproc,/;"	v	module:plib_module

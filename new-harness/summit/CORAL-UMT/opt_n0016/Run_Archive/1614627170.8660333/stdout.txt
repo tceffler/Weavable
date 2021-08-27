@@ -1,0 +1,13 @@
+1: 0: cudaDevAttrMaxSharedMemoryPerMultiprocessor = 98304
+1: 0: cudaDevAttrMaxSharedMemoryPerBlock = 49152
+1: 0: cudaDevAttrMaxSharedMemoryPerBlockOptin = 98304
+1: 0: cudaSuccess
+1: 0:  Executing UMT2015 Number of ranks =96
+1: 0:  and number of OMP threads  =14
+1: 0:  gridFileName: 8x12x12_38.cmg
+1: 0:  setting the number of groups=16
+1: 0:  Running with Product Quadrature 
+1: 0:  setting number of polar angles     = 8
+1: 0:  setting number of azimuthal angles = 4
+1: 0:  Building mesh...
+1: 0: counter(1152) != numProcs(96)

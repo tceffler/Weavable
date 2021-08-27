@@ -1,0 +1,72 @@
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5                   9) cmake/3.18.2
+  2) xalt/1.2.1                    10) cuda/10.1.243
+  3) lsf-tools/2.0                 11) xl/16.1.1-5
+  4) darshan-runtime/3.1.7         12) spectrum-mpi/10.3.1.2-20200121
+  5) DefApps                       13) hdf5/1.10.4
+  6) python/3.6.6-anaconda3-5.3.0  14) parallel-netcdf/1.8.1
+  7) olcf_harness                  15) netcdf-fortran/4.4.4
+  8) netcdf/4.6.2                  16) netlib-lapack/3.8.0
+
+ 
+
+jsrun -n 2 -c 21 -a 21 -r 2 -e individual -o fwq_times.%h.%t -k fwq_err.%h.%t /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-FTQ/test_1n/1614025243.7985833/build_directory/bin/fwq -s -w 16 -n 10000
+Done.
+Creating machine of type summit with scheduler of type lsf and job launcher of type jsrun
+
+Creating scheduler
+Creating jobLauncher
+RGT Test Parameters - Builtin
+=============================
+job_name = CORAL-FTQ-serial
+project_id = csc425
+nodes = 1
+batch_queue = batch
+walltime = 15
+build_cmd = ./Common_Scripts/build-serial-fwq.bash
+check_cmd = ./check.sh 1
+report_cmd = /bin/true
+total_processes = 42
+processes_per_node = 42
+batch_filename = run_ftq.sh
+executable_path = bin
+RGT Test Parameters - User
+==========================
+executablename = fwq
+batchfilename = CORAL-FTQ-serial-1n.lsf
+resubmitme = 1
+run_logfile = ./fwq-serial-run.log
+Running check executable script on Power9 using check script ./check.sh 1
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-FTQ/test_1n/Scripts
+Starting check script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-FTQ/test_1n/Run_Archive/1614025243.7985833
+Using check command: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-FTQ/test_1n/Scripts/./check.sh 1
+Writing check_exit_status = 2 into /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-FTQ/test_1n/Status/1614025243.7985833/job_status.txt
+Running report executable script on Power9 using report script /bin/true
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-FTQ/test_1n/Scripts
+Starting report script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-FTQ/test_1n/Run_Archive/1614025243.7985833
+Using report script: /bin/true
+check_exit_value = 2
+No resubmit
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 754621: <CORAL-FTQ-serial-1nodes> in cluster <summit> Done
+
+Job <CORAL-FTQ-serial-1nodes> was submitted from host <login1> by user <bzf> in cluster <summit> at Mon Feb 22 15:20:44 2021
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <bzf> in cluster <summit> at Mon Feb 22 15:20:56 2021
+                            <42*c02n06>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-FTQ/test_1n/Run_Archive/1614025243.7985833> was used as the working directory.
+Started at Mon Feb 22 15:20:56 2021
+Terminated at Mon Feb 22 15:21:17 2021
+Results reported at Mon Feb 22 15:21:17 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-FTQ/test_1n/Run_Archive/1614025243.7985833/CORAL-FTQ-serial-1nodes.e754621> for stderr output of this job.
+

@@ -1,0 +1,471 @@
+rank 21 21  using device  5
+rank 22 22  using device  5
+rank 14 14  using device  3
+rank 16 16  using device  4
+rank 18 18  using device  4
+rank 19 19  using device  4
+rank 1 1  using device  0
+rank 2 2  using device  0
+rank 3 3  using device  0
+rank 4 4  using device  1
+rank 5 5  using device  1
+rank 6 6  using device  1
+rank 7 7  using device  1
+rank 10 10  using device  2
+rank 11 11  using device  2
+rank 12 12  using device  3
+rank 13 13  using device  3
+rank 15 15  using device  3
+rank 17 17  using device  4
+rank 20 20  using device  5
+rank 23 23  using device  5
+rank 0 0  using device  0
+rank 8 8  using device  2
+rank 9 9  using device  2
+starting mps ...
+CUDA_VISIBLE_DEVICES=0
+taskset -c 72-75 /usr/bin/nvidia-cuda-mps-control -d
+rank 88 16  using device  4
+rank 72 0  using device  0
+CUDA_VISIBLE_DEVICES=0
+taskset -c 72-75 /usr/bin/nvidia-cuda-mps-control -d
+rank 73 1  using device  0
+rank 74 2  using device  0
+rank 75 3  using device  0
+rank 76 4  using device  1
+rank 77 5  using device  1
+rank 78 6  using device  1
+rank 79 7  using device  1
+rank 80 8  using device  2
+rank 81 9  using device  2
+rank 82 10  using device  2
+rank 83 11  using device  2
+rank 84 12  using device  3
+rank 85 13  using device  3
+rank 86 14  using device  3
+rank 87 15  using device  3
+rank 89 17  using device  4
+rank 24 0  using device  0
+CUDA_VISIBLE_DEVICES=0
+taskset -c 72-75 /usr/bin/nvidia-cuda-mps-control -d
+rank 25 1  using device  0
+rank 26 2  using device  0
+rank 27 3  using device  0
+rank 28 4  using device  1
+rank 29 5  using device  1
+rank 30 6  using device  1
+rank 31 7  using device  1
+rank 32 8  using device  2
+rank 33 9  using device  2
+rank 34 10  using device  2
+rank 35 11  using device  2
+rank 36 12  using device  3
+rank 37 13  using device  3
+rank 38 14  using device  3
+rank 39 15  using device  3
+rank 40 16  using device  4
+rank 41 17  using device  4
+rank 90 18  using device  4
+rank 42 18  using device  4
+rank 91 19  using device  4
+rank 59 11  using device  2
+rank 60 12  using device  3
+rank 61 13  using device  3
+rank 62 14  using device  3
+rank 63 15  using device  3
+rank 64 16  using device  4
+rank 48 0  using device  0
+CUDA_VISIBLE_DEVICES=0
+taskset -c 72-75 /usr/bin/nvidia-cuda-mps-control -d
+rank 49 1  using device  0
+rank 50 2  using device  0
+rank 51 3  using device  0
+rank 43 19  using device  4
+rank 52 4  using device  1
+rank 53 5  using device  1
+rank 54 6  using device  1
+rank 55 7  using device  1
+rank 56 8  using device  2
+rank 57 9  using device  2
+rank 58 10  using device  2
+rank 65 17  using device  4
+rank 66 18  using device  4
+rank 92 20  using device  5
+rank 44 20  using device  5
+rank 93 21  using device  5
+rank 67 19  using device  4
+rank 94 22  using device  5
+rank 68 20  using device  5
+rank 45 21  using device  5
+rank 69 21  using device  5
+rank 46 22  using device  5
+rank 95 23  using device  5
+rank 47 23  using device  5
+rank 70 22  using device  5
+rank 71 23  using device  5
+CUDA_VISIBLE_DEVICES=1
+taskset -c 76-79 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=1
+taskset -c 76-79 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=1
+taskset -c 76-79 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=1
+taskset -c 76-79 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=2
+taskset -c 80-83 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=2
+taskset -c 80-83 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=2
+taskset -c 80-83 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=2
+taskset -c 80-83 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=3
+taskset -c 160-163 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=3
+taskset -c 160-163 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=3
+taskset -c 160-163 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=3
+taskset -c 160-163 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=4
+taskset -c 164-167 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=4
+taskset -c 164-167 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=4
+taskset -c 164-167 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=4
+taskset -c 164-167 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=5
+taskset -c 168-171 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=5
+taskset -c 168-171 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=5
+taskset -c 168-171 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=5
+taskset -c 168-171 /usr/bin/nvidia-cuda-mps-control -d
+old rank id= 2  new rank_id= 24
+old rank id= 3  new rank_id= 36
+old rank id= 4  new rank_id= 48
+old rank id= 5  new rank_id= 60
+old rank id= 6  new rank_id= 72
+old rank id= 9  new rank_id= 13
+old rank id= 8  new rank_id= 1
+old rank id= 7  new rank_id= 84
+old rank id= 10  new rank_id= 25
+old rank id= 11  new rank_id= 37
+old rank id= 22  new rank_id= 74
+old rank id= 14  new rank_id= 73
+old rank id= 15  new rank_id= 85
+old rank id= 16  new rank_id= 2
+old rank id= 18  new rank_id= 26
+old rank id= 17  new rank_id= 14
+old rank id= 21  new rank_id= 62
+old rank id= 20  new rank_id= 50
+old rank id= 0  new rank_id= 0
+old rank id= 23  new rank_id= 86
+old rank id= 19  new rank_id= 38
+old rank id= 1  new rank_id= 12
+old rank id= 78  new rank_id= 81
+old rank id= 31  new rank_id= 87
+old rank id= 79  new rank_id= 93
+old rank id= 56  new rank_id= 7
+old rank id= 82  new rank_id= 34
+old rank id= 59  new rank_id= 43
+old rank id= 35  new rank_id= 40
+old rank id= 62  new rank_id= 79
+old rank id= 38  new rank_id= 76
+old rank id= 83  new rank_id= 46
+old rank id= 63  new rank_id= 91
+old rank id= 43  new rank_id= 41
+old rank id= 84  new rank_id= 58
+old rank id= 58  new rank_id= 31
+old rank id= 44  new rank_id= 53
+old rank id= 87  new rank_id= 94
+old rank id= 91  new rank_id= 47
+old rank id= 66  new rank_id= 32
+old rank id= 45  new rank_id= 65
+old rank id= 92  new rank_id= 59
+old rank id= 67  new rank_id= 44
+old rank id= 46  new rank_id= 77
+old rank id= 27  new rank_id= 39
+old rank id= 94  new rank_id= 83
+old rank id= 68  new rank_id= 56
+old rank id= 95  new rank_id= 95
+old rank id= 69  new rank_id= 68
+old rank id= 25  new rank_id= 15
+old rank id= 70  new rank_id= 80
+old rank id= 26  new rank_id= 27
+old rank id= 74  new rank_id= 33
+old rank id= 75  new rank_id= 45
+old rank id= 51  new rank_id= 42
+old rank id= 28  new rank_id= 51
+old rank id= 54  new rank_id= 78
+old rank id= 29  new rank_id= 63
+old rank id= 73  new rank_id= 21
+old rank id= 55  new rank_id= 90
+old rank id= 30  new rank_id= 75
+old rank id= 76  new rank_id= 57
+old rank id= 53  new rank_id= 66
+old rank id= 24  new rank_id= 3
+old rank id= 77  new rank_id= 69
+old rank id= 48  new rank_id= 6
+old rank id= 32  new rank_id= 4
+old rank id= 72  new rank_id= 9
+old rank id= 33  new rank_id= 16
+old rank id= 80  new rank_id= 10
+old rank id= 57  new rank_id= 19
+old rank id= 81  new rank_id= 22
+old rank id= 60  new rank_id= 55
+old rank id= 34  new rank_id= 28
+old rank id= 85  new rank_id= 70
+old rank id= 61  new rank_id= 67
+old rank id= 36  new rank_id= 52
+old rank id= 86  new rank_id= 82
+old rank id= 12  new rank_id= 49
+old rank id= 13  new rank_id= 61
+old rank id= 65  new rank_id= 20
+old rank id= 37  new rank_id= 64
+old rank id= 39  new rank_id= 88
+old rank id= 89  new rank_id= 23
+old rank id= 64  new rank_id= 8
+old rank id= 71  new rank_id= 92
+old rank id= 40  new rank_id= 5
+old rank id= 90  new rank_id= 35
+old rank id= 41  new rank_id= 17
+old rank id= 93  new rank_id= 71
+old rank id= 49  new rank_id= 18
+old rank id= 42  new rank_id= 29
+old rank id= 88  new rank_id= 11
+old rank id= 50  new rank_id= 30
+old rank id= 47  new rank_id= 89
+old rank id= 52  new rank_id= 54
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+SStruct Interface  wall clock time = 6.418418 seconds
+SStruct Interface  cpu clock time  = 6.430000 seconds
+
+Number of MPI processes: 96 , Number of OpenMP threads: 1
+
+BoomerAMG SETUP PARAMETERS:
+
+ Max levels = 25
+ Num levels = 10
+
+ Strength Threshold = 0.250000
+ Interpolation Truncation Factor = 0.000000
+ Maximum Row Sum Threshold for Dependency Weakening = 0.900000
+
+ Coarsening Type = HMIS 
+ Hybrid Coarsening (switch to CLJP when coarsening slows)
+ measures are determined locally
+
+ no. of levels of aggressive coarsening: 1
+
+
+ No global partition option chosen.
+
+ Interpolation = extended+i interpolation
+
+Operator Matrix Information:
+
+                  nonzero         entries per row        row sums
+lev        rows   entries  sparse  min  max   avg       min         max
+=========================================================================
+ 0    647921664 5253592032  0.000     4    9   8.1  -4.274e-15   3.000e+02
+ 1     67007180 1332514791  0.000     5   50  19.9  -4.171e-12   9.334e+02
+ 2     20154353 716996049  0.000     5  146  35.6  -7.701e-12   1.848e+03
+ 3      6293787 353123906  0.000     6  460  56.1  -4.459e-02   3.550e+03
+ 4      1345131 112854890  0.000     7  738  83.9  -6.779e+00   9.037e+03
+ 5       257478 25709182  0.000     9  426  99.9  -5.556e+03   1.796e+04
+ 6        33053  2943313  0.003    10  245  89.0  -1.519e+06   5.953e+05
+ 7         4206   222378  0.013     9  122  52.9  -5.522e+03   1.436e+05
+ 8          569    11771  0.036     3   49  20.7   6.846e+00   2.656e+05
+ 9           15       47  0.209     1    6   3.1   7.237e+01   3.636e+05
+
+
+Interpolation Matrix Information:
+
+                             entries/row    min     max         row sums
+lev        rows x cols          min max     weight   weight     min       max 
+=============================================================================
+ 0    647921664 x 67007180       1  11   1.431e-02 1.000e+00 1.759e-01 1.000e+00
+ 1     67007180 x 20154353       1   4   4.439e-03 1.000e+00 1.487e-01 1.000e+00
+ 2     20154353 x 6293787        0   4  -4.200e-01 1.000e+00 0.000e+00 1.000e+00
+ 3      6293787 x 1345131        0   4  -3.450e+01 3.275e+01 0.000e+00 1.006e+00
+ 4      1345131 x 257478         0   4  -7.322e+01 3.533e+01 -9.066e-02 1.520e+00
+ 5       257478 x 33053          0   4  -2.945e+03 1.023e+03 -1.139e+00 6.424e+00
+ 6        33053 x 4206           0   4  -2.114e+02 5.154e+02 -3.219e+00 1.767e+00
+ 7         4206 x 569            0   4  -1.620e+00 1.206e+00 -1.091e+00 1.206e+00
+ 8          569 x 15             0   3   8.711e-03 1.078e+00 0.000e+00 1.078e+00
+
+
+     Complexity:    grid = 1.146770
+                operator = 1.484312
+
+
+
+
+BoomerAMG SOLVER PARAMETERS:
+
+  Maximum number of cycles:         1 
+  Stopping Tolerance:               0.000000e+00 
+  Cycle type (1 = V, 2 = W, etc.):  1
+
+  Relaxation Parameters:
+   Visiting Grid:                     down   up  coarse
+            Number of partial sweeps:    1    1     1 
+   Type 0=Jac, 3=hGS, 6=hSGS, 9=GE:     16   16    16 
+   Point types, partial sweeps (1=C, -1=F):
+                  Pre-CG relaxation (down):   0
+                   Post-CG relaxation (up):   0
+                             Coarsest grid:   0
+
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+PCG Setup  wall clock time = 199.769527 seconds
+PCG Setup  cpu clock time  = 199.770000 seconds
+
+System Size / Setup Phase Time: 4.324461e+06
+
+MAX_NNZ 0 60623888
+MAX_NNZ 1 25068992
+MAX_NNZ 2 12102272
+rank= 34: SWITCH_LEVEL = 5
+rank= 45: SWITCH_LEVEL = 5
+rank= 35: SWITCH_LEVEL = 5
+rank= 47: SWITCH_LEVEL = 5
+rank= 10: SWITCH_LEVEL = 5
+rank= 9: SWITCH_LEVEL = 5
+rank= 46: SWITCH_LEVEL = 5
+rank= 22: SWITCH_LEVEL = 5
+rank= 21: SWITCH_LEVEL = 5
+rank= 81: SWITCH_LEVEL = 5
+rank= 82: SWITCH_LEVEL = 5
+rank= 59: SWITCH_LEVEL = 5
+rank= 58: SWITCH_LEVEL = 5
+rank= 83: SWITCH_LEVEL = 5
+rank= 23: SWITCH_LEVEL = 5
+rank= 57: SWITCH_LEVEL = 5
+rank= 71: SWITCH_LEVEL = 5
+rank= 70: SWITCH_LEVEL = 5
+rank= 33: SWITCH_LEVEL = 5
+rank= 11: SWITCH_LEVEL = 5
+rank= 69: SWITCH_LEVEL = 6
+rank= 93: SWITCH_LEVEL = 7
+rank= 94: SWITCH_LEVEL = 7
+rank= 95: SWITCH_LEVEL = 7
+MAX_NNZ 3 19593747
+rank= 44: SWITCH_LEVEL = 5
+rank= 31: SWITCH_LEVEL = 5
+rank= 32: SWITCH_LEVEL = 5
+rank= 6: SWITCH_LEVEL = 5
+rank= 43: SWITCH_LEVEL = 5
+rank= 42: SWITCH_LEVEL = 5
+rank= 78: SWITCH_LEVEL = 5
+rank= 79: SWITCH_LEVEL = 5
+rank= 18: SWITCH_LEVEL = 5
+rank= 7: SWITCH_LEVEL = 5
+rank= 19: SWITCH_LEVEL = 5
+rank= 67: SWITCH_LEVEL = 5
+rank= 80: SWITCH_LEVEL = 5
+rank= 20: SWITCH_LEVEL = 5
+rank= 66: SWITCH_LEVEL = 5
+rank= 54: SWITCH_LEVEL = 5
+rank= 56: SWITCH_LEVEL = 5
+rank= 55: SWITCH_LEVEL = 5
+rank= 68: SWITCH_LEVEL = 5
+rank= 30: SWITCH_LEVEL = 5
+rank= 8: SWITCH_LEVEL = 5
+rank= 29: SWITCH_LEVEL = 5
+rank= 41: SWITCH_LEVEL = 5
+rank= 28: SWITCH_LEVEL = 5
+rank= 4: SWITCH_LEVEL = 5
+rank= 3: SWITCH_LEVEL = 5
+rank= 40: SWITCH_LEVEL = 5
+rank= 39: SWITCH_LEVEL = 5
+rank= 16: SWITCH_LEVEL = 5
+rank= 75: SWITCH_LEVEL = 5
+rank= 15: SWITCH_LEVEL = 5
+rank= 53: SWITCH_LEVEL = 5
+rank= 52: SWITCH_LEVEL = 5
+rank= 77: SWITCH_LEVEL = 5
+rank= 51: SWITCH_LEVEL = 5
+rank= 17: SWITCH_LEVEL = 5
+rank= 63: SWITCH_LEVEL = 5
+rank= 65: SWITCH_LEVEL = 5
+rank= 64: SWITCH_LEVEL = 5
+rank= 27: SWITCH_LEVEL = 5
+rank= 5: SWITCH_LEVEL = 5
+MAX_NNZ 4 7553192
+rank= 37: SWITCH_LEVEL = 5
+rank= 38: SWITCH_LEVEL = 5
+rank= 26: SWITCH_LEVEL = 5
+rank= 48: SWITCH_LEVEL = 5
+rank= 0: SWITCH_LEVEL = 5
+rank= 92: SWITCH_LEVEL = 7
+rank= 91: SWITCH_LEVEL = 7
+rank= 90: SWITCH_LEVEL = 7
+rank= 76: SWITCH_LEVEL = 6
+rank= 73: SWITCH_LEVEL = 5
+rank= 60: SWITCH_LEVEL = 5
+rank= 13: SWITCH_LEVEL = 5
+rank= 72: SWITCH_LEVEL = 5
+rank= 12: SWITCH_LEVEL = 5
+rank= 74: SWITCH_LEVEL = 5
+rank= 49: SWITCH_LEVEL = 5
+rank= 50: SWITCH_LEVEL = 5
+rank= 61: SWITCH_LEVEL = 5
+rank= 62: SWITCH_LEVEL = 5
+rank= 1: SWITCH_LEVEL = 5
+rank= 24: SWITCH_LEVEL = 5
+rank= 36: SWITCH_LEVEL = 5
+rank= 2: SWITCH_LEVEL = 5
+rank= 14: SWITCH_LEVEL = 5
+rank= 88: SWITCH_LEVEL = 7
+rank= 87: SWITCH_LEVEL = 7
+rank= 89: SWITCH_LEVEL = 7
+MAX_NNZ 5 2094066
+rank= 25: SWITCH_LEVEL = 6
+MAX_NNZ 6 239451
+rank= 86: SWITCH_LEVEL = 7
+rank= 85: SWITCH_LEVEL = 7
+rank= 84: SWITCH_LEVEL = 7
+MAX_NNZ 7 18891
+MAX_NNZ 8 1184
+MAX_NNZ 9 6
+<b,b>: 6.288953e+10
+
+
+Iters       ||r||_2     conv.rate  ||r||_2/||b||_2
+-----    ------------   ---------  ------------ 
+    1    1.228789e+05    0.489991    4.899909e-01
+    2    1.877683e+04    0.152808    7.487437e-02
+    3    3.135560e+03    0.166991    1.250334e-02
+    4    7.203026e+02    0.229721    2.872274e-03
+    5    1.924446e+02    0.267172    7.673908e-04
+    6    4.030549e+01    0.209439    1.607219e-04
+    7    1.245961e+01    0.309129    4.968386e-05
+    8    4.004716e+00    0.321416    1.596918e-05
+    9    1.406045e+00    0.351097    5.606736e-06
+   10    5.539907e-01    0.394006    2.209089e-06
+   11    1.749193e-01    0.315744    6.975071e-07
+
+
+=============================================
+Solve phase times:
+=============================================
+PCG Solve:
+PCG Solve  wall clock time = 0.962811 seconds
+PCG Solve  cpu clock time  = 0.970000 seconds
+
+AMG2013 Benchmark version 1.0
+Iterations = 11
+Final Relative Residual Norm = 6.975071e-07
+
+System Size * Iterations / Solve Phase Time: 9.869901e+09
+
+stopping mps ...

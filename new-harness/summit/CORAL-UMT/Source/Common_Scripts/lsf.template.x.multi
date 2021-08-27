@@ -1,0 +1,138 @@
+#! /bin/bash -l
+#BSUB -q __batchqueue__
+#BSUB -J __jobname__
+#BSUB -o __resultsdir__/__jobname__.o%J
+#BSUB -e __resultsdir__/__jobname__.e%J
+#BSUB -nnodes __nodes__
+#BSUB -W __walltime__
+#BSUB -P __projectid__
+#BSUB -alloc_flags __alloc_flags__
+
+#-----------------------------------------------------
+# Set up the environment for use of the harness.     -
+#                                                    -
+#-----------------------------------------------------
+source __rgtenvironmentalfile__
+module load __nccstestharnessmodule__
+module list
+
+ulimit -s 10240
+
+export OMP_NUM_THREADS=__threads__
+export CUDA_LAUNCH_BLOCKING=0
+
+export OMP_STACKSIZE=64M
+export PAMI_ENABLE_STRIPING=1
+
+#-----------------------------------------------------
+# Define some variables.                             -
+#                                                    -
+#-----------------------------------------------------
+EXECUTABLE="__pathtoexecutable__"
+STARTINGDIRECTORY="__startingdirectory__"
+WORKDIR="__workdir__"
+RESULTSDIR="__resultsdir__"
+UNIQUE_ID_STRING="__unique_id_string__"
+INPUTFILE="__inputfile__"
+EXECARGS="__execargs__"
+NUM_RS=$(( __nodes__ * $RGT_MACHINE_GPUS_PER_NODE ))
+CPUS_PER_RS=$(( $RGT_MACHINE_CPUS_PER_NODE / $RGT_MACHINE_GPUS_PER_NODE ))
+echo "NUM_RS = $NUM_RS"
+echo "CPUS_PER_RS = $CPUS_PER_RS"
+
+#-----------------------------------------------------
+# Enusre that we are in the correct starting         -
+# directory.                                         -
+#-----------------------------------------------------
+cd $STARTINGDIRECTORY
+
+#-----------------------------------------------------
+# Make the working scratch space directory.          -
+#-----------------------------------------------------
+if [ ! -e $WORKDIR ]
+then
+    mkdir -p $WORKDIR
+fi
+
+#-----------------------------------------------------
+# Make the results directory.                        -
+#-----------------------------------------------------
+if [ ! -e $RESULTSDIR ]
+then
+    mkdir -p $RESULTSDIR
+fi
+
+#-----------------------------------------------------
+#  Change directory to the working directory.        -
+#-----------------------------------------------------
+cd $WORKDIR
+
+#-----------------------------------------------------
+#  Copy input files to the working directory.        -
+#-----------------------------------------------------
+cp $STARTINGDIRECTORY/Inputs/$INPUTFILE .
+
+#-----------------------------------------------------
+# Run the executable.                                -
+#-----------------------------------------------------
+
+JSTEPS=__num_jobsteps__
+
+log_binary_execution_time.py --scriptsdir $STARTINGDIRECTORY --uniqueid $UNIQUE_ID_STRING --mode start
+
+echo "Starting UMT Base loop with $JSTEPS steps: `date`"
+for i in $(seq 1 $JSTEPS)
+do
+    JSDIR=${LSB_JOBID}_$i
+    mkdir $JSDIR
+    cd $JSDIR
+    ln -s ../$INPUTFILE
+    echo "jsrun --progress progress.${LSB_JOBID}.${i} --exit_on_error 1 --stdio_mode=prepend -D CUDA_VISIBLE_DEVICES -E OMP_NUM_THREADS=__threads__ --nrs __total_processes__  --tasks_per_rs 1 --cpu_per_rs 7   --gpu_per_rs 1 --bind=proportional-packed:7 -d plane:1 $EXECUTABLE $INPUTFILE $EXECARGS 1> stdout.txt 2> stderr.txt &"
+    jsrun --progress progress.${LSB_JOBID}.${i} --exit_on_error 1 --stdio_mode=prepend -D CUDA_VISIBLE_DEVICES -E OMP_NUM_THREADS=__threads__ --nrs __total_processes__  --tasks_per_rs 1 --cpu_per_rs 7   --gpu_per_rs 1 --bind=proportional-packed:7 -d plane:1 $EXECUTABLE $INPUTFILE $EXECARGS 1> stdout.txt 2> stderr.txt &
+    cd ..
+done
+
+jslist
+wait
+jslist
+echo "All job steps completed at: `date`"
+
+log_binary_execution_time.py --scriptsdir $STARTINGDIRECTORY --uniqueid $UNIQUE_ID_STRING --mode final
+
+numcomplete=`grep merit ${LSB_JOBID}_*/stdout.txt | cut -d= -f2 | sed 's/ //g' | wc -l`
+fom_ave=`grep merit ${LSB_JOBID}_*/stdout.txt | cut -d= -f2 | sed 's/ //g' | awk -v nc=$numcomplete '{sum+=$1} END {print sum/nc}'`
+
+echo "Average FOM: $fom_ave"
+echo " 0: figure of merit = $fom_ave" >> stdout.txt
+
+#-----------------------------------------------------
+# Enusre that we return to the starting directory.   -
+#-----------------------------------------------------
+cd $STARTINGDIRECTORY
+
+#-----------------------------------------------------
+# Copy the results back to the $RESULTSDIR           -
+#-----------------------------------------------------
+cp -rf $WORKDIR/* $RESULTSDIR && rm -rf $WORKDIR
+
+#-----------------------------------------------------
+# Move the batch file name to  $RESULTSDIR           -
+#-----------------------------------------------------
+mv __batchfilename__ $RESULTSDIR
+
+#-----------------------------------------------------
+# Check the final results.                           -
+#-----------------------------------------------------
+check_executable_driver.py -p $RESULTSDIR -i $UNIQUE_ID_STRING
+
+#-----------------------------------------------------
+# The script now determines if we are to resubmit    -
+# itself.                                            -
+#-----------------------------------------------------
+case __resubmitme__ in
+    0) 
+       test_harness_driver.py -r;;
+
+    1) 
+       echo "No resubmit";;
+esac 

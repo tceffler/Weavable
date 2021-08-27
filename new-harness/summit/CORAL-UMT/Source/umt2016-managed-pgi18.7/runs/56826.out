@@ -1,0 +1,43 @@
+starting jsrun with
+nodes = 1
+gpus used per socket = 3
+ranks_per_socket = 3
+cores_per_rank = 6
+used cores per socket = 18
+threads per rank = 12
+[1522970429.641568] [a18n17:134284:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522970429.641569] [a18n17:134282:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522970429.641771] [a18n17:134283:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522970429.645067] [a18n17:134281:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522970429.645560] [a18n17:134280:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522970429.645664] [a18n17:134285:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+ Executing UMT2015 Number of ranks =6
+ and number of OMP threads  =12
+ gridFileName: 1x2x3_40.cmg
+ setting the number of groups=16
+ Running with Product Quadrature 
+ setting number of polar angles     = 8
+ setting number of azimuthal angles = 4
+ Building mesh...
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 56826: <Not_Specified> in cluster <summit> Exited
+
+Job <Not_Specified> was submitted from host <login3> by user <dappelh> in cluster <summit> at Thu Apr  5 19:20:09 2018
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <dappelh> in cluster <summit> at Thu Apr  5 19:20:14 2018
+                            <42*a18n17>
+</ccs/home/dappelh> was used as the home directory.
+</ccs/home/dappelh/codes/coral/umt2016-managed/runs> was used as the working directory.
+Started at Thu Apr  5 19:20:14 2018
+Terminated at Thu Apr  5 19:26:34 2018
+Results reported at Thu Apr  5 19:26:34 2018
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <56826.err> for stderr output of this job.
+

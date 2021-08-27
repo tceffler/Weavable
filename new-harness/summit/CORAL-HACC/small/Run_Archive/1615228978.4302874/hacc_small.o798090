@@ -1,0 +1,23 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 798090: <hacc_small> in cluster <summit> Exited
+
+Job <hacc_small> was submitted from host <batch1> by user <bzf> in cluster <summit> at Mon Mar  8 13:43:22 2021
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <bzf> in cluster <summit> at Mon Mar  8 13:43:35 2021
+                            <42*f12n05>
+                            <42*h16n01>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Run_Archive/1615228978.4302874> was used as the working directory.
+Started at Mon Mar  8 13:43:35 2021
+Terminated at Mon Mar  8 13:43:37 2021
+Results reported at Mon Mar  8 13:43:37 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Run_Archive/1615228978.4302874/hacc_small.e798090> for stderr output of this job.
+

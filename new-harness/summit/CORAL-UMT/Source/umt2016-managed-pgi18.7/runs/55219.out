@@ -1,0 +1,405 @@
+starting jsrun with
+nodes = 1
+gpus used per socket = 3
+ranks_per_socket = 3
+cores_per_rank = 6
+used cores per socket = 18
+threads per rank = 6
+local_size = 3
+local_rank = 2, device = 2
+local_size = 3
+local_rank = 2, device = 2
+local_size = 3
+local_rank = 0, device = 0
+local_size = 3
+local_rank = 1, device = 1
+local_size = 3
+local_rank = 1, device = 1
+local_size = 3
+local_rank = 0, device = 0
+[1522809631.384004] [a36n06:1722 :0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522809631.384007] [a36n06:1718 :0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522809631.384004] [a36n06:1719 :0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522809631.390905] [a36n06:1720 :0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522809631.391233] [a36n06:1717 :0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522809631.391400] [a36n06:1721 :0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+ Executing UMT2015 Number of ranks =6
+ and number of OMP threads  =6
+ myrank = 0GPU number = 0istat =0
+Check the device: no error
+ gridFileName: 1x2x3_32.cmg
+ setting the number of groups=16
+ Running with Product Quadrature 
+ setting number of polar angles     = 8
+ setting number of azimuthal angles = 4
+ Building mesh...
+jj = 0-0, kk = 0-1, ll = 0-2 
+jj = 0-0, kk = 0-1, ll = 0-2 
+ myrank = 2GPU number = 0istat =0
+Check the device: no error
+jj = 0-0, kk = 0-1, ll = 0-2 
+jj = 0-0, kk = 0-1, ll = 0-2 
+ myrank = 1GPU number = 0istat =0
+Check the device: no error
+jj = 0-0, kk = 0-1, ll = 0-2 
+jj = 0-0, kk = 0-1, ll = 0-2 
+ myrank = 4GPU number = 0istat =0
+Check the device: no error
+jj = 0-0, kk = 0-1, ll = 0-2 
+jj = 0-0, kk = 0-1, ll = 0-2 
+ myrank = 5GPU number = 0istat =0
+Check the device: no error
+jj = 0-0, kk = 0-1, ll = 0-2 
+jj = 0-0, kk = 0-1, ll = 0-2 
+ myrank = 3GPU number = 0istat =0
+Check the device: no error
+jj = 0-0, kk = 0-1, ll = 0-2 
+jj = 0-0, kk = 0-1, ll = 0-2 
+ Mesh complete.
+ Initializing Teton object...
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+ncornr = 419440
+ncornr =419440npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 6711040
+ncornr = 419440
+ncornr =419440npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 6711040
+USING Allinged allocator 
+ncornr = 419440
+ncornr =419440npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 6711040
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 419440
+ncornr =419440npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 6711040
+ncornr = 419440
+ncornr =419440npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 6711040
+ncornr = 419440
+ncornr =419440npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 6711040
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 419440
+ncornr =419440npsi =4096
+temp = 1718026240
+D_ncornr_npsi =1718026240
+temp = 6711040
+ calling rtquad, which will set d_weight
+ncornr = 419440
+ncornr =419440npsi =4096
+temp = 1718026240
+D_ncornr_npsi =1718026240
+temp = 6711040
+ calling rtquad, which will set d_weight
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ncornr = 419440
+ncornr =419440npsi =4096
+temp = 1718026240
+D_ncornr_npsi =1718026240
+temp = 6711040
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 419440
+ncornr =419440npsi =4096
+temp = 1718026240
+D_ncornr_npsi =1718026240
+temp = 6711040
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 419440
+ncornr =419440npsi =4096
+temp = 1718026240
+D_ncornr_npsi =1718026240
+temp = 6711040
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ncornr = 419440
+ncornr =419440npsi =4096
+temp = 1718026240
+D_ncornr_npsi =1718026240
+temp = 6711040
+USING Allinged allocator 
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+calling rtinit. ownedZones = 52430
+calling rtinit. ownedZones = 52430
+calling rtinit. ownedZones = 52430
+calling rtinit. ownedZones = 52430
+calling rtinit. ownedZones = 52430
+calling rtinit. ownedZones = 52430
+finished rtinit
+set CInitMaterial
+finished rtinit
+set CInitMaterial
+finished rtinit
+set CInitMaterial
+finished rtinit
+set CInitMaterial
+finished rtinit
+set CInitMaterial
+finished rtinit
+set CInitMaterial
+    done.
+ Starting time advance...
+ sizeof(psib):     805306368
+ sizeof(psib):     805306368
+ sizeof(psib):     805306368
+ sizeof(psib):     805306368
+ sizeof(psib):     805306368
+ sizeof(psib):     805306368
+ size(psib) =                805306368
+ size(psi) =              13744209920
+ size(phi) =                 53688320
+ size(stime) =               13744209920
+ size(next_mem) =                 429507584
+ size(omega_A_fp) =               2577039360
+ sweep_mem =              33931000832
+ size(psib) =                805306368
+ size(psi) =              13744209920
+ size(phi) =                 53688320
+ size(stime) =               13744209920
+ size(next_mem) =                 429507584
+ size(omega_A_fp) =               2577039360
+ size(psib) =                805306368
+ size(psi) =              13744209920
+ size(phi) =                 53688320
+ size(stime) =               13744209920
+ size(next_mem) =                 429507584
+ size(omega_A_fp) =               2577039360
+ size(psib) =                805306368
+ size(psi) =              13744209920
+ size(phi) =                 53688320
+ size(stime) =               13744209920
+ size(next_mem) =                 429507584
+ size(omega_A_fp) =               2577039360
+ size(psib) =                805306368
+ size(psi) =              13744209920
+ size(phi) =                 53688320
+ size(stime) =               13744209920
+ size(next_mem) =                 429507584
+ size(omega_A_fp) =               2577039360
+ size(psib) =                805306368
+ size(psi) =              13744209920
+ size(phi) =                 53688320
+ size(stime) =               13744209920
+ size(next_mem) =                 429507584
+ size(omega_A_fp) =               2577039360
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 1 timerad = 3e-06
+ 
+TempIters = 4 FluxIters = 4 GTAIters = 0
+TrMax =     0.0031622776601684 in Zone 60 on Node 5
+TeMax =     0.0031622776601684 in Zone 32832 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 11.928969             4.1782197940629
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 2 timerad = 6.3e-05
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.364592199725 in Zone 32871 on Node 3
+TeMax =     0.0075234782306745 in Zone 34743 on Node 0
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 14.464027             10.418609968154
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 3 timerad = 0.000123
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.43263702948757 in Zone 49083 on Node 3
+TeMax =     0.14207129578951 in Zone 33111 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 14.323527             16.653263508342
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 4 timerad = 0.000183
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.47777565112927 in Zone 49083 on Node 3
+TeMax =     0.18768964085181 in Zone 37845 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 14.500481             22.906723494176
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 5 timerad = 0.000243
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.51233672654571 in Zone 49083 on Node 0
+TeMax =     0.22394100235716 in Zone 37845 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 14.357861             29.149649476865
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 6 timerad = 0.000303
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.54062904636664 in Zone 49083 on Node 0
+TeMax =     0.25504594781821 in Zone 49083 on Node 0
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 14.37874             35.388857209822
+ 
+ SuOlson setting last step's dt=3.1e-05
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 7 timerad = 0.000334
+ 
+TempIters = 4 FluxIters = 4 GTAIters = 0
+TrMax =     0.55355936068089 in Zone 36669 on Node 0
+TeMax =     0.27044841658372 in Zone 36669 on Node 0
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 12.912372             40.594443504699
+ 
+ SuOlson Test version 1.0 completed at time= 0.000334  goalTime= 0.000334
+ Computing error check along x= 0.015625, y=0.0078125
+ z=    0.01 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653763
+ z=     0.1 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653763
+ z= 0.17783 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653761
+ z= 0.31623 tInterpolated=   0.0053326 tExact=    0.00468 error=0.000652604
+ z=    0.45 tInterpolated=  0.00501286 tExact=    0.00455 error=0.000462858
+ z=     0.5 tInterpolated=  0.00267218 tExact=    0.00234 error=0.000332179
+ z= 0.56234 tInterpolated=  0.00019251 tExact=      5e-05 error= 0.00014251
+ z=    0.75 tInterpolated= 5.58776e-08 tExact=          0 error=5.58776e-08
+ngroups = 16
+nangsn = 256
+tot zones = 314580
+numUnknowns = 1.03082e+10
+cumulativeIterationCount= 33 cumulativeWorkTime=96.866 s.
+figure of merit = 3.51175e+09
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 55219: <Not_Specified> in cluster <summit> Done
+
+Job <Not_Specified> was submitted from host <login1> by user <dappelh> in cluster <summit> at Tue Apr  3 21:52:06 2018
+Job was executed on host(s) <1*batch5>, in queue <batch>, as user <dappelh> in cluster <summit> at Tue Apr  3 22:40:27 2018
+                            <42*a36n06>
+</ccs/home/dappelh> was used as the home directory.
+</ccs/home/dappelh/codes/coral/umt2016-managed/runs> was used as the working directory.
+Started at Tue Apr  3 22:40:27 2018
+Terminated at Tue Apr  3 22:43:52 2018
+Results reported at Tue Apr  3 22:43:52 2018
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <55219.err> for stderr output of this job.
+

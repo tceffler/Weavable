@@ -1,0 +1,2 @@
+ERROR: Not enough resources available to schedule job.
+Resources unavailable:  CPU: avail 672 requested 704 [ slots 16 x cpus_per_rs 44 ]

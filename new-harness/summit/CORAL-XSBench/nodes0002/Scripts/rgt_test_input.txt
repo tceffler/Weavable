@@ -1,0 +1,12 @@
+job_name = XSBench
+project_id = csc425
+nodes = 2
+batch_queue = batch
+walltime = 60
+executablename = XSBench
+executable_path = bin
+batch_filename = run_xs-0002n.sh
+build_cmd = ./build_xsbench.sh
+check_cmd = ./check_xs.sh
+report_cmd = ./report_xs.sh
+resubmitme = 1

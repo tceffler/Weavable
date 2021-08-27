@@ -1,0 +1,221 @@
+   ***ERROR: OPEN_FILE: Unable to open file, unit: 11              
+
+ Aww SNAP. Program failed. Try again.
+task 7475 failed to open the trace file mpi_profile.187977.7475 ... using stderr
+HPM counting with group = 1.
+task 0 failed to open the trace file mpi_profile.187977.0 ... using stderr
+task 7665 failed to open the trace file mpi_profile.187977.7665 ... using stderr
+task 7276 failed to open the trace file mpi_profile.187977.7276 ... using stderr
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 187977: <Not_Specified> in cluster <summit> Done
+
+Job <Not_Specified> was submitted from host <login5> by user <arnoldt> in cluster <summit> at Thu Sep 27 14:47:21 2018
+Job was executed on host(s) <1*batch1>, in queue <tested>, as user <arnoldt> in cluster <summit> at Thu Sep 27 14:58:50 2018
+                            <42*a17n13>
+                            <42*a17n14>
+                            <42*a17n15>
+                            <42*a17n16>
+                            <42*a17n17>
+                            <42*a17n18>
+                            <42*a18n01>
+                            <42*a18n02>
+                            <42*a18n03>
+                            <42*a18n04>
+                            <42*a18n05>
+                            <42*a18n06>
+                            <42*a18n07>
+                            <42*a18n08>
+                            <42*a18n09>
+                            <42*a18n10>
+                            <42*a18n11>
+                            <42*a18n12>
+                            <42*a18n13>
+                            <42*a18n14>
+                            <42*a18n15>
+                            <42*a18n16>
+                            <42*a18n17>
+                            <42*a18n18>
+                            <42*a19n01>
+                            <42*a19n02>
+                            <42*a19n03>
+                            <42*a19n04>
+                            <42*a19n05>
+                            <42*a19n06>
+                            <42*a19n07>
+                            <42*a19n08>
+                            <42*a19n09>
+                            <42*a19n10>
+                            <42*a19n11>
+                            <42*a19n12>
+                            <42*a19n13>
+                            <42*a19n14>
+                            <42*a19n15>
+                            <42*a19n16>
+                            <42*a19n17>
+                            <42*a19n18>
+                            <42*a20n01>
+                            <42*a20n02>
+                            <42*a20n03>
+                            <42*a20n04>
+                            <42*a20n05>
+                            <42*a20n06>
+                            <42*a20n07>
+                            <42*a20n08>
+                            <42*a20n09>
+                            <42*a20n10>
+                            <42*a20n11>
+                            <42*a20n12>
+                            <42*a20n13>
+                            <42*a20n14>
+                            <42*a20n15>
+                            <42*a20n16>
+                            <42*a20n17>
+                            <42*a20n18>
+                            <42*a21n01>
+                            <42*a21n02>
+                            <42*a21n03>
+                            <42*a21n04>
+                            <42*a21n05>
+                            <42*a21n06>
+                            <42*a21n07>
+                            <42*a21n08>
+                            <42*a21n09>
+                            <42*a21n10>
+                            <42*a21n11>
+                            <42*a21n12>
+                            <42*a21n13>
+                            <42*a21n14>
+                            <42*a21n15>
+                            <42*a21n16>
+                            <42*a21n17>
+                            <42*a21n18>
+                            <42*a22n01>
+                            <42*a22n02>
+                            <42*a22n03>
+                            <42*a22n04>
+                            <42*a22n05>
+                            <42*a22n06>
+                            <42*a22n07>
+                            <42*a22n08>
+                            <42*a22n09>
+                            <42*a22n10>
+                            <42*a22n11>
+                            <42*a22n12>
+                            <42*a22n13>
+                            <42*a22n14>
+                            <42*a22n15>
+                            <42*a22n16>
+                            <42*a22n17>
+                            <42*a22n18>
+                            <42*a23n01>
+                            <42*a23n02>
+                            <42*a23n03>
+                            <42*a23n04>
+                            <42*a23n05>
+                            <42*a23n06>
+                            <42*a23n07>
+                            <42*a23n08>
+                            <42*a23n09>
+                            <42*a23n10>
+                            <42*a23n11>
+                            <42*a23n12>
+                            <42*a23n13>
+                            <42*a23n14>
+                            <42*a23n15>
+                            <42*a23n16>
+                            <42*a23n17>
+                            <42*a23n18>
+                            <42*a24n01>
+                            <42*a24n02>
+                            <42*a24n03>
+                            <42*a24n04>
+                            <42*a24n05>
+                            <42*a24n06>
+                            <42*a24n07>
+                            <42*a24n08>
+                            <42*a24n09>
+                            <42*a24n10>
+                            <42*a24n11>
+                            <42*a24n12>
+                            <42*a24n13>
+                            <42*a24n14>
+                            <42*a24n15>
+                            <42*a24n16>
+                            <42*a24n17>
+                            <42*a24n18>
+                            <42*a25n01>
+                            <42*a25n02>
+                            <42*a25n03>
+                            <42*a25n04>
+                            <42*a25n05>
+                            <42*a25n06>
+                            <42*a25n07>
+                            <42*a25n08>
+                            <42*a25n09>
+                            <42*a25n10>
+                            <42*a25n11>
+                            <42*a25n12>
+                            <42*a25n13>
+                            <42*a25n14>
+                            <42*a25n15>
+                            <42*a25n16>
+                            <42*a25n17>
+                            <42*a25n18>
+                            <42*a26n01>
+                            <42*a26n02>
+                            <42*a26n03>
+                            <42*a26n04>
+                            <42*a26n05>
+                            <42*a26n06>
+                            <42*a26n07>
+                            <42*a26n08>
+                            <42*a26n09>
+                            <42*a26n10>
+                            <42*a26n11>
+                            <42*a26n12>
+                            <42*a26n13>
+                            <42*a26n14>
+                            <42*a26n15>
+                            <42*a26n16>
+                            <42*a26n17>
+                            <42*a26n18>
+                            <42*a27n01>
+                            <42*a27n02>
+                            <42*a27n03>
+                            <42*a27n04>
+                            <42*a27n05>
+                            <42*a27n06>
+                            <42*a27n07>
+                            <42*a27n08>
+                            <42*a27n09>
+                            <42*a27n10>
+                            <42*a27n11>
+                            <42*a27n12>
+                            <42*a27n13>
+                            <42*a27n14>
+                            <42*a27n15>
+                            <42*a27n16>
+                            <42*a27n17>
+                            <42*a27n18>
+                            <42*a28n01>
+                            <42*a28n02>
+                            <42*a28n03>
+                            <42*a28n04>
+                            <42*a28n05>
+                            <42*a28n06>
+</ccs/home/arnoldt> was used as the home directory.
+</ccs/home/arnoldt/SNAP_Coarl_Benchmark/SNAP/run> was used as the working directory.
+Started at Thu Sep 27 14:58:50 2018
+Terminated at Thu Sep 27 15:00:13 2018
+Results reported at Thu Sep 27 15:00:13 2018
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <187977.err> for stderr output of this job.
+

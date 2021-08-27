@@ -1,0 +1,58 @@
+Changed to working directory
+/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-LULESH/cuda_2/1612898089.4964464/workdir
+total 0
+jsrun --nrs 9 --tasks_per_rs 3 --cpu_per_rs 6 --gpu_per_rs 1 -b packed:2 -d plane:3 --stdio_mode collected --stdio_stdout stdout.txt --stdio_stderr stderr.txt lulesh.cuda -s 128 -i 5000
+Creating machine of type summit with scheduler of type lsf and job launcher of type jsrun
+
+Creating scheduler
+Creating jobLauncher
+RGT Test Parameters - Builtin
+=============================
+batch_queue = batch
+batch_filename = run_lulesh.sh
+job_name = LULESH
+nodes = 2
+total_processes = 2
+processes_per_node = 1
+project_id = csc425
+walltime = 30
+build_cmd = true
+check_cmd = check_lulesh.sh
+report_cmd = true
+resubmit = 0
+executable_path = lulesh.cuda
+RGT Test Parameters - User
+==========================
+total_nodes = 2
+Running check executable script on Power9 using check script check_lulesh.sh
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Scripts
+Starting check script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Run_Archive/1612898089.4964464
+Using check command: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Scripts/check_lulesh.sh
+Writing check_exit_status = 1 into /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Status/1612898089.4964464/job_status.txt
+Running report executable script on Power9 using report script true
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Scripts
+Starting report script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Run_Archive/1612898089.4964464
+Using report script: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Scripts/true
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch2>
+Subject: Job 725604: <LULESH> in cluster <summit> Done
+
+Job <LULESH> was submitted from host <login5> by user <bzf> in cluster <summit> at Tue Feb  9 14:14:49 2021
+Job was executed on host(s) <1*batch2>, in queue <batch>, as user <bzf> in cluster <summit> at Tue Feb  9 14:15:05 2021
+                            <42*b36n11>
+                            <42*b36n12>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Run_Archive/1612898089.4964464> was used as the working directory.
+Started at Tue Feb  9 14:15:05 2021
+Terminated at Tue Feb  9 14:15:52 2021
+Results reported at Tue Feb  9 14:15:52 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Run_Archive/1612898089.4964464/LULESH.e725604> for stderr output of this job.
+

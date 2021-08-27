@@ -1,0 +1,24 @@
+
+Lmod is automatically replacing "xl/16.1.1-5" with "pgi/18.7".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) spectrum-mpi/10.3.1.2-20200121
+
+
+The following have been reloaded with a version change:
+  1) cuda/10.1.243 => cuda/9.1.85
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5            6) python/3.6.6-anaconda3-5.3.0
+  2) xalt/1.2.1              7) olcf_harness
+  3) lsf-tools/2.0           8) pgi/18.7
+  4) darshan-runtime/3.1.7   9) spectrum-mpi/10.3.1.2-20200121
+  5) DefApps                10) cuda/9.1.85
+
+ 
+
+/ccs/home/bzf/.lsbatch/1614627176.773553.shell: line 38: 16 *  : syntax error: operand expected (error token is "*  ")
+/ccs/home/bzf/.lsbatch/1614627176.773553.shell: line 39: /  : syntax error: operand expected (error token is "/  ")
+mv: cannot stat '__batchfilename__': No such file or directory

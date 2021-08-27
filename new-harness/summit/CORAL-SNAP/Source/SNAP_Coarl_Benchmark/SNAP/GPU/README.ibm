@@ -1,0 +1,57 @@
+How to compiler
+     The compilation of this code has been tested with gfortran, cuda9.1+xlC, xlc.
+     Since XlC and xlc are automatically picked up, only 'export OMPI_FC=gfortran' is needed
+
+
+For multiple node run, 4 MPI rank per node must be used. This restriction will be removed later
+
+The y and z dimension per MPI rank must be 16. So, if 512x64x64 volume is to be solved, 16 MPI ranks are needed. Hence, 4 nodes have to be used. This restriction will be removed later
+
+The angle must be multiple of 16. This restriction will be removed later
+
+The best performance is gained when the number of the energy group is multiple of 10.
+
+
+Example input files: 
+     4rank.in
+     16rank.in
+     64rank.in
+
+
+The LSF scripts that we used in batch mode on POWER9 were :
+     run4.sh
+     run16.sh
+     run64.sh
+
+
+Note that our test system did not have CSM installed, so our batch
+scripts use mpirun.  We were able to submit jobs interactively using 
+jsrun ... see the job script below :
+
+interactive_jsrun.sh
+
+#!/bin/bash 
+nodes=4
+ppn=4
+let nmpi=$nodes*$ppn
+rm -f *.dat
+rm -f  bench.s0*
+export BIND_THREADS=yes
+export OMP_NUM_THREADS=1
+export USE_GOMP=yes
+export BIND_SLOTS=4
+export RANKS_PER_NODE=$ppn
+jsrun --rs_per_host $ppn --np $nmpi ./jsmhelper.sh ./snap input output
+
+The example above uses 4 MPI ranks per node.
+
+With jsrun, we use a helper script, jsmhelper.sh, which is included.
+This simple helper script needs RANKS_PER_NODE set in the environment,
+as illustrated above.
+
+
+Sample outputs from our POWER9 system :
+
+mout.4rank.11_30_13_05_42
+mout.16rank.11_30_13_06_20
+mout.64rank.11_30_22_20_35

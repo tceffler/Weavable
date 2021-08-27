@@ -1,0 +1,60 @@
+Running lsms using ./i_lsms_16 with 5 walkers...
+jsrun --progress ./progress_lsms.754225.txt --exit_on_error 1 --nrs 6 --tasks_per_rs 1 --cpu_per_rs 1 --gpu_per_rs 1 --bind rs /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-LSMS/WL_Fe_n0001/1614018950.1777968/build_directory/bin/wl-lsms ./i_lsms_16 -mode 1d -size_lsms 16 -num_lsms 5 -num_steps 50 -energy_calculation multistep  1> stdout.txt 2> stderr.txt
+Creating machine of type summit with scheduler of type lsf and job launcher of type jsrun
+
+Creating scheduler
+Creating jobLauncher
+RGT Test Parameters - Builtin
+=============================
+job_name = WL-Fe_n0001
+project_id = csc425
+nodes = 1
+batch_queue = batch
+walltime = 60
+executable_path = bin
+batch_filename = run_lsms_n0001.sh
+build_cmd = ./build_lsms.sh
+check_cmd = ./check_lsms.sh
+report_cmd = ./report_lsms.sh
+RGT Test Parameters - User
+==========================
+num_walkers = 5
+inputfile = ./i_lsms_16
+steps_per_walker = 10
+mpi_per_walker = 1
+num_atoms = 16
+executablename = wl-lsms
+resubmitme = 1
+Running check executable script on Power9 using check script ./check_lsms.sh
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Scripts
+Starting check script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Run_Archive/1614018950.1777968
+Using check command: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Scripts/./check_lsms.sh
+Writing check_exit_status = 0 into /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Status/1614018950.1777968/job_status.txt
+Running report executable script on Power9 using report script ./report_lsms.sh
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Scripts
+Starting report script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Run_Archive/1614018950.1777968
+Using report script: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Scripts/./report_lsms.sh
+check_exit_value = 0
+No resubmit
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 754225: <WL-Fe_n0001> in cluster <summit> Done
+
+Job <WL-Fe_n0001> was submitted from host <login1> by user <bzf> in cluster <summit> at Mon Feb 22 13:36:07 2021
+Job was executed on host(s) <1*batch5>, in queue <batch>, as user <bzf> in cluster <summit> at Mon Feb 22 13:36:16 2021
+                            <42*h50n07>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Run_Archive/1614018950.1777968> was used as the working directory.
+Started at Mon Feb 22 13:36:16 2021
+Terminated at Mon Feb 22 13:36:39 2021
+Results reported at Mon Feb 22 13:36:39 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Run_Archive/1614018950.1777968/WL-Fe_n0001.e754225> for stderr output of this job.
+

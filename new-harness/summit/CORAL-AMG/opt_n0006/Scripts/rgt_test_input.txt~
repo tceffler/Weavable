@@ -1,0 +1,17 @@
+job_name = amg_opt_n0192
+total_processes = 384
+processes_per_node = 24
+nodes = 16
+threads = 1
+project_id = csc425
+batch_queue = batch
+walltime = 20
+executable_name = amg2013
+execargs = -in ./sstruct.in.MG.FD -pooldist 1 -r 52 52 52  -P 8 8 9 -rlx 16
+inputfile = ./sstruct.in.MG.FD 
+alloc_flags = "smt1 cpublink gpumps"
+batch_filename = run_amg_opt_n0192.sh
+build_cmd = ./build_amg.sh opt
+check_cmd = ./check_amg.sh opt
+report_cmd = ./report_amg.sh
+resubmitme = 0

@@ -1,0 +1,5749 @@
+starting jsrun with
+nodes = 16
+gpus used per socket = 2
+ranks_per_socket = 10
+cores_per_rank = 2
+used cores per socket = 20
+[1520979886.100798] [a14n07:53599:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.100795] [a14n07:53593:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.100787] [a14n07:53592:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.100789] [a14n07:53597:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.100792] [a14n07:53591:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.101534] [a14n07:53594:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102035] [a14n07:53608:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102128] [a14n07:53598:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102238] [a14n07:53596:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102273] [a14n07:53600:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102286] [a14n07:53603:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102374] [a14n07:53595:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102441] [a14n07:53607:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102525] [a14n07:53590:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102532] [a14n07:53613:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102733] [a14n07:53611:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102835] [a14n07:53609:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102841] [a14n07:53610:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102958] [a14n07:53612:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.102949] [a14n07:53601:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.125684] [a13n17:66127:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.125661] [a13n17:66125:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.125664] [a13n17:66135:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.125656] [a13n17:66128:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.125745] [a13n17:66123:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.125766] [a13n17:66134:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126013] [a13n17:66121:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.125783] [a13n17:66140:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126000] [a13n17:66126:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126143] [a13n17:66120:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126178] [a13n17:66141:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126505] [a13n17:66130:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126604] [a13n17:66129:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126612] [a13n17:66136:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126622] [a13n17:66139:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.125977] [a13n17:66118:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126260] [a13n17:66119:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126290] [a13n17:66122:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126300] [a13n17:66124:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.126400] [a13n17:66138:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.175892] [a14n11:65098:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.176001] [a14n11:65104:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.176032] [a14n11:65099:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.176400] [a14n11:65100:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.176645] [a14n11:65101:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.176934] [a14n11:65105:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.176993] [a14n11:65106:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.176970] [a14n11:65103:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.177190] [a14n11:65102:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.177211] [a14n11:65107:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.177465] [a14n11:65120:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.177464] [a14n11:65121:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.177544] [a14n11:65119:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.177663] [a14n11:65109:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.177760] [a14n11:65108:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.177862] [a14n11:65122:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.177974] [a14n11:65118:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.177968] [a14n11:65116:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.195847] [a14n11:65110:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.195955] [a14n11:65117:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.264189] [a14n02:52321:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.264187] [a14n02:52318:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.264191] [a14n02:52320:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.264378] [a14n02:52319:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.264395] [a14n02:52313:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.264504] [a14n02:52316:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.264626] [a14n02:52322:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.264810] [a14n02:52317:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.264958] [a14n02:52335:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.265059] [a14n02:52333:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.265036] [a14n02:52334:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.265092] [a14n02:52332:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.267128] [a14n02:52314:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.265068] [a14n02:52330:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.265081] [a14n02:52326:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.267747] [a14n02:52315:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.270512] [a14n02:52323:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.270728] [a14n02:52325:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.271146] [a14n02:52336:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.272991] [a14n02:52331:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.300990] [a13n18:54062:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.301225] [a13n18:54061:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.301260] [a13n18:54063:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.301892] [a13n18:54071:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.304417] [a13n18:54082:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.302527] [a13n18:54068:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.302749] [a13n18:54064:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.302816] [a13n18:54060:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.302849] [a13n18:54067:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.302900] [a13n18:54059:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.302924] [a13n18:54066:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.303109] [a13n18:54065:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.303192] [a13n18:54081:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.303328] [a13n18:54069:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.303313] [a13n18:54079:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.303307] [a13n18:54070:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.303450] [a13n18:54076:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.303535] [a13n18:54077:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.303421] [a13n18:54080:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.303430] [a13n18:54078:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.308967] [a14n10:52538:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.305398] [a13n14:59957:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.305474] [a13n14:59953:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.305765] [a13n14:59954:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.306056] [a13n14:59972:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.306484] [a13n14:59955:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.306617] [a13n14:59959:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.306846] [a13n14:59970:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307188] [a13n14:59964:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307304] [a13n14:59962:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307401] [a13n14:59961:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307419] [a13n14:59960:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307674] [a13n14:59958:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307678] [a13n14:59971:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.316257] [a14n10:52521:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307778] [a13n14:59963:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307768] [a13n14:59973:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.316466] [a14n10:52516:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307870] [a13n14:59956:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.316460] [a14n10:52518:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.308010] [a13n14:59965:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307990] [a13n14:59976:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.307883] [a13n14:59974:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.308001] [a13n14:59975:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.316565] [a14n10:52515:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.316554] [a14n10:52517:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.316590] [a14n10:52522:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.316836] [a14n10:52536:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.317043] [a14n10:52535:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.317179] [a14n10:52534:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.317208] [a14n10:52524:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.317310] [a14n10:52525:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.317276] [a14n10:52526:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.317293] [a14n10:52527:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.317301] [a14n10:52537:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.317413] [a14n10:52533:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.331666] [a14n10:52523:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.331778] [a14n10:52519:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.331774] [a14n10:52520:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.332147] [a14n10:52532:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.332805] [a14n05:52182:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.332807] [a14n05:52191:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.332802] [a14n05:52181:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.332802] [a14n05:52188:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.332810] [a14n05:52187:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333853] [a14n05:52170:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333743] [a14n05:52173:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333938] [a14n05:52176:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333626] [a14n05:52175:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333913] [a14n05:52178:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333121] [a14n05:52177:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333371] [a14n05:52189:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333884] [a14n05:52172:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333586] [a14n05:52193:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333767] [a14n05:52171:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.334013] [a14n05:52192:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333280] [a14n05:52190:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333889] [a14n05:52174:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333403] [a14n05:52180:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.333911] [a14n05:52179:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.406206] [a14n01:65881:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.405191] [a14n01:65887:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.405196] [a14n01:65879:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.406313] [a14n01:65892:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.406477] [a14n01:65870:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.406559] [a14n01:65873:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.406569] [a14n01:65874:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.406565] [a14n01:65876:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.438365] [a14n01:65875:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.438509] [a14n01:65869:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.438626] [a14n01:65891:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.438782] [a14n01:65880:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.438801] [a14n01:65886:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.438899] [a14n01:65871:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.438874] [a14n01:65878:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.439350] [a14n01:65877:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.439002] [a14n01:65872:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.439108] [a14n01:65888:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.439214] [a14n01:65889:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.439227] [a14n01:65890:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.443408] [a13n16:51741:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.443403] [a13n16:51742:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.443406] [a13n16:51737:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.443424] [a13n16:51755:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.443426] [a13n16:51734:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.443428] [a13n16:51735:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.443415] [a13n16:51743:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.443432] [a13n16:51751:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.443401] [a13n16:51739:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.443412] [a13n16:51736:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.473022] [a13n16:51752:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.489916] [a13n16:51747:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.491171] [a13n16:51745:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.493331] [a13n16:51753:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.501103] [a13n16:51756:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.508039] [a13n16:51738:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.508141] [a13n16:51740:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.508409] [a13n16:51754:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.508518] [a13n16:51744:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.508620] [a13n16:51757:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.520302] [a13n15:52959:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.520304] [a13n15:52961:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.520364] [a13n15:52957:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.520369] [a13n15:52954:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.520516] [a13n15:52962:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.520556] [a13n15:52958:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.521616] [a13n15:52953:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.521671] [a13n15:52960:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.521715] [a13n15:52969:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.521780] [a13n15:52973:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.521855] [a13n15:52955:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.521902] [a13n15:52975:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.521943] [a13n15:52963:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.521933] [a13n15:52956:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.522054] [a13n15:52971:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.522159] [a13n15:52965:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.522264] [a13n15:52976:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.522257] [a13n15:52974:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.522368] [a13n15:52970:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.522471] [a13n15:52964:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.751995] [a14n03:55265:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.752003] [a14n03:55272:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.752059] [a14n03:55270:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753988] [a14n03:55266:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753423] [a14n03:55264:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753662] [a14n03:55267:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.752183] [a14n03:55268:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753768] [a14n03:55271:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753659] [a14n03:55273:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.752408] [a14n03:55269:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753997] [a14n03:55284:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753631] [a14n03:55287:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.754089] [a14n03:55277:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753871] [a14n03:55281:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753501] [a14n03:55282:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753380] [a14n03:55285:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753774] [a14n03:55274:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.753482] [a14n03:55286:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.754004] [a14n03:55276:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.780202] [a14n03:55283:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.870069] [a14n06:53051:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.870195] [a14n06:53050:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.870995] [a14n06:53054:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.870078] [a14n06:53064:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.874853] [a14n06:53058:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.874635] [a14n06:53070:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.874737] [a14n06:53068:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.874858] [a14n06:53069:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.874972] [a14n06:53057:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.878798] [a14n06:53053:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.878987] [a14n06:53055:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.879207] [a14n06:53066:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.879333] [a14n06:53065:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.879479] [a14n06:53060:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.879487] [a14n06:53067:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.879598] [a14n06:53047:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.879680] [a14n06:53056:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.879792] [a14n06:53052:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.879805] [a14n06:53049:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.879796] [a14n06:53048:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.893548] [a14n04:52816:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.893523] [a14n04:52814:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.893756] [a14n04:52812:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.894295] [a14n04:52818:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.894322] [a14n04:52811:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.894527] [a14n04:52819:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.895047] [a14n04:52831:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.895150] [a14n04:52828:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.896165] [a14n04:52813:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.895169] [a14n04:52829:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.895301] [a14n04:52810:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.896617] [a14n04:52826:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.895632] [a14n04:52815:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.896742] [a14n04:52827:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.896734] [a14n04:52830:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.896947] [a14n04:52817:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.896963] [a14n04:52809:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.897163] [a14n04:52820:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.897457] [a14n04:52808:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.889074] [a14n09:52512:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.889075] [a14n09:52514:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.889079] [a14n09:52522:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.889805] [a14n09:52507:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890114] [a14n09:52511:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890152] [a14n09:52505:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890375] [a14n09:52524:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890402] [a14n09:52504:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890432] [a14n09:52508:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890486] [a14n09:52509:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890533] [a14n09:52502:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890662] [a14n09:52525:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890517] [a14n09:52503:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890672] [a14n09:52518:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890769] [a14n09:52516:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890727] [a14n09:52501:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890528] [a14n09:52506:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890887] [a14n09:52520:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890882] [a14n09:52521:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.890984] [a14n09:52519:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.915213] [a14n12:55074:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.914822] [a14n12:55078:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.914824] [a14n12:55075:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.914819] [a14n12:55076:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.916433] [a14n12:55081:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.915846] [a14n12:55079:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.914847] [a14n12:55090:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.915040] [a14n12:55094:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.915058] [a14n12:55095:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.916660] [a14n12:55092:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.916785] [a14n12:55084:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.917939] [a14n12:55083:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.920952] [a14n12:55093:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.921770] [a14n12:55096:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.922448] [a14n12:55089:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.923888] [a14n12:55082:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.924007] [a14n12:55080:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.924108] [a14n12:55077:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.924202] [a14n12:55073:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.923466] [a14n12:55091:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1520979886.932016] [a14n04:52825:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+ myrank = 68GPU number = 0istat =0
+ myrank = 66GPU number = 0istat =0
+ myrank = 67GPU number = 1istat =0
+ myrank = 62GPU number = 0istat =0
+ myrank = 61GPU number = 1istat =0
+ myrank = 8GPU number = 0istat =0
+ myrank = 69GPU number = 1istat =0
+ myrank = 1GPU number = 1istat =0
+ myrank = 64GPU number = 0istat =0
+ myrank = 6GPU number = 0istat =0
+ myrank = 65GPU number = 1istat =0
+ myrank = 9GPU number = 1istat =0
+ myrank = 63GPU number = 1istat =0
+Check the device: no error
+ myrank = 100GPU number = 0istat =0
+ myrank = 108GPU number = 0istat =0
+Check the device: no error
+ myrank = 176GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 87GPU number = 1istat =0
+ myrank = 89GPU number = 1istat =0
+Check the device: no error
+ myrank = 82GPU number = 0istat =0
+ myrank = 83GPU number = 1istat =0
+ myrank = 84GPU number = 0istat =0
+Check the device: no error
+ myrank = 80GPU number = 0istat =0
+ myrank = 88GPU number = 0istat =0
+ myrank = 81GPU number = 1istat =0
+Check the device: no error
+ myrank = 85GPU number = 1istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 195GPU number = 1istat =0
+ myrank = 304GPU number = 0istat =0
+ myrank = 307GPU number = 1istat =0
+Check the device: no error
+Check the device: no error
+ myrank = 24GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 27GPU number = 1istat =0
+ myrank = 29GPU number = 1istat =0
+ myrank = 23GPU number = 1istat =0
+ myrank = 20GPU number = 0istat =0
+ myrank = 25GPU number = 1istat =0
+ myrank = 28GPU number = 0istat =0
+ myrank = 21GPU number = 1istat =0
+ myrank = 22GPU number = 0istat =0
+ myrank = 124GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 262GPU number = 0istat =0
+ myrank = 264GPU number = 0istat =0
+ myrank = 266GPU number = 0istat =0
+ myrank = 261GPU number = 1istat =0
+ myrank = 268GPU number = 0istat =0
+ myrank = 267GPU number = 1istat =0
+ myrank = 265GPU number = 1istat =0
+ myrank = 269GPU number = 1istat =0
+ myrank = 263GPU number = 1istat =0
+ myrank = 49GPU number = 1istat =0
+ myrank = 40GPU number = 0istat =0
+ myrank = 47GPU number = 1istat =0
+ myrank = 48GPU number = 0istat =0
+ myrank = 45GPU number = 1istat =0
+Check the device: no error
+ myrank = 41GPU number = 1istat =0
+ myrank = 46GPU number = 0istat =0
+ myrank = 42GPU number = 0istat =0
+ myrank = 44GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+ myrank = 128GPU number = 0istat =0
+ myrank = 127GPU number = 1istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 122GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+ myrank = 126GPU number = 0istat =0
+Check the device: no error
+ myrank = 129GPU number = 1istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 120GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 125GPU number = 1istat =0
+ myrank = 121GPU number = 1istat =0
+ myrank = 123GPU number = 1istat =0
+ myrank = 222GPU number = 0istat =0
+ myrank = 220GPU number = 0istat =0
+ myrank = 228GPU number = 0istat =0
+ myrank = 223GPU number = 1istat =0
+ myrank = 227GPU number = 1istat =0
+ myrank = 229GPU number = 1istat =0
+ myrank = 225GPU number = 1istat =0
+ myrank = 221GPU number = 1istat =0
+ myrank = 226GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 285GPU number = 1istat =0
+ myrank = 284GPU number = 0istat =0
+ myrank = 289GPU number = 1istat =0
+ myrank = 283GPU number = 1istat =0
+ myrank = 288GPU number = 0istat =0
+ myrank = 281GPU number = 1istat =0
+ myrank = 287GPU number = 1istat =0
+ myrank = 282GPU number = 0istat =0
+ myrank = 280GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 249GPU number = 1istat =0
+ myrank = 240GPU number = 0istat =0
+ myrank = 244GPU number = 0istat =0
+ myrank = 241GPU number = 1istat =0
+ myrank = 246GPU number = 0istat =0
+ myrank = 247GPU number = 1istat =0
+ myrank = 242GPU number = 0istat =0
+ myrank = 248GPU number = 0istat =0
+ myrank = 243GPU number = 1istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 7GPU number = 1istat =0
+ myrank = 5GPU number = 1istat =0
+ myrank = 2GPU number = 0istat =0
+ myrank = 3GPU number = 1istat =0
+ myrank = 4GPU number = 0istat =0
+ myrank = 101GPU number = 1istat =0
+ myrank = 102GPU number = 0istat =0
+ myrank = 105GPU number = 1istat =0
+ myrank = 109GPU number = 1istat =0
+ myrank = 104GPU number = 0istat =0
+ myrank = 107GPU number = 1istat =0
+ myrank = 106GPU number = 0istat =0
+ myrank = 203GPU number = 1istat =0
+ myrank = 204GPU number = 0istat =0
+ myrank = 200GPU number = 0istat =0
+ myrank = 209GPU number = 1istat =0
+ myrank = 202GPU number = 0istat =0
+ myrank = 207GPU number = 1istat =0
+ myrank = 201GPU number = 1istat =0
+ myrank = 208GPU number = 0istat =0
+ myrank = 205GPU number = 1istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 76GPU number = 0istat =0
+ myrank = 79GPU number = 1istat =0
+ myrank = 72GPU number = 0istat =0
+ myrank = 73GPU number = 1istat =0
+ myrank = 70GPU number = 0istat =0
+ myrank = 77GPU number = 1istat =0
+ myrank = 74GPU number = 0istat =0
+ myrank = 75GPU number = 1istat =0
+ myrank = 78GPU number = 0istat =0
+ myrank = 60GPU number = 0istat =0
+ myrank = 71GPU number = 1istat =0
+ myrank = 255GPU number = 1istat =0
+Check the device: no error
+ myrank = 254GPU number = 0istat =0
+ myrank = 259GPU number = 1istat =0
+ myrank = 256GPU number = 0istat =0
+ myrank = 250GPU number = 0istat =0
+ myrank = 257GPU number = 1istat =0
+ myrank = 251GPU number = 1istat =0
+ myrank = 252GPU number = 0istat =0
+ myrank = 253GPU number = 1istat =0
+ myrank = 258GPU number = 0istat =0
+Check the device: no error
+ myrank = 245GPU number = 1istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+ myrank = 96GPU number = 0istat =0
+ myrank = 86GPU number = 0istat =0
+Check the device: no error
+ myrank = 92GPU number = 0istat =0
+ myrank = 14GPU number = 0istat =0
+ myrank = 91GPU number = 1istat =0
+Check the device: no error
+ myrank = 93GPU number = 1istat =0
+ myrank = 17GPU number = 1istat =0
+ myrank = 94GPU number = 0istat =0
+ myrank = 90GPU number = 0istat =0
+ myrank = 12GPU number = 0istat =0
+ myrank = 11GPU number = 1istat =0
+ myrank = 95GPU number = 1istat =0
+ myrank = 15GPU number = 1istat =0
+Check the device: no error
+ myrank = 98GPU number = 0istat =0
+ myrank = 10GPU number = 0istat =0
+ myrank = 97GPU number = 1istat =0
+ myrank = 19GPU number = 1istat =0
+ myrank = 99GPU number = 1istat =0
+ myrank = 13GPU number = 1istat =0
+ Executing UMT2015 Number of ranks =320
+ and number of OMP threads  =8
+ myrank = 16GPU number = 0istat =0
+ myrank = 0GPU number = 0istat =0
+Check the device: no error
+ gridFileName: 5x8x8_18.cmg
+ setting the number of groups=16
+ Running with Product Quadrature 
+ setting number of polar angles     = 8
+ setting number of azimuthal angles = 4
+ Building mesh...
+ myrank = 18GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 118GPU number = 0istat =0
+ myrank = 115GPU number = 1istat =0
+ myrank = 113GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 111GPU number = 1istat =0
+ myrank = 110GPU number = 0istat =0
+ myrank = 114GPU number = 0istat =0
+ myrank = 117GPU number = 1istat =0
+ myrank = 112GPU number = 0istat =0
+ myrank = 116GPU number = 0istat =0
+Check the device: no error
+ myrank = 119GPU number = 1istat =0
+ myrank = 103GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 163GPU number = 1istat =0
+ myrank = 160GPU number = 0istat =0
+ myrank = 166GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 165GPU number = 1istat =0
+ myrank = 164GPU number = 0istat =0
+ myrank = 169GPU number = 1istat =0
+ myrank = 167GPU number = 1istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 161GPU number = 1istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 162GPU number = 0istat =0
+ myrank = 178GPU number = 0istat =0
+ myrank = 179GPU number = 1istat =0
+ myrank = 175GPU number = 1istat =0
+ myrank = 171GPU number = 1istat =0
+ myrank = 170GPU number = 0istat =0
+Check the device: no error
+ myrank = 172GPU number = 0istat =0
+ myrank = 174GPU number = 0istat =0
+ myrank = 177GPU number = 1istat =0
+ myrank = 173GPU number = 1istat =0
+ myrank = 168GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 31GPU number = 1istat =0
+ myrank = 39GPU number = 1istat =0
+ myrank = 34GPU number = 0istat =0
+ myrank = 38GPU number = 0istat =0
+ myrank = 37GPU number = 1istat =0
+ myrank = 36GPU number = 0istat =0
+ myrank = 35GPU number = 1istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 30GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 33GPU number = 1istat =0
+ myrank = 32GPU number = 0istat =0
+Check the device: no error
+ myrank = 26GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 302GPU number = 0istat =0
+ myrank = 308GPU number = 0istat =0
+ myrank = 301GPU number = 1istat =0
+ myrank = 313GPU number = 1istat =0
+ myrank = 311GPU number = 1istat =0
+ myrank = 300GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 306GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 305GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 303GPU number = 1istat =0
+ myrank = 309GPU number = 1istat =0
+ myrank = 318GPU number = 0istat =0
+ myrank = 319GPU number = 1istat =0
+ myrank = 312GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 317GPU number = 1istat =0
+ myrank = 315GPU number = 1istat =0
+ myrank = 316GPU number = 0istat =0
+ myrank = 314GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 310GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 186GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 183GPU number = 1istat =0
+Check the device: no error
+ myrank = 187GPU number = 1istat =0
+Check the device: no error
+ myrank = 185GPU number = 1istat =0
+ myrank = 189GPU number = 1istat =0
+ myrank = 188GPU number = 0istat =0
+ myrank = 182GPU number = 0istat =0
+ myrank = 184GPU number = 0istat =0
+ myrank = 198GPU number = 0istat =0
+ myrank = 190GPU number = 0istat =0
+ myrank = 181GPU number = 1istat =0
+ myrank = 192GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+ myrank = 194GPU number = 0istat =0
+ myrank = 197GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 196GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 191GPU number = 1istat =0
+ myrank = 193GPU number = 1istat =0
+ myrank = 180GPU number = 0istat =0
+ myrank = 199GPU number = 1istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 139GPU number = 1istat =0
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 137GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 274GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 138GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 136GPU number = 0istat =0
+ myrank = 278GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 277GPU number = 1istat =0
+ myrank = 56GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 131GPU number = 1istat =0
+ myrank = 133GPU number = 1istat =0
+ myrank = 279GPU number = 1istat =0
+ myrank = 132GPU number = 0istat =0
+ myrank = 51GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 134GPU number = 0istat =0
+ myrank = 271GPU number = 1istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 57GPU number = 1istat =0
+ myrank = 130GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 52GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+ myrank = 270GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 275GPU number = 1istat =0
+ myrank = 135GPU number = 1istat =0
+ myrank = 58GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 59GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 273GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 272GPU number = 0istat =0
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 276GPU number = 0istat =0
+ myrank = 54GPU number = 0istat =0
+ myrank = 260GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 53GPU number = 1istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 50GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 55GPU number = 1istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 43GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 236GPU number = 0istat =0
+ myrank = 231GPU number = 1istat =0
+ myrank = 238GPU number = 0istat =0
+ myrank = 233GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 232GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 239GPU number = 1istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 230GPU number = 0istat =0
+ myrank = 235GPU number = 1istat =0
+ myrank = 237GPU number = 1istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 234GPU number = 0istat =0
+ myrank = 224GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 298GPU number = 0istat =0
+ myrank = 295GPU number = 1istat =0
+ myrank = 292GPU number = 0istat =0
+ myrank = 293GPU number = 1istat =0
+ myrank = 297GPU number = 1istat =0
+ myrank = 296GPU number = 0istat =0
+ myrank = 294GPU number = 0istat =0
+ myrank = 299GPU number = 1istat =0
+ myrank = 290GPU number = 0istat =0
+ myrank = 291GPU number = 1istat =0
+ myrank = 286GPU number = 0istat =0
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 211GPU number = 1istat =0
+ myrank = 212GPU number = 0istat =0
+ myrank = 217GPU number = 1istat =0
+ myrank = 216GPU number = 0istat =0
+ myrank = 210GPU number = 0istat =0
+ myrank = 213GPU number = 1istat =0
+ myrank = 214GPU number = 0istat =0
+ myrank = 219GPU number = 1istat =0
+ myrank = 218GPU number = 0istat =0
+ myrank = 215GPU number = 1istat =0
+ myrank = 206GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 144GPU number = 0istat =0
+ myrank = 148GPU number = 0istat =0
+ myrank = 141GPU number = 1istat =0
+ myrank = 146GPU number = 0istat =0
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 140GPU number = 0istat =0
+ myrank = 142GPU number = 0istat =0
+ myrank = 143GPU number = 1istat =0
+ myrank = 149GPU number = 1istat =0
+ myrank = 145GPU number = 1istat =0
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ myrank = 152GPU number = 0istat =0
+ myrank = 151GPU number = 1istat =0
+ myrank = 155GPU number = 1istat =0
+ myrank = 153GPU number = 1istat =0
+ myrank = 157GPU number = 1istat =0
+ myrank = 150GPU number = 0istat =0
+ myrank = 158GPU number = 0istat =0
+ myrank = 159GPU number = 1istat =0
+ myrank = 154GPU number = 0istat =0
+ myrank = 156GPU number = 0istat =0
+ myrank = 147GPU number = 1istat =0
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+Check the device: no error
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+jj = 0-4, kk = 0-7, ll = 0-7 
+ Mesh complete.
+ Initializing Teton object...
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+got zone ids
+set vol source
+set frequencies
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+got zone ids
+set vol source
+set frequencies
+entered initialize
+got zone ids
+set vol source
+set frequencies
+set boundary
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+got zone ids
+set vol source
+set frequencies
+entered initialize
+entered initialize
+entered initialize
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+entered initialize
+entered initialize
+entered initialize
+entered initialize
+got zone ids
+set vol source
+set frequencies
+set boundary
+entered initialize
+entered initialize
+entered initialize
+got zone ids
+set vol source
+set frequencies
+set boundary
+entered initialize
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+entered initialize
+entered initialize
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+entered initialize
+entered initialize
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+entered initialize
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+got zone ids
+set vol source
+set frequencies
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+set boundary
+set boundary
+set boundary
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+set boundary
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+got zone ids
+set vol source
+set frequencies
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+set boundary
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =0
+temp = 0
+D_ncornr_npsi =0
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+USING Allinged allocator 
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+USING Allinged allocator 
+ calling rtquad, which will set d_weight
+ calling rtquad, which will set d_weight
+ncornr = 74688
+ncornr =74688npsi =4096
+temp = 305922048
+D_ncornr_npsi =305922048
+temp = 1195008
+USING Allinged allocator 
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+linkKull
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch3>
+Subject: Job 40343: <#BSUB -o %J.out;#BSUB -e %J.err;#BSUB -nnodes 16;#BSUB -alloc_flags gpumps;#BSUB -alloc_flags smt4;#BSUB -P VEN201;#BSUB -q batch;#BSUB -W 20;#---------------------------------------;ulimit -s 10240; export OMP_NUM_THREADS=8;export CUDA_LAUNCH_BLOCKING=0; echo 'starting jsrun with';echo "nodes = 16";echo "gpus used per socket = 2";echo "ranks_per_socket = 10";echo "cores_per_rank = 2";echo "used cores per socket = 20"; export RANKS_PER_SOCKET=10;export RANKS_PER_GPU=5; # jsrun --smpiargs="-mxm --mca btl_openib_warn_default_gid_prefix 0 --mca mpi_warn_on_fork 0" #   --nrs 32  --tasks_per_rs 10 --cpu_per_rs 20 #   --gpu_per_rs 2 --bind=proportional-packed:2 -d plane:10  #   ./device-bind.sh ../Teton/SuOlsonTest 5x8x8_18.cmg 16 2 16 8 4;  jsrun --smpiargs="-mxm --mca btl_openib_warn_default_gid_prefix 0 --mca mpi_warn_on_fork 0"    --nrs 32  --tasks_per_rs 10 --cpu_per_rs 20    --gpu_per_rs 2 --bind=proportional-packed:2 -d plane:10     ../../sm60/Teton/SuOlsonTest 5x8x8_18.cmg 16 2 16 8 4> in cluster <summit> Exited
+
+Job <#BSUB -o %J.out;#BSUB -e %J.err;#BSUB -nnodes 16;#BSUB -alloc_flags gpumps;#BSUB -alloc_flags smt4;#BSUB -P VEN201;#BSUB -q batch;#BSUB -W 20;#---------------------------------------;ulimit -s 10240; export OMP_NUM_THREADS=8;export CUDA_LAUNCH_BLOCKING=0; echo 'starting jsrun with';echo "nodes = 16";echo "gpus used per socket = 2";echo "ranks_per_socket = 10";echo "cores_per_rank = 2";echo "used cores per socket = 20"; export RANKS_PER_SOCKET=10;export RANKS_PER_GPU=5; # jsrun --smpiargs="-mxm --mca btl_openib_warn_default_gid_prefix 0 --mca mpi_warn_on_fork 0" #   --nrs 32  --tasks_per_rs 10 --cpu_per_rs 20 #   --gpu_per_rs 2 --bind=proportional-packed:2 -d plane:10  #   ./device-bind.sh ../Teton/SuOlsonTest 5x8x8_18.cmg 16 2 16 8 4;  jsrun --smpiargs="-mxm --mca btl_openib_warn_default_gid_prefix 0 --mca mpi_warn_on_fork 0"    --nrs 32  --tasks_per_rs 10 --cpu_per_rs 20    --gpu_per_rs 2 --bind=proportional-packed:2 -d plane:10     ../../sm60/Teton/SuOlsonTest 5x8x8_18.cmg 16 2 16 8 4> was submitted from host <login5> by user <dappelh> in cluster <summit> at Tue Mar 13 11:31:40 2018
+Job was executed on host(s) <1*batch3>, in queue <batch>, as user <dappelh> in cluster <summit> at Tue Mar 13 18:24:38 2018
+                            <42*a13n14>
+                            <42*a13n15>
+                            <42*a13n16>
+                            <42*a13n17>
+                            <42*a13n18>
+                            <42*a14n01>
+                            <42*a14n02>
+                            <42*a14n03>
+                            <42*a14n04>
+                            <42*a14n05>
+                            <42*a14n06>
+                            <42*a14n07>
+                            <42*a14n09>
+                            <42*a14n10>
+                            <42*a14n11>
+                            <42*a14n12>
+</ccs/home/dappelh> was used as the home directory.
+</ccs/home/dappelh/codes/coral/umt2016-managed/march-runs> was used as the working directory.
+Started at Tue Mar 13 18:24:38 2018
+Terminated at Tue Mar 13 18:44:49 2018
+Results reported at Tue Mar 13 18:44:49 2018
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <40343.err> for stderr output of this job.
+

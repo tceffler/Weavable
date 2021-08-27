@@ -1,0 +1,232 @@
+starting jsrun with
+nodes = 192
+gpus used per socket = 3
+ranks_per_socket = 3
+cores_per_rank = 7
+used cores per socket = 21
+threads per rank = 14
+ Executing UMT2015 Number of ranks =1152
+ and number of OMP threads  =14
+ gridFileName: 12x12x8_38.cmg
+ setting the number of groups=16
+ Running with Product Quadrature 
+ setting number of polar angles     = 8
+ setting number of azimuthal angles = 4
+ Building mesh...
+ Mesh complete.
+ Initializing Teton object...
+    done.
+ Starting time advance...
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 83572: <Not_Specified> in cluster <summit> Exited
+
+Job <Not_Specified> was submitted from host <login4> by user <dappelh> in cluster <summit> at Tue May  1 16:38:28 2018
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <dappelh> in cluster <summit> at Tue May  1 16:39:01 2018
+                            <42*a01n03>
+                            <42*a01n10>
+                            <42*b07n18>
+                            <42*b08n01>
+                            <42*b08n02>
+                            <42*b08n03>
+                            <42*b08n04>
+                            <42*b08n05>
+                            <42*b08n06>
+                            <42*b08n07>
+                            <42*b08n08>
+                            <42*b08n09>
+                            <42*b08n10>
+                            <42*b08n11>
+                            <42*b08n12>
+                            <42*b08n13>
+                            <42*b08n14>
+                            <42*b08n15>
+                            <42*b08n16>
+                            <42*b08n17>
+                            <42*b08n18>
+                            <42*b09n01>
+                            <42*b09n02>
+                            <42*b09n03>
+                            <42*b09n04>
+                            <42*b09n05>
+                            <42*b09n06>
+                            <42*b09n07>
+                            <42*b09n08>
+                            <42*b09n09>
+                            <42*b09n10>
+                            <42*b09n11>
+                            <42*b09n12>
+                            <42*b09n13>
+                            <42*b09n14>
+                            <42*b09n15>
+                            <42*b09n16>
+                            <42*b09n17>
+                            <42*b09n18>
+                            <42*b10n01>
+                            <42*b10n02>
+                            <42*b10n03>
+                            <42*b10n04>
+                            <42*b10n05>
+                            <42*b10n06>
+                            <42*b10n07>
+                            <42*b10n08>
+                            <42*b10n09>
+                            <42*b10n10>
+                            <42*b10n11>
+                            <42*b10n12>
+                            <42*b10n13>
+                            <42*b10n14>
+                            <42*b10n15>
+                            <42*b10n16>
+                            <42*b10n17>
+                            <42*b10n18>
+                            <42*b11n01>
+                            <42*b11n02>
+                            <42*b11n03>
+                            <42*b11n04>
+                            <42*b11n05>
+                            <42*b11n06>
+                            <42*b11n07>
+                            <42*b11n08>
+                            <42*b11n09>
+                            <42*b11n10>
+                            <42*b11n11>
+                            <42*b11n12>
+                            <42*b11n13>
+                            <42*b11n14>
+                            <42*b11n15>
+                            <42*b11n16>
+                            <42*b11n17>
+                            <42*b11n18>
+                            <42*b12n01>
+                            <42*b12n02>
+                            <42*b12n03>
+                            <42*b12n04>
+                            <42*b12n05>
+                            <42*b12n06>
+                            <42*b12n07>
+                            <42*b12n08>
+                            <42*b12n09>
+                            <42*b12n10>
+                            <42*b12n11>
+                            <42*b12n12>
+                            <42*b12n13>
+                            <42*b12n14>
+                            <42*b12n15>
+                            <42*b12n16>
+                            <42*b12n17>
+                            <42*b12n18>
+                            <42*b13n01>
+                            <42*b13n02>
+                            <42*b13n03>
+                            <42*b13n04>
+                            <42*b13n05>
+                            <42*b13n08>
+                            <42*b13n09>
+                            <42*b13n10>
+                            <42*b13n11>
+                            <42*b13n12>
+                            <42*b13n13>
+                            <42*b13n14>
+                            <42*b13n15>
+                            <42*b13n16>
+                            <42*b13n17>
+                            <42*b13n18>
+                            <42*b14n01>
+                            <42*b14n02>
+                            <42*b14n04>
+                            <42*b14n05>
+                            <42*b14n06>
+                            <42*b14n07>
+                            <42*b14n08>
+                            <42*b14n09>
+                            <42*b14n10>
+                            <42*b14n11>
+                            <42*b14n12>
+                            <42*b14n13>
+                            <42*b14n14>
+                            <42*b14n15>
+                            <42*b14n16>
+                            <42*b14n17>
+                            <42*b14n18>
+                            <42*b15n01>
+                            <42*b15n02>
+                            <42*b15n03>
+                            <42*b15n04>
+                            <42*b15n05>
+                            <42*b15n06>
+                            <42*b15n07>
+                            <42*b15n08>
+                            <42*b15n09>
+                            <42*b15n10>
+                            <42*b15n11>
+                            <42*b15n12>
+                            <42*b15n13>
+                            <42*b15n14>
+                            <42*b15n15>
+                            <42*b15n16>
+                            <42*b15n17>
+                            <42*b15n18>
+                            <42*b16n01>
+                            <42*b16n02>
+                            <42*b16n03>
+                            <42*b16n04>
+                            <42*b16n05>
+                            <42*b16n06>
+                            <42*b16n07>
+                            <42*b16n08>
+                            <42*b16n09>
+                            <42*b16n10>
+                            <42*b16n11>
+                            <42*b16n12>
+                            <42*b18n09>
+                            <42*b18n10>
+                            <42*b18n11>
+                            <42*b18n13>
+                            <42*b18n14>
+                            <42*b18n15>
+                            <42*b18n16>
+                            <42*b18n17>
+                            <42*b18n18>
+                            <42*b19n01>
+                            <42*b19n02>
+                            <42*b19n03>
+                            <42*b19n04>
+                            <42*b19n05>
+                            <42*b19n06>
+                            <42*b19n07>
+                            <42*b19n08>
+                            <42*b19n09>
+                            <42*b19n10>
+                            <42*b19n11>
+                            <42*b23n04>
+                            <42*b23n05>
+                            <42*b23n07>
+                            <42*b23n09>
+                            <42*b23n10>
+                            <42*b23n11>
+                            <42*b23n12>
+                            <42*b23n13>
+                            <42*b23n14>
+                            <42*b23n15>
+                            <42*b23n16>
+                            <42*b23n17>
+                            <42*b23n18>
+                            <42*b24n01>
+                            <42*b24n02>
+                            <42*b24n03>
+</ccs/home/dappelh> was used as the home directory.
+</ccs/home/dappelh/codes/coral/umt2016-managed/runs> was used as the working directory.
+Started at Tue May  1 16:39:01 2018
+Terminated at Tue May  1 16:46:01 2018
+Results reported at Tue May  1 16:46:01 2018
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <83572.err> for stderr output of this job.
+

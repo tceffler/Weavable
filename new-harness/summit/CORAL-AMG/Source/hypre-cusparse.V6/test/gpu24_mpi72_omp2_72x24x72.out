@@ -1,0 +1,280 @@
+rank 0 0  using device  0
+starting mps ...
+CUDA_VISIBLE_DEVICES=0
+taskset -c 72-75 /usr/bin/nvidia-cuda-mps-control -d
+rank 1 1  using device  0
+rank 2 2  using device  0
+rank 3 3  using device  1
+rank 4 4  using device  1
+rank 5 5  using device  1
+rank 6 6  using device  2
+rank 7 7  using device  2
+rank 8 8  using device  2
+rank 9 9  using device  3
+rank 10 10  using device  3
+rank 11 11  using device  3
+rank 12 12  using device  4
+rank 13 13  using device  4
+rank 14 14  using device  4
+rank 15 15  using device  5
+rank 16 16  using device  5
+rank 17 17  using device  5
+rank 36 0  using device  0
+CUDA_VISIBLE_DEVICES=0
+taskset -c 72-75 /usr/bin/nvidia-cuda-mps-control -d
+rank 37 1  using device  0
+rank 38 2  using device  0
+rank 39 3  using device  1
+rank 40 4  using device  1
+rank 41 5  using device  1
+rank 42 6  using device  2
+rank 43 7  using device  2
+rank 44 8  using device  2
+rank 45 9  using device  3
+rank 46 10  using device  3
+rank 47 11  using device  3
+rank 48 12  using device  4
+rank 19 1  using device  0
+rank 20 2  using device  0
+rank 21 3  using device  1
+rank 22 4  using device  1
+rank 23 5  using device  1
+rank 24 6  using device  2
+rank 25 7  using device  2
+rank 26 8  using device  2
+rank 27 9  using device  3
+rank 18 0  using device  0
+CUDA_VISIBLE_DEVICES=0
+taskset -c 72-75 /usr/bin/nvidia-cuda-mps-control -d
+rank 49 13  using device  4
+rank 50 14  using device  4
+rank 51 15  using device  5
+rank 29 11  using device  3
+rank 28 10  using device  3
+rank 52 16  using device  5
+rank 53 17  using device  5
+rank 30 12  using device  4
+rank 31 13  using device  4
+rank 32 14  using device  4
+rank 33 15  using device  5
+rank 34 16  using device  5
+rank 35 17  using device  5
+rank 54 0  using device  0
+CUDA_VISIBLE_DEVICES=0
+taskset -c 72-75 /usr/bin/nvidia-cuda-mps-control -d
+rank 55 1  using device  0
+rank 56 2  using device  0
+rank 57 3  using device  1
+rank 58 4  using device  1
+rank 59 5  using device  1
+rank 60 6  using device  2
+rank 61 7  using device  2
+rank 62 8  using device  2
+rank 63 9  using device  3
+rank 64 10  using device  3
+rank 65 11  using device  3
+rank 66 12  using device  4
+rank 67 13  using device  4
+rank 68 14  using device  4
+rank 69 15  using device  5
+rank 70 16  using device  5
+rank 71 17  using device  5
+CUDA_VISIBLE_DEVICES=1
+taskset -c 76-79 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=1
+taskset -c 76-79 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=1
+taskset -c 76-79 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=1
+taskset -c 76-79 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=2
+taskset -c 80-83 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=2
+taskset -c 80-83 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=2
+taskset -c 80-83 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=2
+taskset -c 80-83 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=3
+taskset -c 160-163 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=3
+taskset -c 160-163 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=3
+taskset -c 160-163 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=3
+taskset -c 160-163 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=4
+taskset -c 164-167 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=4
+taskset -c 164-167 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=4
+taskset -c 164-167 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=4
+taskset -c 164-167 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=5
+taskset -c 168-171 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=5
+taskset -c 168-171 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=5
+taskset -c 168-171 /usr/bin/nvidia-cuda-mps-control -d
+CUDA_VISIBLE_DEVICES=5
+taskset -c 168-171 /usr/bin/nvidia-cuda-mps-control -d
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+SStruct Interface  wall clock time = 14.712180 seconds
+SStruct Interface  cpu clock time  = 14.290000 seconds
+
+Number of MPI processes: 72 , Number of OpenMP threads: 2
+
+BoomerAMG SETUP PARAMETERS:
+
+ Max levels = 25
+ Num levels = 10
+
+ Strength Threshold = 0.250000
+ Interpolation Truncation Factor = 0.000000
+ Maximum Row Sum Threshold for Dependency Weakening = 0.900000
+
+ Coarsening Type = HMIS 
+ Hybrid Coarsening (switch to CLJP when coarsening slows)
+ measures are determined locally
+
+ no. of levels of aggressive coarsening: 1
+
+
+ No global partition option chosen.
+
+ Interpolation = extended+i interpolation
+
+Operator Matrix Information:
+
+                  nonzero         entries per row        row sums
+lev        rows   entries  sparse  min  max   avg       min         max
+=========================================================================
+ 0    429981696 3483773280  0.000     4    9   8.1  -4.274e-15   3.000e+02
+ 1     44297057 893007575  0.000     4   51  20.2  -4.299e-12   1.120e+03
+ 2     13461789 479053898  0.000     4  150  35.6  -7.217e-05   1.835e+03
+ 3      4042532 225016113  0.000     6  408  55.7  -5.973e-03   3.992e+03
+ 4       835105 68368461  0.000     8  594  81.9  -4.423e+01   7.296e+03
+ 5       118607 10177702  0.001     9  267  85.8  -3.265e+03   2.442e+04
+ 6        15928  1030092  0.004     9  163  64.7  -3.015e+04   9.017e+04
+ 7         2448   107692  0.018     9   97  44.0  -2.200e+01   1.532e+05
+ 8          119      759  0.054     1   13   6.4   8.035e+00   1.690e+05
+ 9            6       12  0.333     1    3   2.0   2.870e+01   1.480e+03
+
+
+Interpolation Matrix Information:
+
+                             entries/row    min     max         row sums
+lev        rows x cols          min max     weight   weight     min       max 
+=============================================================================
+ 0    429981696 x 44297057       1  12   1.488e-02 1.000e+00 1.759e-01 1.000e+00
+ 1     44297057 x 13461789       1   4   4.554e-03 1.000e+00 1.300e-01 1.000e+00
+ 2     13461789 x 4042532        0   4  -1.475e-02 1.000e+00 0.000e+00 1.000e+00
+ 3      4042532 x 835105         0   4  -2.298e+01 4.358e+01 0.000e+00 1.005e+00
+ 4       835105 x 118607         0   4  -2.376e+02 5.484e+02 -2.492e-02 1.014e+00
+ 5       118607 x 15928          0   4  -2.935e+01 6.512e+01 -5.598e-01 3.205e+00
+ 6        15928 x 2448           0   4  -1.718e+01 2.803e+01 -2.637e-01 1.266e+00
+ 7         2448 x 119            0   4   3.528e-03 1.086e+00 0.000e+00 1.086e+00
+ 8          119 x 6              0   3   3.349e-02 5.025e-01 0.000e+00 1.000e+00
+
+
+     Complexity:    grid = 1.145991
+                operator = 1.481306
+
+
+
+
+BoomerAMG SOLVER PARAMETERS:
+
+  Maximum number of cycles:         1 
+  Stopping Tolerance:               0.000000e+00 
+  Cycle type (1 = V, 2 = W, etc.):  1
+
+  Relaxation Parameters:
+   Visiting Grid:                     down   up  coarse
+            Number of partial sweeps:    2    2     2 
+   Type 0=Jac, 3=hGS, 6=hSGS, 9=GE:     18   18    18 
+   Point types, partial sweeps (1=C, -1=F):
+                  Pre-CG relaxation (down):   0   0
+                   Post-CG relaxation (up):   0   0
+                             Coarsest grid:   0   0
+
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+PCG Setup  wall clock time = 701.351254 seconds
+PCG Setup  cpu clock time  = 1360.920000 seconds
+
+System Size / Setup Phase Time: 8.174348e+05
+
+MAX_NNZ 0 53706240
+MAX_NNZ 1 22363776
+MAX_NNZ 2 11181888
+MAX_NNZ 3 17205302
+MAX_NNZ 4 6339997
+MAX_NNZ 5 1153301
+MAX_NNZ 6 125518
+MAX_NNZ 7 18612
+MAX_NNZ 8 158
+MAX_NNZ 9 6
+<b,b>: 6.200368e+10
+
+
+Iters       ||r||_2     conv.rate  ||r||_2/||b||_2
+-----    ------------   ---------  ------------ 
+    1    1.371054e+05    0.550612    5.506121e-01
+ITERATION 1 0.0862451
+    2    3.545885e+04    0.258625    1.424019e-01
+ITERATION 2 0.0866871
+    3    6.798460e+03    0.191728    2.730246e-02
+ITERATION 3 0.086038
+    4    2.631417e+03    0.387061    1.056771e-02
+ITERATION 4 0.0858477
+    5    8.052289e+02    0.306006    3.233781e-03
+ITERATION 5 0.0859102
+    6    2.223271e+02    0.276104    8.928605e-04
+ITERATION 6 0.0861531
+    7    6.981948e+01    0.314039    2.803934e-04
+ITERATION 7 0.0863783
+    8    2.443334e+01    0.349950    9.812376e-05
+ITERATION 8 0.0862087
+    9    8.134874e+00    0.332941    3.266947e-05
+ITERATION 9 0.0863813
+   10    3.406973e+00    0.418811    1.368233e-05
+ITERATION 10 0.0858199
+   11    1.067091e+00    0.313208    4.285413e-06
+ITERATION 11 0.0860367
+   12    4.424099e-01    0.414594    1.776708e-06
+ITERATION 12 0.0862641
+   13    1.614905e-01    0.365025    6.485422e-07
+
+
+CUDA memory usage per fine row: 2.1137e-06 GB
+LEVEL_TIME 0 0.0257818
+LEVEL_TIME 1 0.0117736
+LEVEL_TIME 2 0.00873062
+LEVEL_TIME 3 0.0139973
+LEVEL_TIME 4 0.00609566
+LEVEL_TIME 5 0.00364792
+LEVEL_TIME 6 0.00289643
+LEVEL_TIME 7 0.00168735
+LEVEL_TIME 8 0.000295901
+LEVEL_TIME 9 4.65109e-05
+=============================================
+Solve phase times:
+=============================================
+PCG Solve:
+PCG Solve  wall clock time = 1.345631 seconds
+PCG Solve  cpu clock time  = 2.230000 seconds
+
+AMG2013 Benchmark version 1.0
+Iterations = 13
+Final Relative Residual Norm = 6.485422e-07
+
+System Size * Iterations / Solve Phase Time: 5.538678e+09
+
+stopping mps ...

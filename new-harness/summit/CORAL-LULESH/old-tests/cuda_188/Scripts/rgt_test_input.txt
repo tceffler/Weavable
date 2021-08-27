@@ -1,0 +1,15 @@
+jobname = lulesh_cuda_188node
+total_processes = 3375
+processes_per_node = 18
+nodes = 188
+projectid = stf006accept
+batchqueue = batch
+walltime = 30
+compilermodulefile = gcc
+executablename = lulesh.cuda
+batchfilename = run_lulesh.sh
+buildscriptname = ./build_lulesh.sh
+checkscriptname = ./check_lulesh.sh
+reportscriptname = ./report_lulesh.sh
+resubmitme = 0
+

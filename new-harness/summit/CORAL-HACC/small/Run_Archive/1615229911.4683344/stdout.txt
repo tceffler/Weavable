@@ -1,0 +1,98 @@
+Partition 3D: [2:2:2]
+Allocated heap: 89.31 MB (large) + 11.11 MB (small) used, 0.58 MB unused
+Done loading parameters.
+Initializing redistribution using a pencil layout on 8 ranks.
+distribution 1D: [8:1:1]
+distribution 3D: [2:2:2]
+distribution 2z: [4:2:1]
+distribution 2x: [1:4:2]
+distribution 2y: [4:1:2]
+
+Initializer will use 8 processors.
+320^3 grid
+Decomposing into pencils...............done
+Using white noise initializer
+
+sigma_8 = 0.800000, target was 0.800000
+redshift: 50.000000; growth factor = 0.025580; derivative = 4.929764
+
+
+FFT DONE!
+
+Min and max value of density in k space: -371.476 405.44
+Average value of density in k space: -0.00223318
+
+FFT DONE!
+
+Max value of the imaginary part of density is 1.99217e-10
+Min and max value of density in code units: -8.35731 7.68766
+Average value of density in code units: 5.44242e-09
+
+FFT DONE!
+
+FFT DONE!
+
+Max value of the imaginary part of the force is 4410.11
+Min and max value of force in code units: -4.88172 5.00404
+Average value of force in code units: -3.7998e-07
+Max move in X: 0.128001
+Average move in X: 0.0187187
+
+FFT DONE!
+
+FFT DONE!
+
+Max value of the imaginary part of the force is 4456.3
+Min and max value of force in code units: -4.85202 4.7243
+Average value of force in code units: 2.8708e-07
+Max move in Y: 0.124112
+Average move in Y: 0.0185683
+
+FFT DONE!
+
+FFT DONE!
+
+Max value of the imaginary part of the force is 4082.72
+Min and max value of force in code units: -4.7506 4.96679
+Average value of force in code units: 8.87085e-08
+Max move in Z: 0.127048
+Average move in Z: 0.0186245
+
+
+====================================================================
+Initializer: code performance summary 
+             code beginning : Mon Mar  8 14:00:18 2021
+             code ending    : Mon Mar  8 14:00:22 2021
+             total run time : 4.4 seconds 
+====================================================================
+
+Routine            # of calls       Time [s]       Percent of total 
+--------------------------------------------------------------------
+Initialization       1              0.05               1.136    
+Creating Pk(x,y,z)   1              0.5                11.36    
+Tests                7              0.97               22.05    
+Creating rho(x,y,z)  3              1.48               33.64    
+Poisson solve        3              1.05               23.86    
+Particle move        3              0.03               0.6818   
+Output               3              0.03               0.6818   
+====================================================================
+
+PXCH buffer = 2*633464 = 1.208237 MB
+InitialExchange TotalAliveParticles 32768000
+
+------------------------------------
+boxSize:  2016
+deltaBox: 12.6
+PXCH buffer = 2*2192362 = 4.181599 MB
+TotalAliveParticles 32768000
+TotalDeadParticles  2521117
+
+
+Allocated heap: 286.38 MB (large) + 11.29 MB (small) used, 0.65 MB unused
+Initializing redistribution using a pencil layout on 8 ranks.
+distribution 1D: [8:1:1]
+distribution 3D: [2:2:2]
+distribution 2z: [4:2:1]
+distribution 2x: [1:4:2]
+distribution 2y: [4:1:2]
+P(k) initial

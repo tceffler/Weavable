@@ -1,0 +1,19 @@
+#BSUB -P VEN101
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -nnodes 2
+#BSUB -W 20
+#---------------------------------
+ulimit -s 10240
+
+unset OMP_NUM_THREADS
+#export CUDA_LAUNCH_BLOCKING=1
+
+jsrun  -p 8 -c 7 -g1 /ccs/home/hfwen/bin/jsm_setup.sh ./lulesh -s 35 -p
+
+#JSRUN unset CUDA_VISIBLE_DEVICES; set OMP_NUM_THREADS=1
+# For LLNL
+# jsrun -r4 -n 64 -a1  -g1 -c11 ./lulesh -s 202 -i 1000
+# FOR ORNL
+# jsrun  --np 64   -g1 -c7 ./lulesh -s 184 -i 1000
+

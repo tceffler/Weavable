@@ -1,0 +1,1 @@
+jsrun -n 2 -c 21 -a 21 -r 2 -e individual -o fwq_times.%h.%t -k fwq_err.%h.%t /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-FTQ/test_1n/1614025243.7985833/build_directory/bin/fwq -s -w 16 -n 10000

@@ -1,0 +1,24 @@
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -nnodes 16
+#BSUB -q batch
+#BSUB -P VEN201
+#BSUB -W 50
+####BSUB -env "all,LSF_CPU_ISOLATION=on,LSF_IRQ_ISOLATION=on, LSF_START_JOBS_MPS=N"
+
+#---------------------------------------
+
+ulimit -s 10240
+export BIND_THREADS=yes
+export USE_GOMP=yes
+export USE_MPS=yes
+export RANKS_PER_NODE=20
+
+export CUDA_LAUNCH_BLOCKING=0
+
+echo 'starting jsrun'
+
+#/opt/ibm/spectrum_mpi/jsm_pmix/bin/jsrun --rs_per_host 1 --tasks_per_rs 20 --cpu_per_rs 42 --gpu_per_rs 6 --nrs 16 -d plane:20 ./helper_4gpu.sh ../Teton/SuOlsonTest 5x8x8_20.cmg 16 2 16 8 4
+jsrun --rs_per_host 1 --tasks_per_rs 20 --cpu_per_rs 42 --gpu_per_rs 6 --nrs 16 -d plane:20 ./helper_4gpu.sh ../Teton/SuOlsonTest 5x8x8_20.cmg 16 2 16 8 4
+
+

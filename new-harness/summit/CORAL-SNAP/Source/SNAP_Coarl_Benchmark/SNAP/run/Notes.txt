@@ -1,0 +1,62 @@
+July 27, 2018
+
+216 nodes, 40 ranks/node, measured on Summit
+
+Ynodes 18
+Znodes 12
+Ylocal  5
+Zlocal  8
+
+input.90x96_258x540x480  ... good geometry 
+138764.out
+$ grep Grind out.cpu.07_27_15_47_46
+  Grind Time (nanoseconds)         3.6183E-03  => FOM = 276.4
+
+try a job at 80 ranks/node 
+Ynodes 12
+Znodes 18
+Ylocal 10
+Zlocal  8
+=> 120x144 MPI decomp
+input.120x144_240x480x576
+$ $ grep Grind out.cpu.07_27_16_05_40
+  Grind Time (nanoseconds)         3.4347E-03  => FOM = 291.1
+
+repeat :
+$ grep Grind out.cpu.07_27_16_24_45
+  Grind Time (nanoseconds)         3.5352E-03  => FOM = 282.8
+
+for 192-node Summit job at 80 MPI ranks/node
+Ynodes 12
+Znodes 16
+Ylocal 10
+Zlocal  8
+=>120x128 MPI decomp
+input.120x128_480x480x512
+$ grep Grind out.cpu.07_27_16_37_01
+  Grind Time (nanoseconds)         3.8891E-03  => FOM = 257.1
+
+got better results on Summit with 1 rank/core, 42 ranks/node ...
+average FOM = 266.7
+
+July 28, 2018
+
+repeat sierra-like job, 216 nodes, 80 ranks/node, input.120x144_240x480x576
+this one had -MXM   (note that message are short, so this is probably ok)
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+August 6, 2018
+
+$ grep Grind out.cpu.08_06*
+out.cpu.08_06_11_35_07:  Grind Time (nanoseconds)         4.1265E-03   80 ranks/node smt4
+out.cpu.08_06_12_00_01:  Grind Time (nanoseconds)         3.6169E-03   42 ranks/node smt1
+out.cpu.08_06_12_27_20:  Grind Time (nanoseconds)         3.8939E-03   42 ranks/node smt4
+
+at this stage, it is best to use 42 ranks/node at smt1 for the CPU code
+but ... smt4 measurement is likely affected by slow core issue ... still not fixed
+
+August 13, 2018
+
+persistent slow core problem is now fixed, but smt4 has extra noise compared to smt1
+so ... use smt1 and 1 rank per core for snap

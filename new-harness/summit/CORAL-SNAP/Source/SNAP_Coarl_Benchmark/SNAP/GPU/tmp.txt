@@ -1,0 +1,161 @@
+31,32c31,32
+< //  __shared__ double* wpsi; wpsi = &(smem_pool[0]);
+< //  __shared__ double* wpsum; wpsum = &(smem_pool[33*32]);
+---
+>   __shared__ double* wpsi; wpsi = &(smem_pool[0]);
+>   __shared__ double* wpsum; wpsum = &(smem_pool[33*32]);
+73d72
+<   for(int ii=0;ii<jj+kk;ii++) {__syncthreads();  __syncthreads();}
+77a77
+>     for(int ii=0;ii<jj+kk;ii++) {__syncthreads();  __syncthreads();}
+240c240
+<         //*psi_save_b = psi; psi_save_b += WARP_SIZE;
+---
+>         *psi_save_b = psi; psi_save_b += WARP_SIZE;
+250,288d249
+<         {
+<           double wpsi = w_aa(curAng,bb) * psi;
+<           double wpsum = 0;
+< 
+<           //each thread calc one of cmom
+<           for(int wid=bb;wid<cmom;wid+=16)
+<           {
+<             if(wid==0)
+<             { 
+<               if ( curAng == 0 && oct == 0 ) wpsum = 0;
+<               else wpsum = flux_aa(xx,yy,zz,curGrp);
+<             }
+<             else
+<             {
+<               if ( curAng == 0 && oct == 0 ) wpsum = 0;
+<               else wpsum = fluxm_aa(wid-1,xx,yy,zz,curGrp);
+<             }
+<           
+<             for(int idx=0;idx<16;idx++)
+<             {
+<                double v1;
+<                v1 = __shfl_sync(0xFFFF0000,wpsi,idx,32);
+<                v1 = __shfl_sync(0x0000FFFF,wpsi,idx+16,32);
+<                if(wid==0)
+<                  wpsum += v1;
+<                else
+<                //wpsum += v1 * ec_aa(curAng,idx,wid,oct);
+<                  wpsum += v1 * smem_ec[aa+32*(wid-1)];
+<             }
+<             if(wid==0)
+<             { 
+<               flux_aa(xx,yy,zz,curGrp) = wpsum;
+<             }
+<             else
+<             {
+<               fluxm_aa(wid-1,xx,yy,zz,curGrp) = wpsum;
+<             }
+<           }
+<         }
+328d288
+<   for(int ii=0;ii<(jchunk+kchunk-2)-(jj+kk);ii++) {__syncthreads(); __syncthreads();}
+335a296,397
+>     //issue remaining syncthreads
+>     for(int ii=0;ii<(jchunk+kchunk-2)-(jj+kk);ii++) {__syncthreads(); __syncthreads();}
+> 
+>     //idea
+>     //4x4 warps and 32 threads
+>     //
+>     
+>      __threadfence_block();
+> 
+> //    int tid=aa;
+> //    int wid = jj + jchunk*kk;
+> //    int bb=aa % 16;
+> //    oct = oct & 0x6;
+> //    #define wpsi(i,j) wpsi[i + 33*(j)]
+> //    #define wpsum(l,a) wpsum[a + 32*(l)]
+> //    for(int ic=0;ic<NC;ic++)
+> //    {
+> //
+> //      int xxT = ic * ichunk + tid;
+> //      int xxW0 = wid+ic*ichunk; xxW0 = xFlip?(nx-1-xxW0):xxW0;
+> //      int xxW1 = xFlip?xxW0-16:xxW0+16;
+> //      //xFlip=1 16-31. oct=oct &0x6
+> //      //xFlip=0  0-15. oct=oct &0x6 + 1
+> //
+> //      for(int jjl=0;jjl<4;jjl++)
+> //      for(int kkl=0;kkl<4;kkl++)
+> //      {
+> //        //shadow yy,zz
+> //        int yy = yC*jchunk + jjl; yy = yFlip?(ny-yy-1):yy;
+> //        int zz = zC*kchunk + kkl; zz = zFlip?(nz-zz-1):zz;
+> //
+> //        __syncthreads();
+> //
+> //        wpsi(wid,tid) = w_aa(curAng,bb) * psi_save(xxW0,yy,zz,tid);
+> //        wpsi(wid+16,tid) = w_aa(curAng,bb) * psi_save(xxW1,yy,zz,tid);
+> //        //tid  0-15. xxW0 0-15, xxW1 16-31, 
+> //        //tid 16-15. flip : xxW0 0-15, xxW1 16-31, 
+> //
+> //        __syncthreads();
+> //
+> //        if(wid<cmom)
+> //        {
+> //          if(wid==0)
+> //          { 
+> //            if ( curAng == 0 && oct == 0 ) wpsum(wid,tid) = 0;
+> //            else wpsum(wid,tid) = flux_aa(xxT,yy,zz,curGrp);
+> //          }
+> //          else
+> //          {
+> //            if ( curAng == 0 && oct == 0 ) wpsum(wid,tid) = 0;
+> //            else wpsum(wid,tid) = fluxm_aa(wid-1,xxT,yy,zz,curGrp);
+> //          }
+> //
+> //          //thread maps x-dir
+> //          //warp maps mom
+> //          if(wid==0)
+> //          {
+> //            for(int an=0;an<16;an++)
+> //            {
+> //              wpsum(wid,tid) += wpsi(tid,an);
+> //              wpsum(wid,tid) += wpsi(tid,an+16);
+> //            }
+> //          }
+> //          else
+> //          {
+> //            const double* ec_aa_value0 = &ec_aa(curAng,0,wid,oct);
+> //            const double* ec_aa_value1 = &ec_aa(curAng,0,wid,oct+1);
+> //
+> //            for(int an=0;an<16;an++)
+> //            {
+> ////              wpsum(wid,tid) +=  ec_aa(curAng,an,wid,oct+1) * wpsi(tid,an);
+> ////              wpsum(wid,tid) +=  ec_aa(curAng,an,wid,oct)   * wpsi(tid,an+16);
+> //
+> ////                if ( xxT==0 && yy==0 && zz==0 && wid==1 && curGrp==0)
+> ////                   printf("ang=%d ec=%e wpsi=%e oct=%d ec=%e wpsi=%e oct=%d\n",curAng*16+an,*(ec_aa_value1),wpsi(tid,an),oct+1,*(ec_aa_value0),wpsi(tid,an+16),oct);
+> //
+> //              wpsum(wid,tid) +=  *(ec_aa_value1)  * wpsi(tid,an);
+> //              wpsum(wid,tid) +=  *(ec_aa_value0)  * wpsi(tid,an+16);
+> //              ec_aa_value0++;
+> //              ec_aa_value1++;
+> //
+> //            }
+> ////            if ( xxT==0 && yy==0 && zz==0 && wid==1 && curGrp==0)
+> ////                 printf("oct=%d fluxm=%e\n",oct,wpsum(wid,tid));
+> //          }
+> //        
+> //
+> //          if(wid==0)
+> //          { 
+> //            flux_aa(xxT,yy,zz,curGrp) = wpsum(wid,tid);
+> //          }
+> //          else
+> //          {
+> //            fluxm_aa(wid-1,xxT,yy,zz,curGrp) = wpsum(wid,tid);
+> //          }
+> //        }
+> //      }
+> //    } //end of sum
+> //
+> //    //bring it back 
+> //    oct = ( 1 - xFlip ) + oct;
+> 
+344d405
+< 

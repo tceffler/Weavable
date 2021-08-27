@@ -1,0 +1,253 @@
+NUM_RS = 
+CPUS_PER_RS = 
+jsrun --progress ./progress_UMT.773567 --stdio_mode=prepend -D CUDA_VISIBLE_DEVICES -E OMP_NUM_THREADS=14 --nrs 1152  --tasks_per_rs 1 --cpu_per_rs 7 --gpu_per_rs 1 --bind=proportional-packed:7 -d plane:1 /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-UMT/opt_n0192/1614627734.40128/build_directory/bin/SuOlsonTest 8x12x12_38.cmg 16 2 16 8 4 1> stdout.txt 2> stderr.txt
+Creating machine of type summit with scheduler of type lsf and job launcher of type jsrun
+
+Creating scheduler
+Creating jobLauncher
+RGT Test Parameters - Builtin
+=============================
+job_name = umt_opt_n0016
+total_processes = 1152
+processes_per_node = 6
+nodes = 192
+project_id = csc425
+batch_queue = batch
+walltime = 60
+executable_path = bin
+batch_filename = run_umt_opt_n0192.sh
+build_cmd = ./build_umt.sh opt
+check_cmd = ./check_umt.sh opt
+report_cmd = ./report_umt.sh
+RGT Test Parameters - User
+==========================
+threads = 14
+executablename = SuOlsonTest
+inputfile = 8x12x12_38.cmg
+execargs = 16 2 16 8 4
+alloc_flags = smt2
+resubmitme = 1
+Running check executable script on Power9 using check script ./check_umt.sh opt
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0192/Scripts
+Starting check script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0192/Run_Archive/1614627734.40128
+Using check command: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0192/Scripts/./check_umt.sh opt
+Writing check_exit_status = 0 into /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0192/Status/1614627734.40128/job_status.txt
+Running report executable script on Power9 using report script ./report_umt.sh
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0192/Scripts
+Starting report script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0192/Run_Archive/1614627734.40128
+Using report script: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0192/Scripts/./report_umt.sh
+check_exit_value = 0
+No resubmit
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 773567: <umt_opt_n0016> in cluster <summit> Done
+
+Job <umt_opt_n0016> was submitted from host <login2> by user <bzf> in cluster <summit> at Mon Mar  1 14:42:20 2021
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <bzf> in cluster <summit> at Mon Mar  1 14:42:47 2021
+                            <42*b28n15>
+                            <42*b36n11>
+                            <42*b36n12>
+                            <42*b36n13>
+                            <42*b36n14>
+                            <42*b36n15>
+                            <42*b36n16>
+                            <42*b36n17>
+                            <42*b36n18>
+                            <42*c01n01>
+                            <42*c01n02>
+                            <42*c01n03>
+                            <42*c01n04>
+                            <42*c01n05>
+                            <42*c01n06>
+                            <42*c01n07>
+                            <42*c01n08>
+                            <42*c01n09>
+                            <42*c01n10>
+                            <42*c01n11>
+                            <42*c01n12>
+                            <42*c01n13>
+                            <42*c01n14>
+                            <42*c01n15>
+                            <42*c01n16>
+                            <42*c01n17>
+                            <42*c01n18>
+                            <42*c02n01>
+                            <42*c02n02>
+                            <42*c02n03>
+                            <42*c02n04>
+                            <42*c02n05>
+                            <42*c02n06>
+                            <42*c02n07>
+                            <42*c02n08>
+                            <42*c02n09>
+                            <42*c02n10>
+                            <42*c02n11>
+                            <42*c02n12>
+                            <42*c02n13>
+                            <42*c02n14>
+                            <42*c02n15>
+                            <42*c02n16>
+                            <42*c02n17>
+                            <42*c02n18>
+                            <42*c03n01>
+                            <42*c03n02>
+                            <42*c03n03>
+                            <42*c03n04>
+                            <42*c03n05>
+                            <42*c05n14>
+                            <42*c05n15>
+                            <42*c05n16>
+                            <42*c06n01>
+                            <42*c06n02>
+                            <42*d05n13>
+                            <42*g09n09>
+                            <42*g19n14>
+                            <42*g27n04>
+                            <42*g27n05>
+                            <42*g27n06>
+                            <42*g27n07>
+                            <42*g27n08>
+                            <42*g27n09>
+                            <42*g27n10>
+                            <42*g27n11>
+                            <42*g27n12>
+                            <42*g27n13>
+                            <42*g27n14>
+                            <42*g27n15>
+                            <42*g27n16>
+                            <42*g27n17>
+                            <42*g27n18>
+                            <42*g28n01>
+                            <42*g28n02>
+                            <42*g28n03>
+                            <42*g28n04>
+                            <42*g28n05>
+                            <42*g28n06>
+                            <42*g28n07>
+                            <42*g28n08>
+                            <42*g28n09>
+                            <42*g28n10>
+                            <42*g28n11>
+                            <42*g28n12>
+                            <42*g28n14>
+                            <42*g28n15>
+                            <42*g28n16>
+                            <42*g28n17>
+                            <42*g28n18>
+                            <42*g29n01>
+                            <42*g29n02>
+                            <42*g29n03>
+                            <42*g29n04>
+                            <42*g29n05>
+                            <42*g29n06>
+                            <42*g29n07>
+                            <42*g29n08>
+                            <42*g29n09>
+                            <42*g29n10>
+                            <42*g29n11>
+                            <42*g29n12>
+                            <42*g29n13>
+                            <42*g29n14>
+                            <42*g29n15>
+                            <42*g29n16>
+                            <42*g29n17>
+                            <42*g29n18>
+                            <42*g30n01>
+                            <42*g30n02>
+                            <42*g30n04>
+                            <42*g30n07>
+                            <42*g30n09>
+                            <42*g30n10>
+                            <42*g30n11>
+                            <42*g30n12>
+                            <42*g30n13>
+                            <42*g30n14>
+                            <42*g30n15>
+                            <42*g30n16>
+                            <42*g30n17>
+                            <42*g30n18>
+                            <42*g31n01>
+                            <42*g31n03>
+                            <42*g31n04>
+                            <42*g31n05>
+                            <42*g31n06>
+                            <42*g31n07>
+                            <42*g32n04>
+                            <42*g32n07>
+                            <42*g32n08>
+                            <42*g32n09>
+                            <42*g32n10>
+                            <42*g32n11>
+                            <42*g32n12>
+                            <42*g32n13>
+                            <42*g32n14>
+                            <42*g32n15>
+                            <42*g32n16>
+                            <42*g32n17>
+                            <42*g32n18>
+                            <42*g33n01>
+                            <42*g34n01>
+                            <42*g35n06>
+                            <42*g35n07>
+                            <42*g35n08>
+                            <42*g35n09>
+                            <42*g35n10>
+                            <42*g35n11>
+                            <42*g35n12>
+                            <42*g35n13>
+                            <42*g35n14>
+                            <42*g35n15>
+                            <42*g36n06>
+                            <42*g36n07>
+                            <42*g36n08>
+                            <42*h09n01>
+                            <42*h09n02>
+                            <42*h09n04>
+                            <42*h09n05>
+                            <42*h09n06>
+                            <42*h09n07>
+                            <42*h09n08>
+                            <42*h09n09>
+                            <42*h09n10>
+                            <42*h09n11>
+                            <42*h09n12>
+                            <42*h09n13>
+                            <42*h09n14>
+                            <42*h09n15>
+                            <42*h09n16>
+                            <42*h09n17>
+                            <42*h09n18>
+                            <42*h10n01>
+                            <42*h10n02>
+                            <42*h10n03>
+                            <42*h10n04>
+                            <42*h10n05>
+                            <42*h10n06>
+                            <42*h10n07>
+                            <42*h10n08>
+                            <42*h10n09>
+                            <42*h10n10>
+                            <42*h10n11>
+                            <42*h10n12>
+                            <42*h10n13>
+                            <42*h10n16>
+                            <42*h10n17>
+                            <42*h10n18>
+                            <42*h11n01>
+                            <42*h11n07>
+                            <42*h11n08>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0192/Run_Archive/1614627734.40128> was used as the working directory.
+Started at Mon Mar  1 14:42:47 2021
+Terminated at Mon Mar  1 14:53:22 2021
+Results reported at Mon Mar  1 14:53:22 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0192/Run_Archive/1614627734.40128/umt_opt_n0016.e773567> for stderr output of this job.
+

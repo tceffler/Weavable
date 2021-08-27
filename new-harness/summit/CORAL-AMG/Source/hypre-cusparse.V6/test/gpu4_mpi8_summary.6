@@ -1,0 +1,165 @@
+==2450== NVPROF is profiling process 2450, command: ./amg2013 -pooldist 1 -r 72 72 36 -P 1 1 1
+==2450== Profiling application: ./amg2013 -pooldist 1 -r 72 72 36 -P 1 1 1
+==2450== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   27.68%  300.18ms      1456  206.17us  2.6240us  1.3946ms  void ellmv_val<double, bool=1>(int, int, int, int, int const *, double const *, double, double, double const *, double*, int)
+                   24.13%  261.68ms        44  5.9474ms  4.0640us  97.757ms  void cusparseCsr2Hyb_Kernel<double, int=0>(int, int, int const *, double const *, int const *, int const *, int, int, int*, double*, int*, int*, double*)
+                   18.57%  201.40ms       140  1.4386ms  7.3690us  49.984ms  [CUDA memcpy HtoH]
+                    6.16%  66.834ms       835  80.040us  1.2160us  15.731ms  [CUDA memcpy HtoD]
+                    5.97%  64.701ms        53  1.2208ms  53.888us  4.4304ms  void stable_sort_by_key_merge_core<int=256, int=4>(int, int*, int*, int*, int*, int*, int*)
+                    3.18%  34.449ms       392  87.880us  1.4720us  586.88us  l1_norm_kernel_v2
+                    2.94%  31.938ms        53  602.60us  5.9200us  2.7245ms  void stable_sort_by_key_local_core<int=256, int=4>(int, int, int*, int*, int*, int*)
+                    2.13%  23.058ms        64  360.27us  1.4720us  2.2075ms  void stable_sort_by_key_stop_core<int=256, int=4>(int, int*, int*)
+                    1.59%  17.239ms       401  42.988us  1.1840us  288.45us  [CUDA memcpy DtoD]
+                    1.42%  15.390ms        10  1.5390ms  6.6240us  13.286ms  grab_diagonals_kernel
+                    1.31%  14.201ms        84  169.06us  93.824us  326.11us  void dot_kernel<double, double, double, int=128, int=0, int=0>(cublasDotParams<double, double>)
+                    0.91%  9.8343ms        38  258.80us  252.61us  266.82us  void axpy_kernel_val<double, double, int=0>(cublasAxpyParamsVal<double, double, double>)
+                    0.86%  9.2769ms        14  662.64us  3.7440us  5.3355ms  void convert_CsrToCoo_kernel<int=0>(int const *, int, int, int*)
+                    0.80%  8.7137ms       127  68.611us  1.3120us  184.16us  void copy_kernel<double, int=0>(cublasCopyParams<double>)
+                    0.55%  5.9604ms        14  425.74us  3.1040us  5.0504ms  void CsrToCsc_kernel_build_cscRowInd_cscVal<double, int=1>(cusparseCsrToCscParams<double>)
+                    0.48%  5.2394ms        14  374.25us  4.5440us  4.5385ms  void CsrToCsc_kernel_build_cscColPtr<double, int=0>(cusparseCsrToCscParams<double>)
+                    0.22%  2.4390ms       616  3.9590us  1.4400us  23.712us  create_comm_buffer
+                    0.22%  2.4212ms       985  2.4580us  1.5680us  49.408us  [CUDA memcpy DtoH]
+                    0.20%  2.1872ms       112  19.528us  6.4320us  126.05us  kernel_SetConstantValue
+                    0.19%  2.1044ms        12  175.37us  174.02us  180.10us  void scal_kernel_val<double, double, int=0>(cublasScalParamsVal<double, double>)
+                    0.19%  2.0232ms        14  144.51us  2.9440us  1.6860ms  void CsrToCsc_kernel_copy_and_pset<double>(cusparseCsrToCscParams<double>)
+                    0.09%  1.0015ms        84  11.923us  6.4640us  45.056us  kernel_assemble_transpose_result
+                    0.08%  830.18us        86  9.6530us  4.0000us  29.856us  void stable_sort_by_key_domino_phase1<int=256, int=4>(int, int, int, int*, int*, int*, int*, int*, int*)
+                    0.03%  341.98us       250  1.3670us  1.1200us  40.576us  [CUDA memset]
+                    0.03%  273.89us        84  3.2600us  2.7200us  4.1920us  void reduce_1Block_kernel<double, double, double, int=128, int=7>(double*, int, double*)
+                    0.02%  260.77us        10  26.076us  6.6880us  190.34us  reciprocal_kernel
+                    0.02%  245.09us        53  4.6240us  4.3840us  4.9920us  void cusparseIinclusive_scan_domino_v1_core<int=256, int=4>(int, int*, int*, int*, int*, int*)
+                    0.02%  206.14us        53  3.8890us  3.5520us  4.3840us  void cusparseIinclusive_localscan_core<int=256, int=4>(int, int*, int*, int*)
+                    0.01%  122.40us        53  2.3090us  2.0800us  8.0640us  void cusparseIinclusive_scan_merge_core<int=256, int=4>(int, int, int*, int*, int*)
+      API calls:   27.73%  2.49658s        22  113.48ms  1.5864ms  2.20358s  cudaHostRegister
+                   24.06%  2.16599s        78  27.769ms  2.7630us  1.07814s  cudaFree
+                   16.36%  1.47353s       475  3.1022ms     856ns  204.46ms  cudaMalloc
+                   14.41%  1.29731s       156  8.3161ms     946ns  380.13ms  cudaHostAlloc
+                    5.47%  492.66ms       313  1.5740ms     967ns  218.16ms  cudaMemcpy
+                    4.09%  367.96ms      2364  155.65us  9.3450us  4.9431ms  cudaStreamSynchronize
+                    3.36%  302.73ms      2066  146.53us  18.007us  11.351ms  cudaMemcpyAsync
+                    1.54%  138.39ms      3540  39.091us  23.851us  178.12us  cudaLaunch
+                    1.24%  111.32ms        20  5.5660ms  1.2696ms  11.697ms  cudaHostUnregister
+                    0.56%  50.827ms       276  184.16us     596ns  8.6607ms  cuDeviceGetAttribute
+                    0.21%  18.693ms       305  61.288us  13.768us  822.75us  cudaDeviceSynchronize
+                    0.19%  16.699ms     25589     652ns     508ns  144.70us  cudaSetupArgument
+                    0.18%  15.968ms      1456  10.966us  9.9660us  19.260us  cudaBindTexture
+                    0.12%  11.175ms      2912  3.8370us  3.2160us  12.533us  cudaPointerGetAttributes
+                    0.11%  10.185ms         2  5.0926ms  1.4747ms  8.7105ms  cudaMemGetInfo
+                    0.09%  7.7631ms       250  31.052us  24.249us  168.17us  cudaMemsetAsync
+                    0.07%  6.1424ms      1456  4.2180us  3.8610us  12.265us  cudaUnbindTexture
+                    0.06%  5.0116ms      6794     737ns     545ns  8.2050us  cudaGetLastError
+                    0.05%  4.9032ms         3  1.6344ms  1.4003ms  2.0568ms  cuDeviceTotalMem
+                    0.03%  2.8994ms      3540     819ns     574ns  11.256us  cudaConfigureCall
+                    0.03%  2.7184ms         3  906.13us  281.54us  1.3977ms  cuDeviceGetName
+                    0.02%  2.2463ms       112  20.056us  18.437us  29.369us  cudaFuncGetAttributes
+                    0.01%  680.32us        84  8.0990us  7.6090us  15.896us  cudaEventQuery
+                    0.01%  666.03us       140  4.7570us  3.4690us  25.837us  cudaHostGetDevicePointer
+                    0.00%  424.43us        84  5.0520us  4.7010us  6.0820us  cudaEventRecord
+                    0.00%  415.74us         2  207.87us  76.186us  339.55us  cudaStreamCreate
+                    0.00%  120.95us        32  3.7790us  3.4140us  7.9860us  cudaFuncSetAttribute
+                    0.00%  63.572us        16  3.9730us  3.6130us  6.4350us  cudaEventCreateWithFlags
+                    0.00%  41.539us        21  1.9780us  1.5200us  4.9350us  cudaDeviceGetAttribute
+                    0.00%  26.011us         2  13.005us  4.7640us  21.247us  cudaSetDevice
+                    0.00%  15.156us         2  7.5780us  4.8010us  10.355us  cudaGetDevice
+                    0.00%  10.528us         5  2.1050us     853ns  5.6560us  cuDeviceGetCount
+                    0.00%  4.5630us         2  2.2810us  1.0800us  3.4830us  cudaGetDeviceCount
+                    0.00%  4.5560us         2  2.2780us  1.7950us  2.7610us  cuDriverGetVersion
+                    0.00%  4.3410us         4  1.0850us     873ns  1.3320us  cuDeviceGet
+                    0.00%  4.0430us         2  2.0210us  1.5190us  2.5240us  cuInit
+
+==2450== NVTX result:
+==2450==   Thread "<unnamed>" (id = 309424)
+==2450==     Domain "<unnamed>"
+==2450==       Range "MPI_Allreduce"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  70.105ms        84  834.58us  5.6410us  4.2630ms  MPI_Allreduce
+No kernels were profiled in this range.
+No API activities were profiled in this range.
+
+==2450==       Range "MPI_Irecv"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  1.8551ms       865  2.1440us  1.0940us  16.091us  MPI_Irecv
+No kernels were profiled in this range.
+No API activities were profiled in this range.
+
+==2450==       Range "MPI_Isend"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  5.2273ms       865  6.0430us  1.0370us  1.2185ms  MPI_Isend
+No kernels were profiled in this range.
+No API activities were profiled in this range.
+
+==2450==       Range "MPI_Waitall"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  1.83848s      1066  1.7246ms  1.4530us  914.85ms  MPI_Waitall
+No kernels were profiled in this range.
+No API activities were profiled in this range.
+
+==2450==       Range "hypre_ParCSRMatrixMatvec"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  492.99ms       296  1.6655ms  9.7710us  102.16ms  hypre_ParCSRMatrixMatvec
+ GPU activities:   98.23%  126.31ms       476  265.36us  2.6240us  1.3946ms  void ellmv_val<double, bool=1>(int, int, int, int, int const *, double const *, double, double, double const *, double*, int)
+                    0.74%  945.12us       224  4.2190us  1.4400us  12.320us  create_comm_buffer
+                    0.55%  703.71us       245  2.8720us  1.2160us  9.4080us  [CUDA memcpy HtoD]
+                    0.49%  625.89us       224  2.7940us  1.6000us  7.1680us  [CUDA memcpy DtoH]
+      API calls:   65.07%  63.164ms       462  136.72us  20.727us  2.7141ms  cudaMemcpyAsync
+                   34.70%  33.681ms       700  48.115us  24.674us  81.184us  cudaLaunch
+                    0.23%  225.97us         7  32.281us  28.598us  48.797us  cudaMemcpy
+
+==2450==       Range "hypre_ParCSRMatrixMatvecT"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  74.471ms       126  591.04us  10.042us  4.5662ms  hypre_ParCSRMatrixMatvecT
+ GPU activities:   94.75%  25.751ms       196  131.38us  3.7760us  1.2410ms  void ellmv_val<double, bool=1>(int, int, int, int, int const *, double const *, double, double, double const *, double*, int)
+                    3.69%  1.0015ms        84  11.923us  6.4640us  45.056us  kernel_assemble_transpose_result
+                    0.99%  268.29us        98  2.7370us  1.6000us  13.088us  [CUDA memcpy DtoH]
+                    0.57%  156.06us        90  1.7340us  1.2480us  4.4480us  [CUDA memcpy HtoD]
+      API calls:   69.82%  11.816ms       280  42.200us  25.194us  65.847us  cudaLaunch
+                   15.35%  2.5984ms        90  28.871us  24.837us  35.714us  cudaMemcpy
+                   14.82%  2.5089ms        98  25.600us  22.661us  32.714us  cudaMemcpyAsync
+
+==2450==       Range "hypre_ParCSRRelax_L1_Jacobi"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  502.86ms       532  945.22us  14.291us  12.616ms  hypre_ParCSRRelax_L1_Jacobi
+ GPU activities:   72.76%  148.11ms       784  188.92us  12.192us  1.2839ms  void ellmv_val<double, bool=1>(int, int, int, int, int const *, double const *, double, double, double const *, double*, int)
+                   16.92%  34.449ms       392  87.880us  1.4720us  586.88us  l1_norm_kernel_v2
+                    8.46%  17.217ms       392  43.919us  1.1840us  288.45us  [CUDA memcpy DtoD]
+                    0.73%  1.4939ms       392  3.8100us  1.4400us  23.712us  create_comm_buffer
+                    0.63%  1.2897ms       398  3.2400us  1.2480us  8.7360us  [CUDA memcpy HtoD]
+                    0.49%  988.64us       392  2.5220us  1.5680us  11.808us  [CUDA memcpy DtoH]
+      API calls:   53.80%  65.312ms      1568  41.653us  24.915us  166.39us  cudaLaunch
+                   46.05%  55.903ms      1176  47.536us  20.968us  1.0042ms  cudaMemcpyAsync
+                    0.15%  177.57us         6  29.595us  27.677us  34.579us  cudaMemcpy
+
+==2450==       Range "hypre_SeqVectorAxpy"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  1.4569ms        38  38.340us  35.168us  49.101us  hypre_SeqVectorAxpy
+ GPU activities:  100.00%  9.8343ms        38  258.80us  252.61us  266.82us  void axpy_kernel_val<double, double, int=0>(cublasAxpyParamsVal<double, double, double>)
+      API calls:  100.00%  1.0977ms        38  28.886us  25.713us  36.660us  cudaLaunch
+
+==2450==       Range "hypre_SeqVectorCopy"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  5.6644ms       295  19.201us  2.9780us  85.975us  hypre_SeqVectorCopy
+ GPU activities:  100.00%  8.7137ms       127  68.611us  1.3120us  184.16us  void copy_kernel<double, int=0>(cublasCopyParams<double>)
+      API calls:  100.00%  3.4354ms       127  27.050us  25.325us  33.292us  cudaLaunch
+
+==2450==       Range "hypre_SeqVectorInnerProd"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  23.187ms        84  276.04us  196.90us  436.19us  hypre_SeqVectorInnerProd
+ GPU activities:   97.16%  14.201ms        84  169.06us  93.824us  326.11us  void dot_kernel<double, double, double, int=128, int=0, int=0>(cublasDotParams<double, double>)
+                    1.87%  273.89us        84  3.2600us  2.7200us  4.1920us  void reduce_1Block_kernel<double, double, double, int=128, int=7>(double*, int, double*)
+                    0.97%  141.47us        84  1.6840us  1.6320us  2.7840us  [CUDA memcpy DtoH]
+      API calls:   73.85%  13.034ms        84  155.16us  75.418us  314.92us  cudaMemcpyAsync
+                   26.15%  4.6145ms       168  27.467us  24.999us  119.69us  cudaLaunch
+
+==2450==       Range "hypre_SeqVectorScale"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  445.28us        12  37.106us  34.176us  45.142us  hypre_SeqVectorScale
+ GPU activities:  100.00%  2.1044ms        12  175.37us  174.02us  180.10us  void scal_kernel_val<double, double, int=0>(cublasScalParamsVal<double, double>)
+      API calls:  100.00%  323.97us        12  26.997us  25.077us  32.886us  cudaLaunch
+
+==2450==       Range "hypre_SeqVectorSetConstantValues"
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+          Range:  100.00%  4.4517ms       140  31.798us  3.4780us  189.72us  hypre_SeqVectorSetConstantValues
+ GPU activities:  100.00%  2.1872ms       112  19.528us  6.4320us  126.05us  kernel_SetConstantValue
+      API calls:  100.00%  3.0298ms       112  27.051us  24.969us  32.628us  cudaLaunch
+

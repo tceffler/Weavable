@@ -1,0 +1,31 @@
+
+The following have been reloaded with a version change:
+  1) cuda/10.1.243 => cuda/9.2.148
+
+
+Currently Loaded Modules:
+  1) xl/16.1.1-5             6) python/3.6.6-anaconda3-5.3.0
+  2) hsi/5.0.2.p5            7) olcf_harness
+  3) lsf-tools/2.0           8) cuda/9.2.148
+  4) darshan-runtime/3.1.7   9) spectrum-mpi/10.3.1.2-20200121
+  5) DefApps
+
+ 
+
+mv: cannot stat '__batch_file_name__': No such file or directory
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 477, in <module>
+    test_harness_driver()
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 443, in test_harness_driver
+    unique_id, jstatus, actions)
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 142, in auto_generated_scripts
+    mymachine.report_executable()
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/machine_types/ibm_power9.py", line 109, in report_executable
+    return self.start_report_script(self.__rgt_test.get_report_command())
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/machine_types/base_machine.py", line 174, in start_report_script
+    p = subprocess.Popen(args, stdout=report_stdout, stderr=subprocess.STDOUT)
+  File "/sw/summit/python/3.6/anaconda3/5.3.0/lib/python3.6/subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "/sw/summit/python/3.6/anaconda3/5.3.0/lib/python3.6/subprocess.py", line 1344, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Scripts/true': '/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Scripts/true'

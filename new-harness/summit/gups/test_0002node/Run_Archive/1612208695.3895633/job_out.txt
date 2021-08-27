@@ -1,0 +1,31 @@
+Starting directory is /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Scripts
+jsrun --smpiargs='-disable_gpu_hooks' -g 6 -p 2 -r 1 -c ALL_CPUS /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Scripts/../../Source/bin/gups.summit -e 6 -R 60
+Cuda failure main.cu:494: 'all CUDA-capable devices are busy or unavailable'
+Cuda failure main.cu:494: 'all CUDA-capable devices are busy or unavailable'
+Creating machine of type summit with scheduler of type lsf and job launcher of type jsrun
+
+Creating scheduler
+Creating jobLauncher
+RGT Test Parameters - Builtin
+=============================
+batch_queue = batch
+batch_filename = run_gups.sh
+job_name = gups
+nodes = 2
+total_processes = 2
+processes_per_node = 1
+project_id = csc425
+walltime = 60
+build_cmd = true
+check_cmd = Common_Scripts/check_executable.x
+report_cmd = true
+resubmit = 1
+executable_path = gups.summit
+RGT Test Parameters - User
+==========================
+total_nodes = 2
+Running check executable script on Power9 using check script Common_Scripts/check_executable.x
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Scripts
+Starting check script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Run_Archive/1612208695.3895633
+Using check command: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Scripts/Common_Scripts/check_executable.x
+No resubmit

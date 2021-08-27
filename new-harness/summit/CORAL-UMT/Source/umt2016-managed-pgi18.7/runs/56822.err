@@ -1,0 +1,6 @@
+ERROR: The connection to the JSM daemon has failed.
+  This is a strong indication that the JSM daemon has exited unexpectedly.
+  When this occurs, error logs are left on the affected nodes in
+/tmp/JSMDIAG-LOG-<hostname>-<pid> or in
+/tmp/jsm.batch1.12954/71708/JSMD-LOG-<hostname>-<pid>
+[batch1:74948] PMIX ERROR: UNPACK-PAST-END in file tool/pmix_tool.c at line 105

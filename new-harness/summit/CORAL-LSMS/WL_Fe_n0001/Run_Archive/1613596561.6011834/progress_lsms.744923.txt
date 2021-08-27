@@ -1,0 +1,13 @@
+----- CSM Allocation ID: 1814447
+02-17-2021 16:16:52:448: NS  1 (  Launch): Allocating resources for 6 processes
+02-17-2021 16:16:52:465: NS  1 (  Launch): Broadcast launch message to 1 servers (see also progress on server a28n02)
+02-17-2021 16:16:52:489: NS  1 (  Launch): All 1 servers reported as running
+02-17-2021 16:16:52:520: NS  1 (Shutdown):  16.7% [1/6]: Nonzero exit status (53760) from task 4 on server a28n02
+02-17-2021 16:16:52:520: NS  1 (Shutdown):  16.7% [1/6]: First process 4 to report exited (53760) on server a28n02
+02-17-2021 16:16:52:520: NS  1 (Shutdown):  16.7% [1/6]: First process 4 to report exited (53760) on server a28n02
+02-17-2021 16:16:52:520: NS  1 (Shutdown):  33.3% [2/6]: Nonzero exit status (53760) from task 3 on server a28n02
+02-17-2021 16:16:52:520: NS  1 (Shutdown):  50.0% [3/6]: Nonzero exit status (53760) from task 5 on server a28n02
+02-17-2021 16:16:52:521: NS  1 (Shutdown):  66.7% [4/6]: Nonzero exit status (9) from task 1 on server a28n02
+02-17-2021 16:16:52:521: NS  1 (Shutdown):  83.3% [5/6]: Nonzero exit status (9) from task 0 on server a28n02
+02-17-2021 16:16:52:521: NS  1 (Shutdown): 100.0% [6/6]: Nonzero exit status (9) from task 2 on server a28n02
+02-17-2021 16:16:52:521: NS  1 (Shutdown): All 1 servers reported as finished

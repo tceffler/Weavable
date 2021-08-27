@@ -1,0 +1,55 @@
+jsrun -n 2 -r 1 /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/OSU-bench/bibw/1614623456.4089766/build_directory/osu-micro-benchmarks-5.7/mpi/pt2pt//osu-bibw 1> stdout.txt 2> stderr.txt
+Creating machine of type summit with scheduler of type lsf and job launcher of type jsrun
+
+Creating scheduler
+Creating jobLauncher
+RGT Test Parameters - Builtin
+=============================
+job_name = osu-bibw
+project_id = csc425
+nodes = 2
+batch_queue = batch
+walltime = 60
+executable_path = osu-micro-benchmarks-5.7/mpi/pt2pt/
+batch_filename = run_osw_bibw-0002n.sh
+build_cmd = ./build_osu.sh
+check_cmd = ./check_osu.sh
+report_cmd = ./report_osu.sh
+RGT Test Parameters - User
+==========================
+executablename = osu-bibw
+resubmitme = 1
+Running check executable script on Power9 using check script ./check_osu.sh
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/OSU-bench/bibw/Scripts
+Starting check script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/OSU-bench/bibw/Run_Archive/1614623456.4089766
+Using check command: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/OSU-bench/bibw/Scripts/./check_osu.sh
+Writing check_exit_status = 0 into /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/OSU-bench/bibw/Status/1614623456.4089766/job_status.txt
+Running report executable script on Power9 using report script ./report_osu.sh
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/OSU-bench/bibw/Scripts
+Starting report script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/OSU-bench/bibw/Run_Archive/1614623456.4089766
+Using report script: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/OSU-bench/bibw/Scripts/./report_osu.sh
+check_exit_value = 0
+No resubmit
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 773398: <osu-bibw> in cluster <summit> Done
+
+Job <osu-bibw> was submitted from host <login2> by user <bzf> in cluster <summit> at Mon Mar  1 13:30:57 2021
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <bzf> in cluster <summit> at Mon Mar  1 13:31:04 2021
+                            <42*h12n08>
+                            <42*h12n16>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/OSU-bench/bibw/Run_Archive/1614623456.4089766> was used as the working directory.
+Started at Mon Mar  1 13:31:04 2021
+Terminated at Mon Mar  1 13:31:21 2021
+Results reported at Mon Mar  1 13:31:21 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/OSU-bench/bibw/Run_Archive/1614623456.4089766/osu-bibw.e773398> for stderr output of this job.
+

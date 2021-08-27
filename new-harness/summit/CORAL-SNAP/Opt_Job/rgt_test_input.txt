@@ -1,0 +1,15 @@
+#[Replacements]
+batch_queue = batch
+batch_filename = run_snap.sh
+job_name = SNAP
+nodes = 2
+total_nodes = 2
+total_processes = 2
+processes_per_node = 1
+project_id = csc425
+walltime = 30
+build_cmd = true
+check_cmd = check_snap.sh
+report_cmd = true
+resubmit = 0
+executable_path = snap

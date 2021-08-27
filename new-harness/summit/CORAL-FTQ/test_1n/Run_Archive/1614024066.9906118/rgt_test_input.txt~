@@ -1,0 +1,16 @@
+job_name = CORAL-FTQ-serial
+project_id = csc425
+nodes = 1
+batch_queue = batch
+walltime = 15
+executablename = fwq
+batchfilename = CORAL-FTQ-serial-1n.lsf
+build_cmd = ./Common_Scripts/build-serial-fwq.bash
+check_cmd = ./check.sh 1
+report_cmd = /bin/true
+total_processes = 42
+processes_per_node = 42
+resubmitme = 0
+run_logfile = ./fwq-serial-run.log
+batch_filename = run_ftq.sh
+executable_path = ftq

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ $OMPI_COMM_WORLD_RANK = 95 ]; then 
+    nvprof -f -o timeline ./amg2013 -pooldist 1 -r 72 72 72 -P 3 2 2
+else
+    ./amg2013 -pooldist 1 -r 72 72 72 -P 3 2 2
+fi

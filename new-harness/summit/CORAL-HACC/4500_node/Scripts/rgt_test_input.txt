@@ -1,0 +1,13 @@
+jobname = HACC_4500n
+total_processes = 189000
+processes_per_node = 42
+nodes = 4500
+projectid = stf006accept
+batchqueue = batch
+walltime = 60
+executablename = hacc_tpm
+batchfilename = run_HACC.sh
+buildscriptname = ./build.sh
+checkscriptname = ./check.sh
+reportscriptname = ./report.sh
+resubmitme = 0

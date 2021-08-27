@@ -1,0 +1,66 @@
+Running until t=0.010000, Problem size=128x128x128
+cycle = 1, time = 6.612545e-09, dt=6.612545e-09
+cycle = 101, time = 3.022852e-07, dt=4.717471e-09
+cycle = 201, time = 8.798228e-07, dt=7.198320e-09
+cycle = 301, time = 1.768295e-06, dt=9.771595e-09
+cycle = 401, time = 3.036454e-06, dt=1.601695e-08
+cycle = 501, time = 4.708594e-06, dt=1.970734e-08
+cycle = 601, time = 6.780156e-06, dt=2.323401e-08
+cycle = 701, time = 9.337360e-06, dt=2.815186e-08
+cycle = 801, time = 1.238458e-05, dt=3.283362e-08
+cycle = 901, time = 1.591058e-05, dt=3.775178e-08
+cycle = 1001, time = 1.996143e-05, dt=4.307331e-08
+cycle = 1101, time = 2.456895e-05, dt=4.900580e-08
+cycle = 1201, time = 2.974097e-05, dt=5.481894e-08
+cycle = 1301, time = 3.548742e-05, dt=6.078065e-08
+cycle = 1401, time = 4.180016e-05, dt=6.571778e-08
+cycle = 1501, time = 4.871316e-05, dt=7.050879e-08
+cycle = 1601, time = 5.630793e-05, dt=8.045510e-08
+cycle = 1701, time = 6.454876e-05, dt=8.568996e-08
+cycle = 1801, time = 7.344721e-05, dt=9.104136e-08
+cycle = 1901, time = 8.299863e-05, dt=9.645221e-08
+cycle = 2001, time = 9.329648e-05, dt=1.038745e-07
+cycle = 2101, time = 1.043074e-04, dt=1.114091e-07
+cycle = 2201, time = 1.160561e-04, dt=1.191914e-07
+cycle = 2301, time = 1.285813e-04, dt=1.272763e-07
+cycle = 2401, time = 1.418251e-04, dt=1.373045e-07
+cycle = 2501, time = 1.557818e-04, dt=1.480445e-07
+cycle = 2601, time = 1.705863e-04, dt=1.480445e-07
+cycle = 2701, time = 1.863511e-04, dt=1.589096e-07
+cycle = 2801, time = 2.027584e-04, dt=1.721471e-07
+cycle = 2901, time = 2.199731e-04, dt=1.721471e-07
+cycle = 3001, time = 2.383016e-04, dt=1.857785e-07
+cycle = 3101, time = 2.572212e-04, dt=1.998350e-07
+cycle = 3201, time = 2.772047e-04, dt=1.998350e-07
+cycle = 3301, time = 2.979874e-04, dt=2.165893e-07
+cycle = 3401, time = 3.196463e-04, dt=2.165893e-07
+cycle = 3501, time = 3.423896e-04, dt=2.337297e-07
+cycle = 3601, time = 3.657625e-04, dt=2.337297e-07
+cycle = 3701, time = 3.905485e-04, dt=2.514451e-07
+cycle = 3801, time = 4.156930e-04, dt=2.514451e-07
+cycle = 3901, time = 4.424119e-04, dt=2.720803e-07
+cycle = 4001, time = 4.696199e-04, dt=2.720803e-07
+cycle = 4101, time = 4.982446e-04, dt=2.936296e-07
+cycle = 4201, time = 5.276075e-04, dt=2.936296e-07
+cycle = 4301, time = 5.578287e-04, dt=3.181039e-07
+cycle = 4401, time = 5.896391e-04, dt=3.181039e-07
+cycle = 4501, time = 6.214495e-04, dt=3.181039e-07
+cycle = 4601, time = 6.554719e-04, dt=3.460118e-07
+cycle = 4701, time = 6.900730e-04, dt=3.460118e-07
+cycle = 4801, time = 7.251061e-04, dt=3.750116e-07
+cycle = 4901, time = 7.626073e-04, dt=3.750116e-07
+Run completed:  
+   Problem size        =  128 
+   MPI tasks           =  27 
+   Iteration count     =  5000 
+   Final Origin Energy = 6.789301e+07 
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 9.592623e-08
+        TotalAbsDiff = 2.764299e-06
+        MaxRelDiff   = 1.187517e-11
+
+
+Elapsed time         =      82.07 (s)
+Grind time (us/z/c)  = 0.0078266086 (per dom)  (0.00028987439 overall)
+FOM                  =    3449770 (z/s)
+

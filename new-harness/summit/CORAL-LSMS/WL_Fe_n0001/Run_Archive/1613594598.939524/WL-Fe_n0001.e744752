@@ -1,0 +1,57 @@
+/ccs/home/bzf/.lsbatch/1613594616.744752.shell: line 13: __rgtenvironmentalfile__: No such file or directory
+Lmod has detected the following error: The following module(s) are unknown:
+"olcf_harness_summit"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "olcf_harness_summit"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5                   8) gcc/6.4.0
+  2) xalt/1.2.1                     9) netlib-lapack/3.8.0
+  3) lsf-tools/2.0                 10) cuda/10.1.243
+  4) darshan-runtime/3.1.7         11) spectrum-mpi/10.3.1.2-20200121
+  5) DefApps                       12) essl/6.1.0-2
+  6) python/3.6.6-anaconda3-5.3.0  13) hdf5/1.10.4
+  7) olcf_harness
+
+ 
+
+/ccs/home/bzf/.lsbatch/1613594616.744752.shell: line 43: cd: __starting_directory__: No such file or directory
+cp: cannot stat '__starting_directory__/Inputs/./i_lsms_16': No such file or directory
+cp: cannot stat '__starting_directory__/Inputs/v_fe2.0': No such file or directory
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/log_binary_execution_time.py", line 78, in <module>
+    main()
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/log_binary_execution_time.py", line 32, in main
+    os.chdir(scriptsdir) 
+FileNotFoundError: [Errno 2] No such file or directory: '__starting_directory__'
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/log_binary_execution_time.py", line 78, in <module>
+    main()
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/log_binary_execution_time.py", line 32, in main
+    os.chdir(scriptsdir) 
+FileNotFoundError: [Errno 2] No such file or directory: '__starting_directory__'
+/ccs/home/bzf/.lsbatch/1613594616.744752.shell: line 88: cd: __starting_directory__: No such file or directory
+cp: cannot stat '__work_dir__/*': No such file or directory
+mv: cannot stat '__batch_file_name__': No such file or directory
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 477, in <module>
+    test_harness_driver()
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 433, in test_harness_driver
+    jstatus = status_file.StatusFile(unique_id, mode_str)
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/libraries/status_file.py", line 181, in __init__
+    event_time = self.log_event(StatusFile.EVENT_LOGGING_START)
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/libraries/status_file.py", line 208, in log_event
+    event_type, event_subtype, str(event_value))
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/libraries/status_file.py", line 242, in __log_event
+    event_time, event_filename)
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/libraries/status_file.py", line 409, in get_status_info
+    'harness function being executed from wrong directory.')
+AssertionError: harness function being executed from wrong directory.

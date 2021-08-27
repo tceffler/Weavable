@@ -1,0 +1,2 @@
+module load gcc/gcc-6.4.0
+export OMPI_FC=gfortran

@@ -1,0 +1,29 @@
+running helper script
+running helper script
+running helper script
+running helper script
+   ***ERROR: OPEN_FILE: Unable to open file, unit: 11              
+
+ Aww SNAP. Program failed. Try again.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch3>
+Subject: Job 187995: <Not_Specified> in cluster <summit> Done
+
+Job <Not_Specified> was submitted from host <login3> by user <arnoldt> in cluster <summit> at Thu Sep 27 15:26:16 2018
+Job was executed on host(s) <1*batch3>, in queue <tested>, as user <arnoldt> in cluster <summit> at Thu Sep 27 15:26:24 2018
+                            <42*h36n12>
+</ccs/home/arnoldt> was used as the home directory.
+</ccs/home/arnoldt/SNAP_Coarl_Benchmark/SNAP/GPU> was used as the working directory.
+Started at Thu Sep 27 15:26:24 2018
+Terminated at Thu Sep 27 15:26:34 2018
+Results reported at Thu Sep 27 15:26:34 2018
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <187995.err> for stderr output of this job.
+

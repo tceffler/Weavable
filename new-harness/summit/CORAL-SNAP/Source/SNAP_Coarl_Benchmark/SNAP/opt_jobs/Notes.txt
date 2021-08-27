@@ -1,0 +1,23 @@
+July 30, 2018
+
+Summit system
+
+test of self-submitting job streams : 2 streams with MAX_JOBS=3
+
+216 nodes; 4 ranks/node; input.27x32_256x432x512 : suitable for Sierra
+
+all jobs ran  ... but it is best to use a helper script to control
+affinity via GOMP_CPU_AFFINITY ... Optimized SNAP uses 2 OpenMP thds.
+
+July 31, 2018
+
+$ find . -name out.gpu.* | xargs grep Grind
+  Grind Time (nanoseconds)         1.0039E-03
+
+total job time : 261 seconds ... so for 5 hours set MAX_JOBS = 70
+
+August 14, 2018
+
+$  ./get_fom.sh 
+checking ./stream1_job1/out.gpu.08_14_09_34_05 ... FOM = 1006.2
+checking ./stream1_job2/out.gpu.08_14_09_22_17 ... FOM = 1015.6

@@ -1,0 +1,189 @@
+starting jsrun with
+nodes = 1
+gpus used per socket = 3
+ranks_per_socket = 3
+cores_per_rank = 6
+used cores per socket = 18
+threads per rank = 12
+[1522965062.423444] [a01n02:175943:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522965062.438431] [a01n02:175944:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522965062.438540] [a01n02:175947:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522965062.444619] [a01n02:175948:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522965062.445097] [a01n02:175945:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1522965062.445197] [a01n02:175946:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+ Executing UMT2015 Number of ranks =6
+ and number of OMP threads  =12
+ gridFileName: 1x2x3_32.cmg
+ setting the number of groups=16
+ Running with Product Quadrature 
+ setting number of polar angles     = 8
+ setting number of azimuthal angles = 4
+ Building mesh...
+ Mesh complete.
+ Initializing Teton object...
+    done.
+ Starting time advance...
+ sweep_mem =              33931000832
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 1 timerad = 3e-06
+ 
+TempIters = 4 FluxIters = 4 GTAIters = 0
+TrMax =     0.0031622776601684 in Zone 60 on Node 5
+TeMax =     0.0031622776601684 in Zone 32832 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 10.74585             4.1663376446813
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 2 timerad = 6.3e-05
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.364592199725 in Zone 32871 on Node 3
+TeMax =     0.0075234782306745 in Zone 34743 on Node 0
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 13.005261             10.409532455727
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 3 timerad = 0.000123
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.43263702948757 in Zone 49083 on Node 3
+TeMax =     0.14207129578951 in Zone 33111 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 12.858554             16.647992934799
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 4 timerad = 0.000183
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.47777565112927 in Zone 49083 on Node 3
+TeMax =     0.18768964085181 in Zone 37845 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 12.934038             22.880326605635
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 5 timerad = 0.000243
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.51233672654571 in Zone 49083 on Node 0
+TeMax =     0.22394100235716 in Zone 37845 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 12.942002             29.130665945588
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 6 timerad = 0.000303
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.54062904636664 in Zone 49083 on Node 0
+TeMax =     0.25504594781821 in Zone 49083 on Node 0
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 12.930441             35.357220527716
+ 
+ SuOlson setting last step's dt=3.1e-05
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 7 timerad = 0.000334
+ 
+TempIters = 4 FluxIters = 4 GTAIters = 0
+TrMax =     0.55355936068089 in Zone 36669 on Node 0
+TeMax =     0.27044841658372 in Zone 36669 on Node 0
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 11.598484             40.562477476895
+ 
+ SuOlson Test version 1.0 completed at time= 0.000334  goalTime= 0.000334
+ Computing error check along x= 0.015625, y=0.0078125
+ z=    0.01 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653763
+ z=     0.1 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653763
+ z= 0.17783 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653761
+ z= 0.31623 tInterpolated=   0.0053326 tExact=    0.00468 error=0.000652604
+ z=    0.45 tInterpolated=  0.00501286 tExact=    0.00455 error=0.000462858
+ z=     0.5 tInterpolated=  0.00267218 tExact=    0.00234 error=0.000332179
+ z= 0.56234 tInterpolated=  0.00019251 tExact=      5e-05 error= 0.00014251
+ z=    0.75 tInterpolated= 5.58776e-08 tExact=          0 error=5.58776e-08
+ngroups = 16
+nangsn = 256
+tot zones = 314580
+numUnknowns = 1.03082e+10
+cumulativeIterationCount= 33 cumulativeWorkTime=87.0146 s.
+figure of merit = 3.90933e+09
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 56771: <Not_Specified> in cluster <summit> Done
+
+Job <Not_Specified> was submitted from host <login3> by user <dappelh> in cluster <summit> at Thu Apr  5 17:50:34 2018
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <dappelh> in cluster <summit> at Thu Apr  5 17:50:42 2018
+                            <42*a01n02>
+</ccs/home/dappelh> was used as the home directory.
+</ccs/home/dappelh/codes/coral/umt2016-managed/runs> was used as the working directory.
+Started at Thu Apr  5 17:50:42 2018
+Terminated at Thu Apr  5 17:54:16 2018
+Results reported at Thu Apr  5 17:54:16 2018
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <56771.err> for stderr output of this job.
+

@@ -1,0 +1,33 @@
+export USE_OPENMP=1
+export USE_ACCELERATOR  = -DACCELERATOR_CUDA_C -DBUILDKKRMATRIX_GPU
+export FUSE_ACCELERATOR = -DACCELERATOR_CUDA_C -DBUILDKKRMATRIX_GPU
+
+export HDFLIBS = /home/walkup/hdf5-1.8.17/lib/libhdf5.a  -ldl -lz
+export LAPACK =  /home/walkup/lib/liblapack_.a
+export BLAS = -lessl -L /home/walkup/ibmcmp/xlf/latest/opt/ibm/xlf/15.1.6/lib -lxlf90_r -lxlfmath -lxl -lxlopt -Wl,-rpath=/home/walkup/ibmcmp/xlf/latest/opt/ibm/lib
+export FLIBS = -L/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/lib -lgfortran -Wl,-rpath=/usr/lib/gcc/ppc64le-redhat-linux/4.8.5/lib
+
+export LIBS +=
+export ADD_LIBS += -L$(TOP_DIR)/CBLAS/lib -lcblas_LINUX -L/usr/local/cuda-9.1/lib64 -lcublas -lcudart \
+                  -Wl,-rpath=/usr/local/cuda-9.1/lib64 ${BIND} ${HDFLIBS} ${LAPACK} ${BLAS} ${FLIBS} -lstdc++
+
+export INC_PATH += -I $(TOP_DIR)/CBLAS/include -I/u/uno/ykt/hdf5-1.8.17/include
+
+export ADDITIONAL_TARGETS = CBLAS_target
+
+export BOOST_ROOT=$(TOP_DIR)
+
+
+ifdef USE_OPENMP
+export CXX=mpicxx -g -std=c++11 -I$(BOOST_ROOT) $(USE_ACCELERATOR) -I/usr/local/cuda-9.1/include -fopenmp -O2 -mcpu=power8
+export CC=mpicc -g $(USE_ACCELERATOR) -fopenmp -O2 -mcpu=power8
+export F77=mpif90 -g $(FUSE_ACCELERATOR) -fopenmp -O2 -mcpu=power8
+export F90=mpif90 -g $(FUSE_ACCELERATOR) -fopenmp -O2 -mcpu=power8
+export CUDA_CXX=nvcc -arch=sm_60  -I/usr/local/cuda-9.1/include $(USE_ACCELERATOR) -I/opt/ibm/spectrum_mpi/include -Xcompiler -fopenmp 
+else
+export CXX=mpicxx -g -std=c++11 -I$(BOOST_ROOT) $(USE_ACCELERATOR) -I/usr/local/cuda-9.1/include 
+export CC=mpicc -g $(USE_ACCELERATOR)
+export F77=mpif90 -g $(USE_ACCELERATOR)
+export CUDA_CXX=nvcc -arch=sm_60 -I/usr/local/cuda-9.1/include -I/opt/ibm/spectrum_mpi/include $(USE_ACCELERATOR)
+endif
+

@@ -1,0 +1,66 @@
+OMP: Warning #123: Ignoring invalid OS proc ID 60.
+OMP: Warning #123: Ignoring invalid OS proc ID 64.
+OMP: Warning #123: Ignoring invalid OS proc ID 68.
+OMP: Warning #123: Ignoring invalid OS proc ID 72.
+OMP: Warning #123: Ignoring invalid OS proc ID 76.
+OMP: Warning #123: Ignoring invalid OS proc ID 80.
+OMP: Warning #123: Ignoring invalid OS proc ID 120.
+OMP: Warning #123: Ignoring invalid OS proc ID 124.
+OMP: Warning #123: Ignoring invalid OS proc ID 128.
+OMP: Warning #123: Ignoring invalid OS proc ID 132.
+OMP: Warning #123: Ignoring invalid OS proc ID 136.
+OMP: Warning #123: Ignoring invalid OS proc ID 140.
+OMP: Warning #123: Ignoring invalid OS proc ID 148.
+OMP: Warning #123: Ignoring invalid OS proc ID 152.
+OMP: Warning #123: Ignoring invalid OS proc ID 156.
+OMP: Warning #123: Ignoring invalid OS proc ID 160.
+OMP: Warning #123: Ignoring invalid OS proc ID 164.
+OMP: Warning #123: Ignoring invalid OS proc ID 168.
+OMP: Warning #123: Ignoring invalid OS proc ID 92.
+OMP: Warning #123: Ignoring invalid OS proc ID 96.
+OMP: Warning #123: Ignoring invalid OS proc ID 100.
+OMP: Warning #123: Ignoring invalid OS proc ID 104.
+OMP: Warning #123: Ignoring invalid OS proc ID 108.
+OMP: Warning #123: Ignoring invalid OS proc ID 112.
+OMP: Warning #123: Ignoring invalid OS proc ID 4.
+OMP: Warning #123: Ignoring invalid OS proc ID 8.
+OMP: Warning #123: Ignoring invalid OS proc ID 12.
+OMP: Warning #123: Ignoring invalid OS proc ID 16.
+OMP: Warning #123: Ignoring invalid OS proc ID 20.
+OMP: Warning #123: Ignoring invalid OS proc ID 24.
+OMP: Warning #123: Ignoring invalid OS proc ID 32.
+OMP: Warning #123: Ignoring invalid OS proc ID 36.
+OMP: Warning #123: Ignoring invalid OS proc ID 40.
+OMP: Warning #123: Ignoring invalid OS proc ID 44.
+OMP: Warning #123: Ignoring invalid OS proc ID 48.
+OMP: Warning #123: Ignoring invalid OS proc ID 52.
+from Timer_Print: could not open timing_summary.41097
+timing summary printed to stderr
+
+------------------------------------------------------------------------------------------------
+Timing  summary:                 #calls       avg(sec)     min(sec) minRank     max(sec) maxRank
+------------------------------------------------------------------------------------------------
+work                                  1       182.111      182.110       4      182.112       0
+getgeometry                           7         1.510        1.447       4        1.571       2
+reflect                               7         0.158        0.114       3        0.183       1
+rtorder                               7        95.070       94.162       4       95.637       0
+scheduler                             7         0.001        0.001       0        0.001       3
+advanceRT                             7         5.294        5.286       3        5.307       2
+_ZoneLoop0                            7         0.056        0.054       5        0.057       3
+_snmoments1                           7         5.020        5.013       3        5.034       2
+__snmoments                         352         0.007        0.007       4        0.007       3
+_ZoneLoop2                            7         0.115        0.111       5        0.120       0
+rtstrtsn                              7         0.175        0.171       5        0.180       2
+_initialize                           7         0.020        0.019       3        0.021       1
+_zoneaverage                          7         0.078        0.076       5        0.080       2
+compton                               7         0.013        0.010       2        0.016       5
+absorbrate                           38         0.455        0.445       1        0.467       4
+material                             38        18.305       18.156       2       18.493       5
+exch                                 31         3.920        3.628       5        4.258       3
+rswpmd                               31        52.390       52.066       2       52.682       5
+_setflux                             68         2.435        1.998       4        3.166       2
+_initexch                            37         0.688        0.001       2        1.224       1
+_anglebins                           37        46.054       45.730       0       46.315       3
+rtconi                               31         0.483        0.474       2        0.494       1
+rtconv                               31         0.724        0.538       5        0.874       2
+bdyedt                                7         0.336        0.335       1        0.336       4

@@ -1,0 +1,20 @@
+The CPU code performs best using two MPI ranks per core, where the
+local domain is 4x4 in the y*z dimensions.  Using 80 MPI ranks per
+node, some appropriate inputs would be :
+
+input.120x144_240x480x576     ... 216 nodes  for LLNL config
+input.120x128_480x480x512     ... 192 nodes  for ORNL config
+
+The CPU code can use a 2D Cartesian communicator with either a
+user-defined shape or a shape computed on the fly.  The cpu 
+job scripts for 192 and 216 nodes specify good shapes for the
+communicators.
+
+
+
+The GPU code requires a 16x16 local domain, and is designed to use
+4 MPI ranks per node.  The number of groups must be a multiple of
+16, and the ichunk parameter must be 32.  Suitable inputs would be
+
+input.27x32_256x432x512       ... 216 nodes  for LLNL config
+input.24x32_512x384x512       ... 192 nodes  for ORNL config

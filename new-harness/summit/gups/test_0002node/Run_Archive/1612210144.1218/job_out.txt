@@ -1,0 +1,125 @@
+Starting directory is /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Scripts
+jsrun --smpiargs='-disable_gpu_hooks' -g 3 -a 1 -n 4 -c 4 /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Scripts/../../Source/bin/gups.summit -e 6 -R 60
+Test Type: MODIFY
+Memory Indexing: RANDOM
+GPU Indexing: ANY
+Word Size: 8
+Words Per Element: 1
+Buffer Size: 4294967296 bytes
+Buffer Count: 536870912 elements
+CTA Size: 128 threads
+CTAs: MAX
+Unroll: 4
+Warmup Seconds: 3
+Runtime Seconds: 60
+numGPUs: 2
+    Device: 0, Tesla V100-SXM2-16GB, pciBusID: 3, pciDeviceID: 0, pciDomainID:35
+    Device: 1, Tesla V100-SXM2-16GB, pciBusID: 4, pciDeviceID: 0, pciDomainID:35
+Launching kernels
+threads: (1, 128), max_cta_per_sm: 7, SMs: 80
+threads: (1, 128), max_cta_per_sm: 7, SMs: 80
+Waiting 3 seconds for warmup
+Test Type: MODIFY
+Memory Indexing: RANDOM
+GPU Indexing: ANY
+Word Size: 8
+Words Per Element: 1
+Buffer Size: 4294967296 bytes
+Buffer Count: 536870912 elements
+CTA Size: 128 threads
+CTAs: MAX
+Unroll: 4
+Warmup Seconds: 3
+Runtime Seconds: 60
+numGPUs: 2
+    Device: 0, Tesla V100-SXM2-16GB, pciBusID: 4, pciDeviceID: 0, pciDomainID:4
+    Device: 1, Tesla V100-SXM2-16GB, pciBusID: 5, pciDeviceID: 0, pciDomainID:4
+Launching kernels
+threads: (1, 128), max_cta_per_sm: 7, SMs: 80
+threads: (1, 128), max_cta_per_sm: 7, SMs: 80
+Waiting 3 seconds for warmup
+Test Type: MODIFY
+Memory Indexing: RANDOM
+GPU Indexing: ANY
+Word Size: 8
+Words Per Element: 1
+Buffer Size: 4294967296 bytes
+Buffer Count: 536870912 elements
+CTA Size: 128 threads
+CTAs: MAX
+Unroll: 4
+Warmup Seconds: 3
+Runtime Seconds: 60
+numGPUs: 2
+    Device: 0, Tesla V100-SXM2-16GB, pciBusID: 4, pciDeviceID: 0, pciDomainID:4
+    Device: 1, Tesla V100-SXM2-16GB, pciBusID: 5, pciDeviceID: 0, pciDomainID:4
+Launching kernels
+threads: (1, 128), max_cta_per_sm: 7, SMs: 80
+threads: (1, 128), max_cta_per_sm: 7, SMs: 80
+Waiting 3 seconds for warmup
+Test Type: MODIFY
+Memory Indexing: RANDOM
+GPU Indexing: ANY
+Word Size: 8
+Words Per Element: 1
+Buffer Size: 4294967296 bytes
+Buffer Count: 536870912 elements
+CTA Size: 128 threads
+CTAs: MAX
+Unroll: 4
+Warmup Seconds: 3
+Runtime Seconds: 60
+numGPUs: 2
+    Device: 0, Tesla V100-SXM2-16GB, pciBusID: 3, pciDeviceID: 0, pciDomainID:35
+    Device: 1, Tesla V100-SXM2-16GB, pciBusID: 4, pciDeviceID: 0, pciDomainID:35
+Launching kernels
+threads: (1, 128), max_cta_per_sm: 7, SMs: 80
+threads: (1, 128), max_cta_per_sm: 7, SMs: 80
+Waiting 3 seconds for warmup
+Running for 60 seconds
+Running for 60 seconds
+Running for 60 seconds
+Running for 60 seconds
+Stopping Kernels
+Stopping Kernels
+Stopping Kernels
+Stopping Kernels
+Per-GPU Summary:
+            GPU: 0, OP: 6.816 GB/s, IN: 6.816 GB/s, OUT: 6.816 GB/s, AGG: 13.633 GB/s
+            GPU: 1, OP: 6.812 GB/s, IN: 6.812 GB/s, OUT: 6.812 GB/s, AGG: 13.625 GB/s
+Per-GPU Summary:
+            GPU: 0, OP: 6.815 GB/s, IN: 6.815 GB/s, OUT: 6.815 GB/s, AGG: 13.629 GB/s
+            GPU: 1, OP: 6.815 GB/s, IN: 6.815 GB/s, OUT: 6.815 GB/s, AGG: 13.631 GB/s
+Per-GPU Summary:
+            GPU: 0, OP: 6.756 GB/s, IN: 6.756 GB/s, OUT: 6.756 GB/s, AGG: 13.513 GB/s
+            GPU: 1, OP: 6.837 GB/s, IN: 6.837 GB/s, OUT: 6.837 GB/s, AGG: 13.674 GB/s
+Per-GPU Summary:
+            GPU: 0, OP: 6.815 GB/s, IN: 6.815 GB/s, OUT: 6.815 GB/s, AGG: 13.630 GB/s
+            GPU: 1, OP: 6.812 GB/s, IN: 6.812 GB/s, OUT: 6.812 GB/s, AGG: 13.625 GB/s
+Creating machine of type summit with scheduler of type lsf and job launcher of type jsrun
+
+Creating scheduler
+Creating jobLauncher
+RGT Test Parameters - Builtin
+=============================
+batch_queue = batch
+batch_filename = run_gups.sh
+job_name = gups
+nodes = 2
+total_processes = 4
+processes_per_node = 2
+project_id = csc425
+walltime = 60
+build_cmd = true
+check_cmd = Common_Scripts/check_executable.x
+report_cmd = true
+resubmit = 1
+executable_path = gups.summit
+RGT Test Parameters - User
+==========================
+total_nodes = 2
+Running check executable script on Power9 using check script Common_Scripts/check_executable.x
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Scripts
+Starting check script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Run_Archive/1612210144.1218
+Using check command: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Scripts/Common_Scripts/check_executable.x
+No resubmit

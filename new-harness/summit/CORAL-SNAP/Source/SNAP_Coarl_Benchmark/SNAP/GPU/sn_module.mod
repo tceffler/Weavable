@@ -1,0 +1,94 @@
+GFORTRAN module version '10' created from sn.f90
+MD5:26efa0c0e87db29a9829eb2bb1fca0cc -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () () () ()
+() () () ())
+
+()
+
+()
+
+()
+
+()
+
+()
+
+(2 'cmom' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+3 'ec' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (
+3 0 DEFERRED () () () () () ()) 0 () () () 0 0)
+4 'eta' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (
+1 0 DEFERRED () ()) 0 () () () 0 0)
+5 'expcoeff' 'sn_module' '' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 0 UNKNOWN ()) 6 0 (7) () 0 ()
+() () 0 0)
+8 'global_module' 'global_module' '' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () ()
+0 () () () 0 0)
+9 'i_knd' 'global_module' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (
+CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '4') () 0 () () () 0 0)
+10 'lma' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (INTEGER 4 0 0 0 INTEGER ()) 0
+0 () (1 0 DEFERRED () ()) 0 () () () 0 0)
+11 'mu' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (
+1 0 DEFERRED () ()) 0 () () () 0 0)
+12 'nang' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+13 'nmom' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+14 'noct' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+15 'one' 'global_module' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () (CONSTANT (
+REAL 8 0 0 0 REAL ()) 0 '0.10000000000000@1') () 0 () () () 0 0)
+16 'r_knd' 'global_module' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (
+CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '8') () 0 () () () 0 0)
+17 'sn_allocate' 'sn_module' '' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 0 UNKNOWN ()) 18 0 (19 20) ()
+0 () () () 0 0)
+21 'sn_deallocate' 'sn_module' '' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0
+0 () () 0 () () () 0 0)
+22 'sn_module' 'sn_module' '' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0
+0)
+23 'w' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (
+1 0 DEFERRED () ()) 0 () () () 0 0)
+24 'weta' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN EXPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 0 REAL ())
+0 0 () (1 0 DEFERRED () ()) 0 () () () 0 0)
+25 'wmu' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (
+1 0 DEFERRED () ()) 0 () () () 0 0)
+26 'wxi' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (
+1 0 DEFERRED () ()) 0 () () () 0 0)
+27 'xi' 'sn_module' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+EXPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (
+1 0 DEFERRED () ()) 0 () () () 0 0)
+28 'zero' 'global_module' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () (CONSTANT (
+REAL 8 0 0 0 REAL ()) 0 '0.00000000000000@0') () 0 () () () 0 0)
+7 'ndimen' '' '' 6 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+19 'ndimen' '' '' 18 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+20 'istat' '' '' 18 ((VARIABLE INOUT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0
+DUMMY) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+)
+
+('cmom' 0 2 'ec' 0 3 'eta' 0 4 'expcoeff' 0 5 'global_module' 0 8 'i_knd'
+0 9 'lma' 0 10 'mu' 0 11 'nang' 0 12 'nmom' 0 13 'noct' 0 14 'one' 0 15
+'r_knd' 0 16 'sn_allocate' 0 17 'sn_deallocate' 0 21 'sn_module' 0 22 'w'
+0 23 'weta' 0 24 'wmu' 0 25 'wxi' 0 26 'xi' 0 27 'zero' 0 28)

@@ -1,0 +1,51 @@
+osu_hello.o osu_hello.o: osu_hello.c \
+  /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/spectrum-mpi-10.3.1.2-20200121-p6nrnt6vtvkn356wqg6f74n6jspnpjd2/include/mpi.h \
+  /autofs/nccs-svm1_sw/summit/xl/16.1.1-5/xlC/16.1.1/include/stddef.h \
+  /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/spectrum-mpi-10.3.1.2-20200121-p6nrnt6vtvkn356wqg6f74n6jspnpjd2/include/mpi_portable_platform.h \
+  /usr/include/stdio.h /usr/include/features.h \
+  /usr/include/stdc-predef.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64-v2.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h \
+  /autofs/nccs-svm1_sw/summit/xl/16.1.1-5/xlC/16.1.1/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h
+
+/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/spectrum-mpi-10.3.1.2-20200121-p6nrnt6vtvkn356wqg6f74n6jspnpjd2/include/mpi.h:
+
+/autofs/nccs-svm1_sw/summit/xl/16.1.1-5/xlC/16.1.1/include/stddef.h:
+
+/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/xl-16.1.1-5/spectrum-mpi-10.3.1.2-20200121-p6nrnt6vtvkn356wqg6f74n6jspnpjd2/include/mpi_portable_platform.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64-v2.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/autofs/nccs-svm1_sw/summit/xl/16.1.1-5/xlC/16.1.1/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:

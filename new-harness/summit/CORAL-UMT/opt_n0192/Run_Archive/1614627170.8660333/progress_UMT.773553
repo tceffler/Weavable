@@ -1,0 +1,126 @@
+----- CSM Allocation ID: 1842799
+03-01-2021 14:33:39:724: NS  1 (  Launch): Allocating resources for 96 processes
+03-01-2021 14:33:39:742: NS  1 (  Launch): Broadcast launch message to 16 servers (see also progress on server g19n12)
+03-01-2021 14:33:39:825: NS  1 (  Launch): All 16 servers reported as running
+03-01-2021 14:33:41:444: NS  1 (   Fence):   6.2% [1/16]: Num 1: Received data from server g19n12 (First to report)
+03-01-2021 14:33:43:033: NS  1 (   Fence): Num 1: Broadcast fence release message (355 bytes).
+03-01-2021 14:33:43:102: NS  1 (   Fence):   6.2% [1/16]: Num 2: Received data from server g19n12 (First to report)
+03-01-2021 14:33:43:107: NS  1 (   Fence): Num 2: Broadcast fence release message (31453 bytes).
+03-01-2021 14:33:43:132: NS  1 (   Fence):   6.2% [1/16]: Num 3: Received data from server g19n12 (First to report)
+03-01-2021 14:33:43:134: NS  1 (   Fence): Num 3: Broadcast fence release message (355 bytes).
+03-01-2021 14:33:43:136: NS  1 (   Fence):   6.2% [1/16]: Num 4: Received data from server g19n18 (First to report)
+03-01-2021 14:33:43:136: NS  1 (   Fence): Num 4: Broadcast fence release message (355 bytes).
+03-01-2021 14:33:44:356: NS  1 (Shutdown):   1.0% [1/96]: Nonzero exit status (6) from task 0 on server g19n12
+03-01-2021 14:33:44:356: NS  1 (Shutdown):   1.0% [1/96]: First process 0 to report exited (6) on server g19n12
+03-01-2021 14:33:44:356: NS  1 (Shutdown):   1.0% [1/96]: First process 0 to report exited (6) on server g19n12
+03-01-2021 14:33:44:441: NS  1 (Shutdown):   2.1% [2/96]: Nonzero exit status (9) from task 77 on server g29n01
+03-01-2021 14:33:44:441: NS  1 (Shutdown):   1.0% [1/96]: First process 77 to report exited (9) on server g29n01
+03-01-2021 14:33:44:455: NS  1 (Shutdown):   3.1% [3/96]: Nonzero exit status (9) from task 9 on server g19n18
+03-01-2021 14:33:44:455: NS  1 (Shutdown):   1.0% [1/96]: First process 9 to report exited (9) on server g19n18
+03-01-2021 14:33:44:589: NS  1 (Shutdown):   4.2% [4/96]: Nonzero exit status (9) from task 22 on server g20n02
+03-01-2021 14:33:44:588: NS  1 (Shutdown):   1.0% [1/96]: First process 22 to report exited (9) on server g20n02
+03-01-2021 14:33:44:590: NS  1 (Shutdown):   5.2% [5/96]: Nonzero exit status (9) from task 25 on server g26n01
+03-01-2021 14:33:44:590: NS  1 (Shutdown):   1.0% [1/96]: First process 25 to report exited (9) on server g26n01
+03-01-2021 14:33:44:590: NS  1 (Shutdown):   6.2% [6/96]: Nonzero exit status (9) from task 60 on server g28n17
+03-01-2021 14:33:44:590: NS  1 (Shutdown):   1.0% [1/96]: First process 60 to report exited (9) on server g28n17
+03-01-2021 14:33:44:591: NS  1 (Shutdown):   7.3% [7/96]: Nonzero exit status (9) from task 43 on server g28n14
+03-01-2021 14:33:44:591: NS  1 (Shutdown):   1.0% [1/96]: First process 43 to report exited (9) on server g28n14
+03-01-2021 14:33:44:595: NS  1 (Shutdown):   8.3% [8/96]: Nonzero exit status (9) from task 74 on server g29n01
+03-01-2021 14:33:44:599: NS  1 (Shutdown):   9.4% [9/96]: Nonzero exit status (9) from task 67 on server g28n18
+03-01-2021 14:33:44:599: NS  1 (Shutdown):   1.0% [1/96]: First process 67 to report exited (9) on server g28n18
+03-01-2021 14:33:44:606: NS  1 (Shutdown):  10.4% [10/96]: Nonzero exit status (9) from task 61 on server g28n17
+03-01-2021 14:33:44:607: NS  1 (Shutdown):  11.5% [11/96]: Nonzero exit status (9) from task 7 on server g19n18
+03-01-2021 14:33:44:607: NS  1 (Shutdown):  12.5% [12/96]: Nonzero exit status (9) from task 35 on server g26n02
+03-01-2021 14:33:44:607: NS  1 (Shutdown):   1.0% [1/96]: First process 35 to report exited (9) on server g26n02
+03-01-2021 14:33:44:608: NS  1 (Shutdown):  13.5% [13/96]: Nonzero exit status (9) from task 29 on server g26n01
+03-01-2021 14:33:44:608: NS  1 (Shutdown):  14.6% [14/96]: Nonzero exit status (9) from task 42 on server g28n14
+03-01-2021 14:33:44:609: NS  1 (Shutdown):  15.6% [15/96]: Nonzero exit status (9) from task 40 on server g27n02
+03-01-2021 14:33:44:609: NS  1 (Shutdown):   1.0% [1/96]: First process 40 to report exited (9) on server g27n02
+03-01-2021 14:33:44:609: NS  1 (Shutdown):  16.7% [16/96]: Nonzero exit status (9) from task 23 on server g20n02
+03-01-2021 14:33:44:613: NS  1 (Shutdown):  17.7% [17/96]: Nonzero exit status (9) from task 85 on server g29n03
+03-01-2021 14:33:44:613: NS  1 (Shutdown):   1.0% [1/96]: First process 85 to report exited (9) on server g29n03
+03-01-2021 14:33:44:614: NS  1 (Shutdown):  18.8% [18/96]: Nonzero exit status (9) from task 70 on server g28n18
+03-01-2021 14:33:44:616: NS  1 (Shutdown):  19.8% [19/96]: Nonzero exit status (9) from task 75 on server g29n01
+03-01-2021 14:33:44:619: NS  1 (Shutdown):  20.8% [20/96]: Nonzero exit status (9) from task 82 on server g29n02
+03-01-2021 14:33:44:619: NS  1 (Shutdown):  21.9% [21/96]: Nonzero exit status (9) from task 51 on server g28n15
+03-01-2021 14:33:44:618: NS  1 (Shutdown):   1.0% [1/96]: First process 51 to report exited (9) on server g28n15
+03-01-2021 14:33:44:618: NS  1 (Shutdown):   1.0% [1/96]: First process 82 to report exited (9) on server g29n02
+03-01-2021 14:33:44:624: NS  1 (Shutdown):  22.9% [22/96]: Nonzero exit status (9) from task 39 on server g27n02
+03-01-2021 14:33:44:626: NS  1 (Shutdown):  24.0% [23/96]: Nonzero exit status (9) from task 8 on server g19n18
+03-01-2021 14:33:44:629: NS  1 (Shutdown):  25.0% [24/96]: Nonzero exit status (9) from task 30 on server g26n02
+03-01-2021 14:33:44:629: NS  1 (Shutdown):  26.0% [25/96]: Nonzero exit status (9) from task 11 on server g19n18
+03-01-2021 14:33:44:630: NS  1 (Shutdown):  27.1% [26/96]: Nonzero exit status (9) from task 89 on server g29n03
+03-01-2021 14:33:44:630: NS  1 (Shutdown):  28.1% [27/96]: Nonzero exit status (9) from task 6 on server g19n18
+03-01-2021 14:33:44:630: NS  1 (Shutdown):  29.2% [28/96]: Nonzero exit status (9) from task 64 on server g28n17
+03-01-2021 14:33:44:630: NS  1 (Shutdown):  30.2% [29/96]: Nonzero exit status (9) from task 63 on server g28n17
+03-01-2021 14:33:44:630: NS  1 (Shutdown):  31.2% [30/96]: Nonzero exit status (9) from task 27 on server g26n01
+03-01-2021 14:33:44:631: NS  1 (Shutdown):  32.3% [31/96]: Nonzero exit status (9) from task 10 on server g19n18
+03-01-2021 14:33:44:632: NS  1 (Shutdown):  33.3% [32/96]: Nonzero exit status (9) from task 21 on server g20n02
+03-01-2021 14:33:44:633: NS  1 (Shutdown):  34.4% [33/96]: Nonzero exit status (9) from task 15 on server g20n01
+03-01-2021 14:33:44:633: NS  1 (Shutdown):  35.4% [34/96]: Nonzero exit status (9) from task 45 on server g28n14
+03-01-2021 14:33:44:633: NS  1 (Shutdown):  36.5% [35/96]: Nonzero exit status (9) from task 26 on server g26n01
+03-01-2021 14:33:44:633: NS  1 (Shutdown):  37.5% [36/96]: Nonzero exit status (9) from task 19 on server g20n02
+03-01-2021 14:33:44:633: NS  1 (Shutdown):  37.5% [36/96]: Nonzero exit status (9) from task 47 on server g28n14
+03-01-2021 14:33:44:632: NS  1 (Shutdown):   1.0% [1/96]: First process 15 to report exited (9) on server g20n01
+03-01-2021 14:33:44:633: NS  1 (Shutdown):  39.6% [38/96]: Nonzero exit status (9) from task 28 on server g26n01
+03-01-2021 14:33:44:633: NS  1 (Shutdown):  40.6% [39/96]: Nonzero exit status (9) from task 20 on server g20n02
+03-01-2021 14:33:44:634: NS  1 (Shutdown):  41.7% [40/96]: Nonzero exit status (9) from task 62 on server g28n17
+03-01-2021 14:33:44:634: NS  1 (Shutdown):  42.7% [41/96]: Nonzero exit status (9) from task 44 on server g28n14
+03-01-2021 14:33:44:635: NS  1 (Shutdown):  43.8% [42/96]: Nonzero exit status (9) from task 12 on server g20n01
+03-01-2021 14:33:44:635: NS  1 (Shutdown):  44.8% [43/96]: Nonzero exit status (9) from task 24 on server g26n01
+03-01-2021 14:33:44:635: NS  1 (Shutdown):  45.8% [44/96]: Nonzero exit status (9) from task 65 on server g28n17
+03-01-2021 14:33:44:635: NS  1 (Shutdown):  46.9% [45/96]: Nonzero exit status (9) from task 81 on server g29n02
+03-01-2021 14:33:44:635: NS  1 (Shutdown):  46.9% [45/96]: Nonzero exit status (9) from task 18 on server g20n02
+03-01-2021 14:33:44:637: NS  1 (Shutdown):  49.0% [47/96]: Nonzero exit status (9) from task 53 on server g28n15
+03-01-2021 14:33:44:637: NS  1 (Shutdown):  50.0% [48/96]: Nonzero exit status (9) from task 1 on server g19n12
+03-01-2021 14:33:44:637: NS  1 (Shutdown):  51.0% [49/96]: Nonzero exit status (9) from task 2 on server g19n12
+03-01-2021 14:33:44:637: NS  1 (Shutdown):  52.1% [50/96]: Nonzero exit status (9) from task 4 on server g19n12
+03-01-2021 14:33:44:637: NS  1 (Shutdown):  53.1% [51/96]: Nonzero exit status (9) from task 5 on server g19n12
+03-01-2021 14:33:44:637: NS  1 (Shutdown):  54.2% [52/96]: Nonzero exit status (9) from task 46 on server g28n14
+03-01-2021 14:33:44:638: NS  1 (Shutdown):  55.2% [53/96]: Nonzero exit status (9) from task 68 on server g28n18
+03-01-2021 14:33:44:639: NS  1 (Shutdown):  56.2% [54/96]: Nonzero exit status (9) from task 71 on server g28n18
+03-01-2021 14:33:44:639: NS  1 (Shutdown):  57.3% [55/96]: Nonzero exit status (9) from task 3 on server g19n12
+03-01-2021 14:33:44:641: NS  1 (Shutdown):  58.3% [56/96]: Nonzero exit status (9) from task 76 on server g29n01
+03-01-2021 14:33:44:641: NS  1 (Shutdown):  59.4% [57/96]: Nonzero exit status (9) from task 72 on server g29n01
+03-01-2021 14:33:44:641: NS  1 (Shutdown):  60.4% [58/96]: Nonzero exit status (9) from task 66 on server g28n18
+03-01-2021 14:33:44:643: NS  1 (Shutdown):  61.5% [59/96]: Nonzero exit status (9) from task 73 on server g29n01
+03-01-2021 14:33:44:645: NS  1 (Shutdown):  62.5% [60/96]: Nonzero exit status (9) from task 69 on server g28n18
+03-01-2021 14:33:44:649: NS  1 (Shutdown):  63.5% [61/96]: Nonzero exit status (9) from task 57 on server g28n16
+03-01-2021 14:33:44:649: NS  1 (Shutdown):  64.6% [62/96]: Nonzero exit status (9) from task 37 on server g27n02
+03-01-2021 14:33:44:649: NS  1 (Shutdown):  65.6% [63/96]: Nonzero exit status (9) from task 38 on server g27n02
+03-01-2021 14:33:44:649: NS  1 (Shutdown):   1.0% [1/96]: First process 57 to report exited (9) on server g28n16
+03-01-2021 14:33:44:652: NS  1 (Shutdown):  66.7% [64/96]: Nonzero exit status (9) from task 13 on server g20n01
+03-01-2021 14:33:44:652: NS  1 (Shutdown):  67.7% [65/96]: Nonzero exit status (9) from task 41 on server g27n02
+03-01-2021 14:33:44:654: NS  1 (Shutdown):  68.8% [66/96]: Nonzero exit status (9) from task 88 on server g29n03
+03-01-2021 14:33:44:655: NS  1 (Shutdown):  69.8% [67/96]: Nonzero exit status (9) from task 36 on server g27n02
+03-01-2021 14:33:44:656: NS  1 (Shutdown):  70.8% [68/96]: Nonzero exit status (9) from task 86 on server g29n03
+03-01-2021 14:33:44:658: NS  1 (Shutdown):  71.9% [69/96]: Nonzero exit status (9) from task 87 on server g29n03
+03-01-2021 14:33:44:660: NS  1 (Shutdown):  72.9% [70/96]: Nonzero exit status (9) from task 84 on server g29n03
+03-01-2021 14:33:44:660: NS  1 (Shutdown):  74.0% [71/96]: Nonzero exit status (9) from task 78 on server g29n02
+03-01-2021 14:33:44:662: NS  1 (Shutdown):  75.0% [72/96]: Nonzero exit status (9) from task 50 on server g28n15
+03-01-2021 14:33:44:662: NS  1 (Shutdown):  76.0% [73/96]: Nonzero exit status (9) from task 52 on server g28n15
+03-01-2021 14:33:44:663: NS  1 (Shutdown):  77.1% [74/96]: Nonzero exit status (9) from task 83 on server g29n02
+03-01-2021 14:33:44:663: NS  1 (Shutdown):  78.1% [75/96]: Nonzero exit status (9) from task 48 on server g28n15
+03-01-2021 14:33:44:665: NS  1 (Shutdown):  79.2% [76/96]: Nonzero exit status (9) from task 80 on server g29n02
+03-01-2021 14:33:44:667: NS  1 (Shutdown):  80.2% [77/96]: Nonzero exit status (9) from task 59 on server g28n16
+03-01-2021 14:33:44:667: NS  1 (Shutdown):  81.2% [78/96]: Nonzero exit status (9) from task 49 on server g28n15
+03-01-2021 14:33:44:667: NS  1 (Shutdown):  82.3% [79/96]: Nonzero exit status (9) from task 55 on server g28n16
+03-01-2021 14:33:44:667: NS  1 (Shutdown):  83.3% [80/96]: Nonzero exit status (9) from task 79 on server g29n02
+03-01-2021 14:33:44:670: NS  1 (Shutdown):  84.4% [81/96]: Nonzero exit status (9) from task 58 on server g28n16
+03-01-2021 14:33:44:671: NS  1 (Shutdown):  85.4% [82/96]: Nonzero exit status (9) from task 54 on server g28n16
+03-01-2021 14:33:44:673: NS  1 (Shutdown):  86.5% [83/96]: Nonzero exit status (9) from task 56 on server g28n16
+03-01-2021 14:33:44:674: NS  1 (Shutdown):  87.5% [84/96]: Nonzero exit status (9) from task 14 on server g20n01
+03-01-2021 14:33:44:675: NS  1 (Shutdown):  88.5% [85/96]: Nonzero exit status (9) from task 17 on server g20n01
+03-01-2021 14:33:44:678: NS  1 (Shutdown):  89.6% [86/96]: Nonzero exit status (9) from task 16 on server g20n01
+03-01-2021 14:33:44:683: NS  1 (Shutdown):  90.6% [87/96]: Nonzero exit status (9) from task 32 on server g26n02
+03-01-2021 14:33:44:683: NS  1 (Shutdown):  91.7% [88/96]: Nonzero exit status (9) from task 33 on server g26n02
+03-01-2021 14:33:44:683: NS  1 (Shutdown):  92.7% [89/96]: Nonzero exit status (9) from task 31 on server g26n02
+03-01-2021 14:33:44:683: NS  1 (Shutdown):  93.8% [90/96]: Nonzero exit status (9) from task 34 on server g26n02
+03-01-2021 14:33:44:730: NS  1 (Shutdown):  94.8% [91/96]: Nonzero exit status (9) from task 94 on server g29n04
+03-01-2021 14:33:44:729: NS  1 (Shutdown):   1.0% [1/96]: First process 94 to report exited (9) on server g29n04
+03-01-2021 14:33:44:746: NS  1 (Shutdown):  95.8% [92/96]: Nonzero exit status (9) from task 91 on server g29n04
+03-01-2021 14:33:44:747: NS  1 (Shutdown):  96.9% [93/96]: Nonzero exit status (9) from task 92 on server g29n04
+03-01-2021 14:33:44:747: NS  1 (Shutdown):  97.9% [94/96]: Nonzero exit status (9) from task 95 on server g29n04
+03-01-2021 14:33:44:750: NS  1 (Shutdown):  99.0% [95/96]: Nonzero exit status (9) from task 93 on server g29n04
+03-01-2021 14:33:44:752: NS  1 (Shutdown): 100.0% [96/96]: Nonzero exit status (9) from task 90 on server g29n04
+03-01-2021 14:33:44:752: NS  1 (Shutdown): All 16 servers reported as finished

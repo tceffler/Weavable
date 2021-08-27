@@ -1,0 +1,324 @@
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+taskset: failed to set pid 0's affinity: Invalid argument
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+terminate called after throwing an instance of 'std::bad_alloc'
+terminate called after throwing an instance of 'std::bad_alloc'
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+  what():  std::bad_alloc
+  what():  std::bad_alloc
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+./helper_4gpu.sh: line 164: 75054 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 46597 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75090 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 46546 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 76833 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 95853 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 95906 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 89986 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75107 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67786 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 46601 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 103196 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 76838 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 68915 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 89953 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 95896 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 83730 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67728 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 103233 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 77264 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 68871 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67513 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67785 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 98818 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 46534 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67730 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75056 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 46544 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 91648 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 77222 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75768 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 89955 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67773 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67720 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 46524 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 76784 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 91688 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 89943 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 89945 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 89935 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67518 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 98828 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67523 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75765 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75773 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75809 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75819 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75824 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 68914 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 68869 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 68870 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 68858 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 84822 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 84846 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 84770 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 84769 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 84768 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 84780 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 77269 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 77210 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 77275 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 98875 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 98870 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75040 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 75055 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 78445 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 78448 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 78489 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 78494 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 78499 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 78507 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67479 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67471 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 67481 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 83744 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 83785 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 83794 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 83780 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 83775 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 77212 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 103176 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 103174 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 103187 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 103198 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 91629 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 91634 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 91636 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 91644 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 95833 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 95835 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 95843 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 98826 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 98808 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 76771 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 76775 Aborted                 $command $executable "$@"
+./helper_4gpu.sh: line 164: 76768 Aborted                 $command $executable "$@"
+User defined signal 2
+Lost connection to pmix_server after reading 0/1344 bytes Success
+[batch4:14027] PMIX ERROR: UNPACK-PAST-END in file tool/pmix_tool.c at line 105
+Could not send js_detach request to pmix server

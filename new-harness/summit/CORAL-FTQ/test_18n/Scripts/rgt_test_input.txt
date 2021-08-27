@@ -1,0 +1,14 @@
+jobname = CORAL-FTQ-serial
+projectid = stf006accept
+total_nodes = 18
+batchqueue = batch
+walltime = 20
+executablename = fwq
+batchfilename = CORAL-FTQ-serial-18n.lsf
+buildscriptname = ./Common_Scripts/build-serial-fwq.bash
+checkscriptname = ./check.sh 18
+reportscriptname = /bin/true
+total_processes = 756
+processes_per_node = 42
+resubmitme = 1
+run_logfile = ./fwq-serial-run.log

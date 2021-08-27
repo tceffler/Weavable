@@ -1,0 +1,36 @@
+/ccs/home/bzf/.lsbatch/1612208695.706355.shell: line 30: source: filename argument required
+source: usage: source filename [arguments]
+Lmod has detected the following error: The following module(s) are illegal:
+__requiredmodules__
+Lmod does not support modulefiles that start with two or more underscores
+
+
+
+
+Currently Loaded Modules:
+  1) xl/16.1.1-5                      6) darshan-runtime/3.1.7
+  2) spectrum-mpi/10.3.1.2-20200121   7) DefApps
+  3) hsi/5.0.2.p5                     8) python/3.6.6-anaconda3-5.3.0
+  4) xalt/1.2.1                       9) olcf_harness
+  5) lsf-tools/2.0
+
+ 
+
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 477, in <module>
+    test_harness_driver()
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 443, in test_harness_driver
+    unique_id, jstatus, actions)
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 141, in auto_generated_scripts
+    check_exit_value = mymachine.check_executable()
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/machine_types/ibm_power9.py", line 105, in check_executable
+    return self.check_results(self.__rgt_test.get_check_command())
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/machine_types/base_machine.py", line 119, in check_results
+    cstatus = self.start_check_script(checkcmd)
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/machine_types/base_machine.py", line 136, in start_check_script
+    p = subprocess.Popen(args, stdout=check_stdout, stderr=subprocess.STDOUT)
+  File "/sw/summit/python/3.6/anaconda3/5.3.0/lib/python3.6/subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "/sw/summit/python/3.6/anaconda3/5.3.0/lib/python3.6/subprocess.py", line 1344, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Scripts/Common_Scripts/check_executable.x': '/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0002node/Scripts/Common_Scripts/check_executable.x'

@@ -1,0 +1,19 @@
+run_gups.sh: line 28: source: filename argument required
+source: usage: source filename [arguments]
+Lmod has detected the following error: The following module(s) are illegal:
+__requiredmodules__
+Lmod does not support modulefiles that start with two or more underscores
+
+
+
+
+Currently Loaded Modules:
+  1) xl/16.1.1-5                      6) darshan-runtime/3.1.7
+  2) spectrum-mpi/10.3.1.2-20200121   7) DefApps
+  3) hsi/5.0.2.p5                     8) python/3.6.6-anaconda3-5.3.0
+  4) xalt/1.2.1                       9) olcf_harness
+  5) lsf-tools/2.0
+
+ 
+
+CUDA Hook Library: Failed to find symbol mem_find_dreg_entries, /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0001node/Scripts/../../Source/bin/gups.summit: undefined symbol: __PAMI_Invalidate_region

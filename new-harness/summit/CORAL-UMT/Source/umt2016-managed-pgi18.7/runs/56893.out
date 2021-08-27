@@ -1,0 +1,186 @@
+starting jsrun with
+nodes = 1
+gpus used per socket = 3
+ranks_per_socket = 3
+cores_per_rank = 6
+used cores per socket = 18
+threads per rank = 6
+ Executing UMT2015 Number of ranks =6
+ and number of OMP threads  =6
+ gridFileName: 1x2x3_40.cmg
+ setting the number of groups=16
+ Running with Product Quadrature 
+ setting number of polar angles     = 8
+ setting number of azimuthal angles = 4
+ Building mesh...
+ Mesh complete.
+ Initializing Teton object...
+    done.
+ Starting time advance...
+ sweep_mem =              31595693056
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 1 timerad = 3e-06
+ 
+TempIters = 4 FluxIters = 4 GTAIters = 0
+TrMax =     0.0031622776601684 in Zone 66308 on Node 5
+TeMax =     0.0031622776601684 in Zone 82072 on Node 5
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 22.070307             7.8423738547135
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 2 timerad = 6.3e-05
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.364592199725 in Zone 65399 on Node 3
+TeMax =     0.0075234782306745 in Zone 66035 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 26.709568             19.75006114156
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 3 timerad = 0.000123
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.43263702948757 in Zone 75851 on Node 3
+TeMax =     0.14207129578952 in Zone 75851 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 26.428906             31.552669768687
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 4 timerad = 0.000183
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.47777565112928 in Zone 96065 on Node 3
+TeMax =     0.18768964085181 in Zone 75851 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 26.552185             43.346736376872
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 5 timerad = 0.000243
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.51233672654582 in Zone 96065 on Node 3
+TeMax =     0.22394100235718 in Zone 75851 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 26.572831             55.160153329838
+ 
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 6 timerad = 0.000303
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.54062904636719 in Zone 96065 on Node 3
+TeMax =     0.25504594781834 in Zone 96065 on Node 3
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 26.622004             66.976144147106
+ 
+ SuOlson setting last step's dt=3.1e-05
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 7 timerad = 0.000334
+ 
+TempIters = 4 FluxIters = 4 GTAIters = 0
+TrMax =     0.55355936068217 in Zone 81704 on Node 0
+TeMax =     0.27044841658387 in Zone 81701 on Node 0
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 24.0615             76.827255108394
+ 
+ SuOlson Test version 1.0 completed at time= 0.000334  goalTime= 0.000334
+ Computing error check along x=   0.0125, y=  0.00625
+ z=    0.01 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653763
+ z=     0.1 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653763
+ z= 0.17783 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653761
+ z= 0.31623 tInterpolated=  0.00533261 tExact=    0.00468 error=0.000652612
+ z=    0.45 tInterpolated=  0.00501555 tExact=    0.00455 error=0.000465546
+ z=     0.5 tInterpolated=  0.00273253 tExact=    0.00234 error=0.000392527
+ z= 0.56234 tInterpolated= 0.000197018 tExact=      5e-05 error=0.000147018
+ z=    0.75 tInterpolated= 5.43483e-08 tExact=          0 error=5.43483e-08
+ngroups = 16
+nangsn = 256
+tot zones = 614400
+numUnknowns = 2.01327e+10
+cumulativeIterationCount= 33 cumulativeWorkTime=179.017 s.
+figure of merit = 3.71125e+09
+task 5 failed to open the trace file mpi_profile.56893.5 ... using stderr
+task 0 failed to open the trace file mpi_profile.56893.0 ... using stderr
+task 4 failed to open the trace file mpi_profile.56893.4 ... using stderr
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 56893: <Not_Specified> in cluster <summit> Done
+
+Job <Not_Specified> was submitted from host <login3> by user <dappelh> in cluster <summit> at Thu Apr  5 22:17:01 2018
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <dappelh> in cluster <summit> at Thu Apr  5 22:17:11 2018
+                            <42*a09n18>
+</ccs/home/dappelh> was used as the home directory.
+</ccs/home/dappelh/codes/coral/umt2016-managed/runs> was used as the working directory.
+Started at Thu Apr  5 22:17:11 2018
+Terminated at Thu Apr  5 22:28:19 2018
+Results reported at Thu Apr  5 22:28:19 2018
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <56893.err> for stderr output of this job.
+

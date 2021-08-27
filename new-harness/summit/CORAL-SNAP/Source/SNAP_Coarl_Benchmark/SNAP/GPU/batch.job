@@ -1,0 +1,20 @@
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -nnodes 1
+#BSUB -P stf006accept
+##BSUB -x
+#BSUB -q tested
+#BSUB -W 15
+#---------------------------------------
+ulimit -s 10240
+ulimit -c 1000
+export BIND_THREADS=yes
+#export BIND_SLOTS=4
+export USE_MPS=no
+export OMP_NUM_THREADS=1
+export USE_GOMP=yes 
+export RANKS_PER_NODE=4
+#export LD_PRELOAD=/home/walkup/mpitrace/spectrum_mpi/libmpitrace.so
+
+jsrun --rs_per_host 1 --tasks_per_rs 4 --cpu_per_rs 42 --gpu_per_rs 6 --nrs 1 -d plane:4 ./help4.sh ./snap 4rank.in arnold.4rank.06_01_19_24_53
+

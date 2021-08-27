@@ -1,0 +1,12 @@
+job_name = osu-bibw
+project_id = csc425
+nodes = 2
+batch_queue = batch
+walltime = 60
+executablename = osu_bibw
+executable_path = osu-micro-benchmarks-5.7/mpi/pt2pt
+batch_filename = run_osw_bibw-0002n.sh
+build_cmd = ./build_osu.sh
+check_cmd = ./check_osu.sh
+report_cmd = ./report_osu.sh
+resubmitme = 1

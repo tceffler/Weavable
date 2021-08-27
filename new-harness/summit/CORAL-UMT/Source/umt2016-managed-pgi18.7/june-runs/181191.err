@@ -1,0 +1,2 @@
+Error negotiating connection with pmix server. read() -1. errno [104] Connection reset by peer
+Error initializing RM connection. Exiting.

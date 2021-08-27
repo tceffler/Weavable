@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 477, in <module>
+    test_harness_driver()
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 443, in test_harness_driver
+    unique_id, jstatus, actions)
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/bin/test_harness_driver.py", line 141, in auto_generated_scripts
+    check_exit_value = mymachine.check_executable()
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/machine_types/ibm_power9.py", line 108, in check_executable
+    return self.check_results(self.__rgt_test.get_check_command())
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/machine_types/base_machine.py", line 119, in check_results
+    cstatus = self.start_check_script(checkcmd)
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/new-harness/olcf-test-harness/harness/machine_types/base_machine.py", line 137, in start_check_script
+    p.wait()
+  File "/sw/summit/python/3.6/anaconda3/5.3.0/lib/python3.6/subprocess.py", line 1457, in wait
+    (pid, sts) = self._try_wait(0)
+  File "/sw/summit/python/3.6/anaconda3/5.3.0/lib/python3.6/subprocess.py", line 1404, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

@@ -1,0 +1,166 @@
+rank 0 0  using device  0
+rank 6 0  using device  0
+rank 1 1  using device  1
+rank 7 1  using device  3
+rank 2 2  using device  2
+rank 3 3  using device  3
+rank 4 4  using device  4
+rank 5 5  using device  5
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+SStruct Interface  wall clock time = 27.602508 seconds
+SStruct Interface  cpu clock time  = 37.940000 seconds
+
+Number of MPI processes: 8 , Number of OpenMP threads: 6
+
+BoomerAMG SETUP PARAMETERS:
+
+ Max levels = 25
+ Num levels = 10
+
+ Strength Threshold = 0.250000
+ Interpolation Truncation Factor = 0.000000
+ Maximum Row Sum Threshold for Dependency Weakening = 0.900000
+
+ Coarsening Type = HMIS 
+ Hybrid Coarsening (switch to CLJP when coarsening slows)
+ measures are determined locally
+
+ no. of levels of aggressive coarsening: 1
+
+
+ No global partition option chosen.
+
+ Interpolation = extended+i interpolation
+
+Operator Matrix Information:
+
+                  nonzero         entries per row        row sums
+lev        rows   entries  sparse  min  max   avg       min         max
+=========================================================================
+ 0    143327232 1160926560  0.000     4    9   8.1  -4.274e-15   3.000e+02
+ 1     15025793 300262852  0.000     4   47  20.0  -1.078e-12   9.294e+02
+ 2      4562874 161563494  0.000     5  148  35.4  -2.681e-12   1.771e+03
+ 3      1476319 81161920  0.000     6  429  55.0  -5.519e-02   3.330e+03
+ 4       352689 28496814  0.000     6  882  80.8  -1.191e+00   5.807e+03
+ 5        72826  7425813  0.001     7  632  102.0  -1.854e+03   1.461e+04
+ 6        15787  1636355  0.007    11  173  103.7  -1.724e+03   4.703e+04
+ 7         2407   154919  0.027     8  109  64.4   2.321e+00   1.096e+05
+ 8          234     5924  0.108     1   51  25.3  -2.222e+01   1.477e+05
+ 9            5       15  0.600     2    4   3.0   1.343e+01   6.232e+01
+
+
+Interpolation Matrix Information:
+
+                             entries/row    min     max         row sums
+lev        rows x cols          min max     weight   weight     min       max 
+=============================================================================
+ 0    143327232 x 15025793       1  10   1.488e-02 9.980e-01 1.759e-01 1.000e+00
+ 1     15025793 x 4562874        1   4   4.439e-03 1.000e+00 1.501e-01 1.000e+00
+ 2      4562874 x 1476319        0   4  -5.070e-01 1.000e+00 0.000e+00 1.000e+00
+ 3      1476319 x 352689         0   4  -4.472e+00 4.519e+00 0.000e+00 1.003e+00
+ 4       352689 x 72826          0   4  -1.790e+01 4.117e+01 0.000e+00 1.034e+00
+ 5        72826 x 15787          0   4  -6.234e+01 5.038e+01 -1.383e+00 1.081e+00
+ 6        15787 x 2407           0   4  -5.447e+00 2.097e+00 -2.196e-01 1.067e+00
+ 7         2407 x 234            0   4  -2.166e+01 8.348e+00 -5.174e-02 1.006e+00
+ 8          234 x 5              0   2   1.446e-01 9.857e-01 0.000e+00 1.000e+00
+
+
+     Complexity:    grid = 1.150069
+                operator = 1.500211
+
+
+
+
+BoomerAMG SOLVER PARAMETERS:
+
+  Maximum number of cycles:         1 
+  Stopping Tolerance:               0.000000e+00 
+  Cycle type (1 = V, 2 = W, etc.):  1
+
+  Relaxation Parameters:
+   Visiting Grid:                     down   up  coarse
+            Number of partial sweeps:    2    2     2 
+   Type 0=Jac, 3=hGS, 6=hSGS, 9=GE:     18   18    18 
+   Point types, partial sweeps (1=C, -1=F):
+                  Pre-CG relaxation (down):   0   0
+                   Post-CG relaxation (up):   0   0
+                             Coarsest grid:   0   0
+
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+PCG Setup  wall clock time = 84.850832 seconds
+PCG Setup  cpu clock time  = 388.520000 seconds
+
+System Size / Setup Phase Time: 2.252223e+06
+
+MAX_NNZ 0 160787232
+MAX_NNZ 1 66170880
+MAX_NNZ 2 32671872
+MAX_NNZ 3 52874444
+MAX_NNZ 4 22299143
+MAX_NNZ 5 6651092
+MAX_NNZ 6 1573512
+MAX_NNZ 7 150192
+MAX_NNZ 8 5832
+MAX_NNZ 9 15
+<b,b>: 2.883008e+10
+
+
+Iters       ||r||_2     conv.rate  ||r||_2/||b||_2
+-----    ------------   ---------  ------------ 
+    1    7.325785e+04    0.431451    4.314507e-01
+ITERATION 1 0.0661662
+    2    2.006509e+04    0.273897    1.181729e-01
+ITERATION 2 0.066931
+    3    4.670132e+03    0.232749    2.750466e-02
+ITERATION 3 0.066148
+    4    1.474033e+03    0.315630    8.681292e-03
+ITERATION 4 0.0668893
+    5    4.716682e+02    0.319985    2.777881e-03
+ITERATION 5 0.0661555
+    6    1.530214e+02    0.324426    9.012164e-04
+ITERATION 6 0.0661342
+    7    5.808651e+01    0.379597    3.420994e-04
+ITERATION 7 0.0678186
+    8    2.015569e+01    0.346994    1.187066e-04
+ITERATION 8 0.066226
+    9    5.658579e+00    0.280743    3.332609e-05
+ITERATION 9 0.0661534
+   10    2.150148e+00    0.379980    1.266326e-05
+ITERATION 10 0.0677052
+   11    8.356533e-01    0.388649    4.921565e-06
+ITERATION 11 0.0661325
+   12    2.464372e-01    0.294904    1.451388e-06
+ITERATION 12 0.0661752
+   13    9.595577e-02    0.389372    5.651297e-07
+
+
+CUDA memory usage per fine row: 6.3467e-07 GB
+LEVEL_TIME 0 0.0262504
+LEVEL_TIME 1 0.00858409
+LEVEL_TIME 2 0.00426208
+LEVEL_TIME 3 0.00532009
+LEVEL_TIME 4 0.00439848
+LEVEL_TIME 5 0.00307657
+LEVEL_TIME 6 0.00233166
+LEVEL_TIME 7 0.000669658
+LEVEL_TIME 8 0.000144423
+LEVEL_TIME 9 2.79971e-05
+=============================================
+Solve phase times:
+=============================================
+PCG Solve:
+PCG Solve  wall clock time = 0.961031 seconds
+PCG Solve  cpu clock time  = 3.830000 seconds
+
+AMG2013 Benchmark version 1.0
+Iterations = 13
+Final Relative Residual Norm = 5.651297e-07
+
+System Size * Iterations / Solve Phase Time: 2.585078e+09
+

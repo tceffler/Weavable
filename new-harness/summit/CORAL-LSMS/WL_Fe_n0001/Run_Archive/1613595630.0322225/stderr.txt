@@ -1,0 +1,2 @@
+Resources unavailable:  GPU: avail 6 requested 21 [ slots 21 x gpus_per_rs 1 ]
+Error: Requested job constraints can never be met. Job was not scheduled. Check your request and try again.

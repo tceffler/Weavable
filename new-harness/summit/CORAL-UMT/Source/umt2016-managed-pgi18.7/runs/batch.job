@@ -1,0 +1,42 @@
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -nnodes 1
+###BSUB -alloc_flags gpumps
+#BSUB -alloc_flags smt2
+#BSUB -P VEN201
+#BSUB -q batch
+#BSUB -W 20
+#---------------------------------------
+ulimit -s 10240
+
+export OMP_NUM_THREADS=14
+export CUDA_LAUNCH_BLOCKING=0
+
+export OMP_STACKSIZE=64M
+export PAMI_ENABLE_STRIPING=1
+export LD_PRELOAD=/ccs/home/walkup/logger/mpitrace/src/libmpitrace.so
+
+echo 'starting jsrun with'
+echo "nodes = 1"
+echo "gpus used per socket = 3"
+echo "ranks_per_socket = 3"
+echo "cores_per_rank = 7"
+echo "used cores per socket = 21"
+echo "threads per rank = 14"
+
+export RANKS_PER_SOCKET=3
+export RANKS_PER_GPU=1
+
+# profiling stuff:
+export PROFILE_RANK=-1  #rank where device-bind will run nvprof
+export PROFILE_PATH="/gpfs/alpinetds/scratch/dappelh/ven201/nvp216_3.prof"
+echo "nvprof output at "
+
+
+# -mxm
+
+jsrun --smpiargs=" --mca btl_openib_warn_default_gid_prefix 0 --mca mpi_warn_on_fork 0"   --nrs 2  --tasks_per_rs 3 --cpu_per_rs 21   --gpu_per_rs 3 --bind=proportional-packed:7 -d plane:3    ./device-bind.sh ../Teton/SuOlsonTest 1x2x3_38.cmg 16 2 16 8 4
+
+# jsrun --smpiargs="-mxm --mca btl_openib_warn_default_gid_prefix 0 --mca mpi_warn_on_fork 0" #   --nrs 2  --tasks_per_rs 3 --cpu_per_rs 21 #   --gpu_per_rs 3 --bind=proportional-packed:7 -d plane:3  #   ../../sm60/Teton/SuOlsonTest 1x2x3_38.cmg 16 2 16 8 4
+
+

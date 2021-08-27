@@ -1,0 +1,77 @@
+NUM_RS = 
+CPUS_PER_RS = 
+jsrun --progress ./progress_UMT.773553 --stdio_mode=prepend -D CUDA_VISIBLE_DEVICES -E OMP_NUM_THREADS=14 --nrs 96  --tasks_per_rs 1 --cpu_per_rs 7 --gpu_per_rs 1 --bind=proportional-packed:7 -d plane:1 /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-UMT/opt_n0016/1614627170.8660333/build_directory/bin/SuOlsonTest 8x12x12_38.cmg 16 2 16 8 4 1> stdout.txt 2> stderr.txt
+Creating machine of type summit with scheduler of type lsf and job launcher of type jsrun
+
+Creating scheduler
+Creating jobLauncher
+RGT Test Parameters - Builtin
+=============================
+job_name = umt_opt_n0016
+total_processes = 96
+processes_per_node = 6
+nodes = 16
+project_id = csc425
+batch_queue = batch
+walltime = 60
+executable_path = bin
+batch_filename = run_umt_opt_n0016.sh
+build_cmd = ./build_umt.sh opt
+check_cmd = ./check_umt.sh opt
+report_cmd = ./report_umt.sh
+RGT Test Parameters - User
+==========================
+threads = 14
+executablename = SuOlsonTest
+inputfile = 8x12x12_38.cmg
+execargs = 16 2 16 8 4
+alloc_flags = smt2
+resubmitme = 1
+Running check executable script on Power9 using check script ./check_umt.sh opt
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0016/Scripts
+Starting check script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0016/Run_Archive/1614627170.8660333
+Using check command: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0016/Scripts/./check_umt.sh opt
+Writing check_exit_status = 1 into /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0016/Status/1614627170.8660333/job_status.txt
+Running report executable script on Power9 using report script ./report_umt.sh
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0016/Scripts
+Starting report script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0016/Run_Archive/1614627170.8660333
+Using report script: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0016/Scripts/./report_umt.sh
+check_exit_value = 1
+No resubmit
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch3>
+Subject: Job 773553: <umt_opt_n0016> in cluster <summit> Done
+
+Job <umt_opt_n0016> was submitted from host <login2> by user <bzf> in cluster <summit> at Mon Mar  1 14:32:56 2021
+Job was executed on host(s) <1*batch3>, in queue <batch>, as user <bzf> in cluster <summit> at Mon Mar  1 14:33:08 2021
+                            <42*g19n12>
+                            <42*g19n18>
+                            <42*g20n01>
+                            <42*g20n02>
+                            <42*g26n01>
+                            <42*g26n02>
+                            <42*g27n02>
+                            <42*g28n14>
+                            <42*g28n15>
+                            <42*g28n16>
+                            <42*g28n17>
+                            <42*g28n18>
+                            <42*g29n01>
+                            <42*g29n02>
+                            <42*g29n03>
+                            <42*g29n04>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0016/Run_Archive/1614627170.8660333> was used as the working directory.
+Started at Mon Mar  1 14:33:08 2021
+Terminated at Mon Mar  1 14:33:48 2021
+Results reported at Mon Mar  1 14:33:48 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-UMT/opt_n0016/Run_Archive/1614627170.8660333/umt_opt_n0016.e773553> for stderr output of this job.
+

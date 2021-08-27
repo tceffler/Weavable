@@ -1,0 +1,17 @@
+job_name = WL-Fe_n0001
+num_walkers = 5
+inputfile = ./i_lsms_16
+steps_per_walker = 10
+mpi_per_walker = 1
+num_atoms = 16
+project_id = csc425
+nodes = 1
+batch_queue = batch
+walltime = 60
+executablename = wl-lsms 
+executable_path = bin
+batch_filename = run_lsms_n0001.sh
+build_cmd = ./build_lsms.sh
+check_cmd = ./check_lsms.sh
+report_cmd = ./report_lsms.sh
+resubmitme = 0 

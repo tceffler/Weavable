@@ -1,0 +1,15 @@
+#[Replacements]
+batch_queue = batch
+batch_filename = run_lulesh.sh
+job_name = LULESH
+nodes = 6
+total_nodes = 6
+total_processes = 36
+processes_per_node = 6
+project_id = csc425
+walltime = 30
+build_cmd = true
+check_cmd = check_lulesh.sh
+report_cmd = true
+resubmitme = 0
+executable_path = lulesh.cuda

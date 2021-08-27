@@ -1,0 +1,12 @@
+[b05n18:05619] *** Process received signal ***
+[b05n18:05619] Signal: Segmentation fault (11)
+[b05n18:05619] Signal code: Address not mapped (1)
+[b05n18:05619] Failing at address: 0xc0
+[b05n18:05619] [ 0] [0x2000000504d8]
+[b05n18:05619] [ 1] [0x7fffc6a8c490]
+[b05n18:05619] [ 2] /autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/gcc-4.8.5/darshan-runtime-3.1.7-cnvxicgf5j4ap64qi6v5gxp67hmrjz43/lib/libdarshan.so(fprintf+0x88)[0x2000000980c8]
+[b05n18:05619] [ 3] /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-HACC/small/1615234379.9077113/build_directory/bin/hacc_tpm[0x10014f78]
+[b05n18:05619] [ 4] /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-HACC/small/1615234379.9077113/build_directory/bin/hacc_tpm[0x100083cc]
+[b05n18:05619] [ 5] /lib64/libc.so.6(+0x25200)[0x200000725200]
+[b05n18:05619] [ 6] /lib64/libc.so.6(__libc_start_main+0xc4)[0x2000007253f4]
+[b05n18:05619] *** End of error message ***

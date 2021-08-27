@@ -1,0 +1,260 @@
+rank 0 0  using device  0
+rank 1 1  using device  1
+rank 2 2  using device  2
+rank 3 3  using device  3
+rank 4 4  using device  4
+rank 5 5  using device  5
+rank 42 0  using device  0
+rank 78 0  using device  0
+rank 43 1  using device  1
+rank 79 1  using device  1
+rank 44 2  using device  2
+rank 80 2  using device  2
+rank 30 0  using device  0
+rank 31 1  using device  1
+rank 45 3  using device  3
+rank 46 4  using device  4
+rank 32 2  using device  2
+rank 81 3  using device  3
+rank 82 4  using device  4
+rank 33 3  using device  3
+rank 47 5  using device  5
+rank 83 5  using device  5
+rank 34 4  using device  4
+rank 67 1  using device  1
+rank 66 0  using device  0
+rank 6 0  using device  0
+rank 68 2  using device  2
+rank 84 0  using device  0
+rank 35 5  using device  5
+rank 85 1  using device  1
+rank 86 2  using device  2
+rank 87 3  using device  3
+rank 8 2  using device  2
+rank 69 3  using device  3
+rank 88 4  using device  4
+rank 9 3  using device  3
+rank 70 4  using device  4
+rank 89 5  using device  5
+rank 7 1  using device  1
+rank 71 5  using device  5
+rank 10 4  using device  4
+rank 11 5  using device  5
+rank 36 0  using device  0
+rank 37 1  using device  1
+rank 38 2  using device  2
+rank 39 3  using device  3
+rank 24 0  using device  0
+rank 25 1  using device  1
+rank 40 4  using device  4
+rank 26 2  using device  2
+rank 60 0  using device  0
+rank 61 1  using device  1
+rank 41 5  using device  5
+rank 27 3  using device  3
+rank 62 2  using device  2
+rank 28 4  using device  4
+rank 29 5  using device  5
+rank 63 3  using device  3
+rank 64 4  using device  4
+rank 65 5  using device  5
+rank 48 0  using device  0
+rank 49 1  using device  1
+rank 50 2  using device  2
+rank 51 3  using device  3
+rank 72 0  using device  0
+rank 52 4  using device  4
+rank 73 1  using device  1
+rank 12 0  using device  0
+rank 90 0  using device  0
+rank 91 1  using device  1
+rank 13 1  using device  1
+rank 18 0  using device  0
+rank 19 1  using device  1
+rank 74 2  using device  2
+rank 53 5  using device  5
+rank 92 2  using device  2
+rank 75 3  using device  3
+rank 14 2  using device  2
+rank 20 2  using device  2
+rank 93 3  using device  3
+rank 55 1  using device  1
+rank 54 0  using device  0
+rank 21 3  using device  3
+rank 15 3  using device  3
+rank 76 4  using device  4
+rank 56 2  using device  2
+rank 16 4  using device  4
+rank 94 4  using device  4
+rank 77 5  using device  5
+rank 22 4  using device  4
+rank 95 5  using device  5
+rank 57 3  using device  3
+rank 17 5  using device  5
+rank 23 5  using device  5
+rank 58 4  using device  4
+rank 59 5  using device  5
+=============================================
+SStruct Interface:
+=============================================
+SStruct Interface:
+SStruct Interface  wall clock time = 28.911338 seconds
+SStruct Interface  cpu clock time  = 34.260000 seconds
+
+Number of MPI processes: 96 , Number of OpenMP threads: 6
+
+BoomerAMG SETUP PARAMETERS:
+
+ Max levels = 25
+ Num levels = 11
+
+ Strength Threshold = 0.250000
+ Interpolation Truncation Factor = 0.000000
+ Maximum Row Sum Threshold for Dependency Weakening = 0.900000
+
+ Coarsening Type = HMIS 
+ Hybrid Coarsening (switch to CLJP when coarsening slows)
+ measures are determined locally
+
+ no. of levels of aggressive coarsening: 1
+
+
+ No global partition option chosen.
+
+ Interpolation = extended+i interpolation
+
+Operator Matrix Information:
+
+                  nonzero         entries per row        row sums
+lev        rows   entries  sparse  min  max   avg       min         max
+=========================================================================
+ 0   1719926784 13953753792  0.000     4    9   8.1  -4.274e-15   3.000e+02
+ 1    178231822 3557023304  0.000     4   50  20.0  -4.087e-12   1.088e+03
+ 2     54051003 1925985826  0.000     4  153  35.6  -8.224e-12   1.811e+03
+ 3     17105377 974945716  0.000     6  451  57.0  -8.365e-02   3.713e+03
+ 4      3806235 332283014  0.000     7  821  87.3  -5.837e+00   7.669e+03
+ 5       762686 84628510  0.000     9  571  111.0  -4.360e+04   2.584e+04
+ 6       115876 12562112  0.001     8  311  108.4  -2.383e+06   8.585e+06
+ 7        17146  1366463  0.005     9  226  79.7  -5.237e+05   9.643e+05
+ 8         2052    92838  0.022    11  120  45.2  -6.462e+02   4.947e+05
+ 9          200     2406  0.060     2   32  12.0   9.416e+00   6.281e+05
+10            4        6  0.375     1    2   1.5   5.927e+01   1.507e+03
+
+
+Interpolation Matrix Information:
+
+                             entries/row    min     max         row sums
+lev        rows x cols          min max     weight   weight     min       max 
+=============================================================================
+ 0   1719926784 x 178231822      1  12   1.488e-02 1.000e+00 1.759e-01 1.000e+00
+ 1    178231822 x 54051003       1   4   4.439e-03 1.000e+00 1.226e-01 1.000e+00
+ 2     54051003 x 17105377       0   4  -4.832e-01 1.000e+00 0.000e+00 1.000e+00
+ 3     17105377 x 3806235        0   4  -6.524e+01 7.413e+01 0.000e+00 1.009e+00
+ 4      3806235 x 762686         0   4  -1.612e+03 2.736e+03 -2.056e-02 1.020e+00
+ 5       762686 x 115876         0   4  -8.488e+03 4.747e+03 -2.917e+01 1.216e+00
+ 6       115876 x 17146          0   4  -1.527e+02 1.712e+02 -9.196e-01 3.582e+00
+ 7        17146 x 2052           0   4  -1.502e+02 2.483e+02 -2.286e+00 1.434e+00
+ 8         2052 x 200            0   4  -1.959e-01 1.001e+00 -9.882e-02 1.023e+00
+ 9          200 x 4              0   1   8.192e-02 8.050e-01 0.000e+00 1.000e+00
+
+
+     Complexity:    grid = 1.147734
+                operator = 1.493694
+
+
+
+
+BoomerAMG SOLVER PARAMETERS:
+
+  Maximum number of cycles:         1 
+  Stopping Tolerance:               0.000000e+00 
+  Cycle type (1 = V, 2 = W, etc.):  1
+
+  Relaxation Parameters:
+   Visiting Grid:                     down   up  coarse
+            Number of partial sweeps:    2    2     2 
+   Type 0=Jac, 3=hGS, 6=hSGS, 9=GE:     18   18    18 
+   Point types, partial sweeps (1=C, -1=F):
+                  Pre-CG relaxation (down):   0   0
+                   Post-CG relaxation (up):   0   0
+                             Coarsest grid:   0   0
+
+=============================================
+Setup phase times:
+=============================================
+PCG Setup:
+PCG Setup  wall clock time = 472.163199 seconds
+PCG Setup  cpu clock time  = 2584.670000 seconds
+
+System Size / Setup Phase Time: 4.856871e+06
+
+MAX_NNZ 0 161015328
+MAX_NNZ 1 66723552
+MAX_NNZ 2 33154560
+MAX_NNZ 3 54720580
+MAX_NNZ 4 22662608
+MAX_NNZ 5 6708368
+MAX_NNZ 6 1166461
+MAX_NNZ 7 141637
+MAX_NNZ 8 10421
+MAX_NNZ 9 354
+MAX_NNZ 10 2
+<b,b>: 1.438020e+11
+
+
+Iters       ||r||_2     conv.rate  ||r||_2/||b||_2
+-----    ------------   ---------  ------------ 
+    1    2.819457e+05    0.743503    7.435033e-01
+ITERATION 1 0.0787139
+    2    5.411190e+04    0.191923    1.426955e-01
+ITERATION 2 0.0774405
+    3    1.133764e+04    0.209522    2.989787e-02
+ITERATION 3 0.0775104
+    4    4.843727e+03    0.427225    1.277312e-02
+ITERATION 4 0.0775789
+    5    1.252833e+03    0.258651    3.303776e-03
+ITERATION 5 0.0772293
+    6    3.549300e+02    0.283302    9.359662e-04
+ITERATION 6 0.0773932
+    7    1.216779e+02    0.342822    3.208700e-04
+ITERATION 7 0.0772448
+    8    4.587492e+01    0.377019    1.209742e-04
+ITERATION 8 0.0774563
+    9    1.713650e+01    0.373548    4.518971e-05
+ITERATION 9 0.077258
+   10    7.433646e+00    0.433790    1.960286e-05
+ITERATION 10 0.0772897
+   11    2.889493e+00    0.388705    7.619721e-06
+ITERATION 11 0.0777164
+   12    1.522112e+00    0.526775    4.013877e-06
+ITERATION 12 0.0772363
+   13    6.666059e-01    0.437948    1.757870e-06
+ITERATION 13 0.0773481
+   14    3.463544e-01    0.519579    9.133521e-07
+
+
+CUDA memory usage per fine row: 7.1322e-07 GB
+LEVEL_TIME 0 0.0285838
+LEVEL_TIME 1 0.0120129
+LEVEL_TIME 2 0.00703406
+LEVEL_TIME 3 0.00827066
+LEVEL_TIME 4 0.00440714
+LEVEL_TIME 5 0.00321976
+LEVEL_TIME 6 0.00338981
+LEVEL_TIME 7 0.00124785
+LEVEL_TIME 8 0.000691184
+LEVEL_TIME 9 0.000238298
+LEVEL_TIME 10 3.9918e-05
+=============================================
+Solve phase times:
+=============================================
+PCG Solve:
+PCG Solve  wall clock time = 1.223573 seconds
+PCG Solve  cpu clock time  = 4.900000 seconds
+
+AMG2013 Benchmark version 1.0
+Iterations = 14
+Final Relative Residual Norm = 9.133521e-07
+
+System Size * Iterations / Solve Phase Time: 2.623896e+10
+

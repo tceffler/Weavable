@@ -1,0 +1,64 @@
+Changed to working directory
+/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-HACC/small/1615230837.7944608/workdir
+total 148
+-rwxr-xr-x 1 bzf bzf 142115 Mar  8 14:15 cmbM000.tf
+-rwxr-xr-x 1 bzf bzf   1961 Mar  8 14:15 indat
+jsrun --smpiargs=-mca coll ^ibm -X 1 --progress .progress --nrs 8 --tasks_per_rs 1 --cpu_per_rs 8 --gpu_per_rs 1 --rs_per_host 4 --bind=none -l GPU-CPU --stdio_mode collected --stdio_stdout stdout.txt --stdio_stderr stderr.txt /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-HACC/small/1615230837.7944608/build_directory/bin/hacc_tpm ./indat ./cmbM000.tf m000 INIT ALL_TO_ALL -w -R -N 512 -t 2x2x2
+Creating machine of type summit with scheduler of type lsf and job launcher of type jsrun
+
+Creating scheduler
+Creating jobLauncher
+RGT Test Parameters - Builtin
+=============================
+total_processes = 8
+processes_per_node = 4
+nodes = 2
+batch_filename = run_hacc.sh
+job_name = hacc_small
+project_id = csc425
+batch_queue = batch
+walltime = 30
+build_cmd = ./build.sh
+check_cmd = ./check.sh
+report_cmd = ./report.sh
+executable_path = bin/hacc_tpm
+RGT Test Parameters - User
+==========================
+jobname = HACC_small
+executablename = hacc_tpm
+batchfilename = run_HACC.sh
+resubmitme = 1
+Running check executable script on Power9 using check script ./check.sh
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Scripts
+Starting check script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Run_Archive/1615230837.7944608
+Using check command: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Scripts/./check.sh
+Writing check_exit_status = 1 into /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Status/1615230837.7944608/job_status.txt
+Running report executable script on Power9 using report script ./report.sh
+current directory in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Scripts
+Starting report script in base_machine: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Run_Archive/1615230837.7944608
+Using report script: /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Scripts/./report.sh
+check_exit_value = 1
+No resubmit
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 798209: <hacc_small> in cluster <summit> Done
+
+Job <hacc_small> was submitted from host <login1> by user <bzf> in cluster <summit> at Mon Mar  8 14:14:17 2021
+Job was executed on host(s) <1*batch5>, in queue <batch>, as user <bzf> in cluster <summit> at Mon Mar  8 14:14:37 2021
+                            <42*a14n05>
+                            <42*a14n06>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Run_Archive/1615230837.7944608> was used as the working directory.
+Started at Mon Mar  8 14:14:37 2021
+Terminated at Mon Mar  8 14:16:17 2021
+Results reported at Mon Mar  8 14:16:17 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-HACC/small/Run_Archive/1615230837.7944608/hacc_small.e798209> for stderr output of this job.
+

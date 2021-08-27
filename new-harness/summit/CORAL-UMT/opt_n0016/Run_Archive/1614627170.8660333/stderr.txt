@@ -1,0 +1,16 @@
+1: 0: SuOlsonTest: CMGGenerator.c:580: bcastinp: Assertion `counter == numProcs' failed.
+1: 0: [g19n12:172865] *** Process received signal ***
+1: 0: [g19n12:172865] Signal: Aborted (6)
+1: 0: [g19n12:172865] Signal code:  (-6)
+1: 0: [g19n12:172865] [ 0] [0x7fff88a004d8]
+1: 0: [g19n12:172865] [ 1] /lib64/libc.so.6(abort+0x2b4)[0x7fff7aff2094]
+1: 0: [g19n12:172865] [ 2] /lib64/libc.so.6(+0x356d4)[0x7fff7afe56d4]
+1: 0: [g19n12:172865] [ 3] 1: 0: /lib64/libc.so.6(__assert_fail+0x64)[0x7fff7afe57c4]
+1: 0: [g19n12:172865] [ 4] /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-UMT/opt_n0016/1614627170.8660333/build_directory/bin/SuOlsonTest[0x10094d44]
+1: 0: [g19n12:172865] [ 5] /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-UMT/opt_n0016/1614627170.8660333/build_directory/bin/SuOlsonTest[0x10072a58]
+1: 0: [g19n12:172865] [ 6] /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-UMT/opt_n0016/1614627170.8660333/build_directory/bin/SuOlsonTest[0x10013c7c]
+1: 0: [g19n12:172865] [ 7] /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-UMT/opt_n0016/1614627170.8660333/build_directory/bin/SuOlsonTest[0x10007f00]
+1: 0: [g19n12:172865] [ 8] /lib64/libc.so.6(+0x25200)[0x7fff7afd5200]
+1: 0: [g19n12:172865] [ 9] 1: 0: /lib64/libc.so.6(__libc_start_main+0xc4)[0x7fff7afd53f4]
+1: 0: [g19n12:172865] *** End of error message ***
+ERROR:  One or more process (first noticed rank 0) terminated with signal 6

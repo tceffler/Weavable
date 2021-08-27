@@ -1,0 +1,15 @@
+#[Replacements]
+batch_queue = batch
+batch_filename = run_gups.sh
+job_name = gups
+nodes = 2
+total_nodes = 2
+total_processes = 2
+processes_per_node = 1
+project_id = csc425
+walltime = 60
+build_cmd = true
+check_cmd = Common_Scripts/check_executable.x
+report_cmd = true
+resubmit = 1
+executable_path = gups.summit

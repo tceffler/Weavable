@@ -1,0 +1,22 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 706281: <gups> in cluster <summit> Done
+
+Job <gups> was submitted from host <login4> by user <bzf> in cluster <summit> at Mon Feb  1 14:31:13 2021
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <bzf> in cluster <summit> at Mon Feb  1 14:31:28 2021
+                            <42*c32n03>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0001node/Run_Archive/1612207872.8815765> was used as the working directory.
+Started at Mon Feb  1 14:31:28 2021
+Terminated at Mon Feb  1 14:32:29 2021
+Results reported at Mon Feb  1 14:32:29 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0001node/Run_Archive/1612207872.8815765/gups.e706281> for stderr output of this job.
+

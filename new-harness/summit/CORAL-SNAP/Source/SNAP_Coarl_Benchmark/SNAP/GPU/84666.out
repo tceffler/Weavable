@@ -1,0 +1,105 @@
+running helper script
+running helper script
+running helper script
+running helper script
+NA=3 NG=80 maxAgnrp=48
+P(0) on c699c010: Using GPU 0 (Tesla V100-SXM2-16GB) of 6 on 0
+My gpu has 80 streaming multiprocessors
+My gpu has 65536 registers
+ time step =            1
+ outer =            1
+NA=3 NG=80 maxAgnrp=48
+P(3) on c699c010: Using GPU 4 (Tesla V100-SXM2-16GB) of 6 on 128
+NA=3 NG=80 maxAgnrp=48
+P(1) on c699c010: Using GPU 1 (Tesla V100-SXM2-16GB) of 6 on 40
+NA=3 NG=80 maxAgnrp=48
+P(2) on c699c010: Using GPU 3 (Tesla V100-SXM2-16GB) of 6 on 88
+ outer =            2
+ outer =            3
+ outer =            4
+ time step =            2
+ outer =            1
+ outer =            2
+ outer =            3
+ outer =            4
+ time step =            3
+ outer =            1
+ outer =            2
+ outer =            3
+ outer =            4
+ time step =            4
+ outer =            1
+ outer =            2
+ outer =            3
+ output is suppressed
+ output is suppressed
+ output is suppressed
+P(2): tot = 0.000000, recv = 0.000000 (0.000000, 0.000000, nan GB/s), send = 0.000000 (nan, nan GB/s), kernel = 0.000000, 0, 0, 268896148
+ output is suppressed
+P(3): tot = 0.000000, recv = 0.000000 (0.000000, 0.000000, nan GB/s), send = 0.000000 (nan, nan GB/s), kernel = 0.000000, 0, 0, 268896148
+P(1): tot = 0.000000, recv = 0.000000 (0.000000, 0.000000, nan GB/s), send = 0.000000 (nan, nan GB/s), kernel = 0.000000, 0, 0, 268896148
+P(0): tot = 0.000000, recv = 0.000000 (0.000000, 0.000000, nan GB/s), send = 0.000000 (nan, nan GB/s), kernel = 0.000000, 0, 0, 268896148
+ Success! Done in a SNAP!
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@c699launch01>
+Subject: Job 84666: <#BSUB -o %J.out;#BSUB -e %J.err;#BSUB -nnodes 1;##BSUB -x;#BSUB -q excl_6gpus;#BSUB -W 15;#---------------------------------------;ulimit -s 10240;ulimit -c 1000;export BIND_THREADS=yes;#export BIND_SLOTS=4;export USE_MPS=no;export OMP_NUM_THREADS=1;export USE_GOMP=yes ;export RANKS_PER_NODE=4;#export LD_PRELOAD=/home/walkup/mpitrace/spectrum_mpi/libmpitrace.so; /opt/ibm/spectrum_mpi/jsm_pmix/bin/jsrun --rs_per_host 1 --tasks_per_rs 4 --cpu_per_rs 42 --gpu_per_rs 6 --nrs 1 -d plane:4 ./help4.sh ./snap 4rank.in mout.4rank.06_01_19_24_53> in cluster <cluster1> Done
+
+Job <#BSUB -o %J.out;#BSUB -e %J.err;#BSUB -nnodes 1;##BSUB -x;#BSUB -q excl_6gpus;#BSUB -W 15;#---------------------------------------;ulimit -s 10240;ulimit -c 1000;export BIND_THREADS=yes;#export BIND_SLOTS=4;export USE_MPS=no;export OMP_NUM_THREADS=1;export USE_GOMP=yes ;export RANKS_PER_NODE=4;#export LD_PRELOAD=/home/walkup/mpitrace/spectrum_mpi/libmpitrace.so; /opt/ibm/spectrum_mpi/jsm_pmix/bin/jsrun --rs_per_host 1 --tasks_per_rs 4 --cpu_per_rs 42 --gpu_per_rs 6 --nrs 1 -d plane:4 ./help4.sh ./snap 4rank.in mout.4rank.06_01_19_24_53> was submitted from host <c699login02> by user <ckim> in cluster <cluster1> at Fri Jun  1 19:24:53 2018
+Job was executed on host(s) <1*c699launch01>, in queue <excl_6gpus>, as user <ckim> in cluster <cluster1> at Fri Jun  1 19:24:54 2018
+                            <44*c699c010>
+</home/ckim> was used as the home directory.
+</home/ckim/CORAL/snap/ORNL/snap_opt> was used as the working directory.
+Started at Fri Jun  1 19:24:54 2018
+Terminated at Fri Jun  1 19:27:28 2018
+Results reported at Fri Jun  1 19:27:28 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -nnodes 1
+##BSUB -x
+#BSUB -q excl_6gpus
+#BSUB -W 15
+#---------------------------------------
+ulimit -s 10240
+ulimit -c 1000
+export BIND_THREADS=yes
+#export BIND_SLOTS=4
+export USE_MPS=no
+export OMP_NUM_THREADS=1
+export USE_GOMP=yes 
+export RANKS_PER_NODE=4
+#export LD_PRELOAD=/home/walkup/mpitrace/spectrum_mpi/libmpitrace.so
+
+/opt/ibm/spectrum_mpi/jsm_pmix/bin/jsrun --rs_per_host 1 --tasks_per_rs 4 --cpu_per_rs 42 --gpu_per_rs 6 --nrs 1 -d plane:4 ./help4.sh ./snap 4rank.in mout.4rank.06_01_19_24_53
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.05 sec.
+    Max Memory :                                 50.56 MB
+    Average Memory :                             46.60 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                30
+    Run time :                                   153 sec.
+    Turnaround time :                            155 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <84666.err> for stderr output of this job.
+

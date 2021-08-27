@@ -1,0 +1,26 @@
+Running lsms using ./i_lsms_16 with 10 walkers...
+jsrun --progress ./progress_lsms.744752.txt --exit_on_error 1 --nrs 21 --tasks_per_rs 1 --cpu_per_rs 1 --gpu_per_rs 1 --bind rs bin ./i_lsms_16 -mode 1d -size_lsms 16 -num_lsms 10 -num_steps 100 -energy_calculation multistep  1> stdout.txt 2> stderr.txt
+ERROR: user-provided test id __unique_id_string__ does not match run archive id 1613594598.939524
+Generated test unique id: 1613594645.4885328
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 744752: <WL-Fe_n0001> in cluster <summit> Exited
+
+Job <WL-Fe_n0001> was submitted from host <login2> by user <bzf> in cluster <summit> at Wed Feb 17 15:43:36 2021
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <bzf> in cluster <summit> at Wed Feb 17 15:43:47 2021
+                            <42*e34n05>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Run_Archive/1613594598.939524> was used as the working directory.
+Started at Wed Feb 17 15:43:47 2021
+Terminated at Wed Feb 17 15:44:06 2021
+Results reported at Wed Feb 17 15:44:06 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LSMS/WL_Fe_n0001/Run_Archive/1613594598.939524/WL-Fe_n0001.e744752> for stderr output of this job.
+

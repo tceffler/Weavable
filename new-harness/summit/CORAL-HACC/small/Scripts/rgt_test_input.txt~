@@ -1,0 +1,16 @@
+jobname = HACC_small
+total_processes = 8
+processes_per_node = 4
+nodes = 2
+batch_filename = run_hacc.sh 
+job_name = hacc_small
+project_id = csc425
+batch_queue = batch
+walltime = 30
+executablename = hacc_tpm
+batchfilename = run_HACC.sh
+build_cmd = ./build.sh
+check_cmd = ./check.sh
+report_cmd = ./report.sh
+resubmitme = 0
+executable_path = bin/hacc_tpm

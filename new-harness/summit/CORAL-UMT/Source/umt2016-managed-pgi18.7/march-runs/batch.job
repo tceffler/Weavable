@@ -1,0 +1,29 @@
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -nnodes 192
+#BSUB -alloc_flags gpumps
+#BSUB -alloc_flags smt4
+#BSUB -P VEN201
+#BSUB -q batch
+#BSUB -W 60
+#---------------------------------------
+ulimit -s 10240
+
+export OMP_NUM_THREADS=28
+export CUDA_LAUNCH_BLOCKING=0
+
+echo 'starting jsrun with'
+echo "nodes = 192"
+echo "gpus used per socket = 3"
+echo "ranks_per_socket = 3"
+echo "cores_per_rank = 7"
+echo "used cores per socket = 21"
+
+export RANKS_PER_SOCKET=3
+export RANKS_PER_GPU=1
+
+jsrun --smpiargs="-mxm --mca btl_openib_warn_default_gid_prefix 0 --mca mpi_warn_on_fork 0"   --nrs 384  --tasks_per_rs 3 --cpu_per_rs 21   --gpu_per_rs 3 --bind=proportional-packed:7 -d plane:3    ./device-bind.sh ../Teton/SuOlsonTest 12x12x8_32.cmg 16 2 16 8 4
+
+# jsrun --smpiargs="-mxm --mca btl_openib_warn_default_gid_prefix 0 --mca mpi_warn_on_fork 0" #   --nrs 384  --tasks_per_rs 3 --cpu_per_rs 21 #   --gpu_per_rs 3 --bind=proportional-packed:7 -d plane:3  #   ../../sm60/Teton/SuOlsonTest 12x12x8_32.cmg 16 2 16 8 4
+
+

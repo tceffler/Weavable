@@ -1,0 +1,7 @@
+CORAL FOM is 9.17E+11
+IBM FOM is 6.938E+11
+ORNL FOM is 6.9407E+11
+Run FOM is 7.1719E+11
+Meets CORAL FOM? no
+Meets IBM FOM? yes
+Meets .7*ORNL FOM? yes

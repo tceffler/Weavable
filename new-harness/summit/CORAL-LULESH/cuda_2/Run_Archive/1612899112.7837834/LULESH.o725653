@@ -1,0 +1,27 @@
+Changed to working directory
+/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-LULESH/cuda_2/1612899112.7837834/workdir
+total 0
+jsrun --nrs 9 --tasks_per_rs 3 --cpu_per_rs 6 --gpu_per_rs 1 -b packed:2 -d plane:3 --stdio_mode collected --stdio_stdout stdout.txt --stdio_stderr stderr.txt lulesh.cuda -s 128 -i 5000
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 725653: <LULESH> in cluster <summit> Done
+
+Job <LULESH> was submitted from host <login5> by user <bzf> in cluster <summit> at Tue Feb  9 14:31:54 2021
+Job was executed on host(s) <1*batch5>, in queue <batch>, as user <bzf> in cluster <summit> at Tue Feb  9 14:32:09 2021
+                            <42*c36n10>
+                            <42*c36n11>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Run_Archive/1612899112.7837834> was used as the working directory.
+Started at Tue Feb  9 14:32:09 2021
+Terminated at Tue Feb  9 14:34:26 2021
+Results reported at Tue Feb  9 14:34:26 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_2/Run_Archive/1612899112.7837834/LULESH.e725653> for stderr output of this job.
+

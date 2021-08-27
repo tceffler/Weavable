@@ -1,0 +1,395 @@
+starting jsrun with
+nodes = 192
+gpus used per socket = 3
+ranks_per_socket = 3
+cores_per_rank = 7
+used cores per socket = 21
+threads per rank = 14
+ Executing UMT2015 Number of ranks =1152
+ and number of OMP threads  =14
+ gridFileName: 12x12x8_38.cmg
+ setting the number of groups=16
+ Running with Product Quadrature 
+ setting number of polar angles     = 8
+ setting number of azimuthal angles = 4
+ Building mesh...
+ Mesh complete.
+ Initializing Teton object...
+    done.
+ Starting time advance...
+ sweep_mem =              22248612864
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 1 timerad = 3e-06
+ 
+TempIters = 4 FluxIters = 4 GTAIters = 0
+TrMax =     0.0031622776601684 in Zone 71030 on Node 1039
+TeMax =     0.0031622776601684 in Zone 87654 on Node 1147
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 19.762912             7.1090915859677
+ 
+ True flux iterations =             2
+ True flux iterations =             3
+ True flux iterations =             2
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 2 timerad = 6.3e-05
+ 
+TempIters = 6 FluxIters = 6 GTAIters = 0
+TrMax =     0.36459219972124 in Zone 57276 on Node 1056
+TeMax =     0.0075234782304945 in Zone 57276 on Node 1056
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 31.732579             23.843142693862
+ 
+ True flux iterations =             2
+ True flux iterations =             3
+ True flux iterations =             2
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 3 timerad = 0.000123
+ 
+TempIters = 10 FluxIters = 10 GTAIters = 0
+TrMax =     0.43263702948662 in Zone 85391 on Node 1056
+TeMax =     0.14207129578755 in Zone 57276 on Node 1056
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 42.427781             48.455955713056
+ 
+ True flux iterations =             2
+ True flux iterations =             3
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 4 timerad = 0.000183
+ 
+TempIters = 11 FluxIters = 11 GTAIters = 0
+TrMax =     0.47777565112832 in Zone 59072 on Node 1056
+TeMax =     0.18768964084827 in Zone 65640 on Node 1056
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 42.755802             72.665714190109
+ 
+ True flux iterations =             2
+ True flux iterations =             3
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 5 timerad = 0.000243
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     0.51233672654283 in Zone 62441 on Node 1056
+TeMax =     0.22394100235381 in Zone 62441 on Node 1056
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 33.350053             90.494390139589
+ 
+ True flux iterations =             2
+ True flux iterations =             3
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 6 timerad = 0.000303
+ 
+TempIters = 7 FluxIters = 7 GTAIters = 0
+TrMax =     0.54062904636017 in Zone 36101 on Node 1056
+TeMax =     0.25504594781458 in Zone 62441 on Node 1056
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 33.320683             108.36945000943
+ 
+ SuOlson setting last step's dt=3.1e-05
+ True flux iterations =             2
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+ True flux iterations =             1
+CYCLE 7 timerad = 0.000334
+ 
+TempIters = 5 FluxIters = 5 GTAIters = 0
+TrMax =     0.55355936067603 in Zone 65327 on Node 1056
+TeMax =     0.27044841658043 in Zone 65327 on Node 1056
+Recommended time step for next rad cycle = 6e-05
+ 
+ 
+********** Run Time Statistics **********
+                  Cycle Advance             Accumulated 
+                     Time (sec)         Angle Loop Time (sec)
+RADTR              = 24.117269             118.94498508121
+ 
+ SuOlson Test version 1.0 completed at time= 0.000334  goalTime= 0.000334
+ Computing error check along x=0.00109649, y=0.00109649
+ z=    0.01 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653763
+ z=     0.1 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653763
+ z= 0.17783 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653761
+ z= 0.31623 tInterpolated=  0.00533264 tExact=    0.00468 error=0.000652641
+ z=    0.45 tInterpolated=  0.00502211 tExact=    0.00455 error=0.000472108
+ z=     0.5 tInterpolated=  0.00267413 tExact=    0.00234 error=0.000334131
+ z= 0.56234 tInterpolated= 0.000196102 tExact=      5e-05 error=0.000146102
+ z=    0.75 tInterpolated= 5.26282e-08 tExact=          0 error=5.26282e-08
+ngroups = 16
+nangsn = 256
+tot zones = 101145600
+numUnknowns = 3.31434e+12
+cumulativeIterationCount= 50 cumulativeWorkTime=227.467 s.
+figure of merit = 7.28532e+11
+task 0 failed to open the trace file mpi_profile.56925.0 ... using stderr
+task 835 failed to open the trace file mpi_profile.56925.835 ... using stderr
+task 1143 failed to open the trace file mpi_profile.56925.1143 ... using stderr
+task 822 failed to open the trace file mpi_profile.56925.822 ... using stderr
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 56925: <Not_Specified> in cluster <summit> Done
+
+Job <Not_Specified> was submitted from host <login3> by user <dappelh> in cluster <summit> at Fri Apr  6 00:00:06 2018
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <dappelh> in cluster <summit> at Fri Apr  6 00:00:18 2018
+                            <42*a23n05>
+                            <42*a23n06>
+                            <42*a23n07>
+                            <42*a23n08>
+                            <42*a23n09>
+                            <42*a23n10>
+                            <42*a23n11>
+                            <42*a23n12>
+                            <42*a23n13>
+                            <42*a23n14>
+                            <42*a23n15>
+                            <42*a23n16>
+                            <42*a23n17>
+                            <42*a23n18>
+                            <42*a24n01>
+                            <42*a24n02>
+                            <42*a24n03>
+                            <42*a24n04>
+                            <42*a24n05>
+                            <42*a24n06>
+                            <42*a24n07>
+                            <42*a24n09>
+                            <42*a24n10>
+                            <42*a24n11>
+                            <42*a24n12>
+                            <42*a24n13>
+                            <42*a24n14>
+                            <42*a24n15>
+                            <42*a24n16>
+                            <42*a24n17>
+                            <42*a24n18>
+                            <42*a25n01>
+                            <42*a25n02>
+                            <42*a25n03>
+                            <42*a25n04>
+                            <42*a25n05>
+                            <42*a25n06>
+                            <42*a25n07>
+                            <42*a25n08>
+                            <42*a25n09>
+                            <42*a25n10>
+                            <42*a25n11>
+                            <42*a25n12>
+                            <42*a25n13>
+                            <42*a25n14>
+                            <42*a25n15>
+                            <42*a25n16>
+                            <42*a25n17>
+                            <42*a25n18>
+                            <42*a26n01>
+                            <42*a26n02>
+                            <42*a26n03>
+                            <42*a26n04>
+                            <42*a26n05>
+                            <42*a26n06>
+                            <42*a26n07>
+                            <42*a26n08>
+                            <42*a26n09>
+                            <42*a26n10>
+                            <42*a26n11>
+                            <42*a26n12>
+                            <42*a26n13>
+                            <42*a26n14>
+                            <42*a26n15>
+                            <42*a26n16>
+                            <42*a26n17>
+                            <42*a26n18>
+                            <42*a27n01>
+                            <42*a27n02>
+                            <42*a27n03>
+                            <42*a27n04>
+                            <42*a27n05>
+                            <42*a27n06>
+                            <42*a27n07>
+                            <42*a27n08>
+                            <42*a27n09>
+                            <42*a27n10>
+                            <42*a27n11>
+                            <42*a27n12>
+                            <42*a27n13>
+                            <42*a27n14>
+                            <42*a27n15>
+                            <42*a27n16>
+                            <42*a27n17>
+                            <42*a27n18>
+                            <42*a28n01>
+                            <42*a28n02>
+                            <42*a28n03>
+                            <42*a28n04>
+                            <42*a28n05>
+                            <42*a28n06>
+                            <42*a28n07>
+                            <42*a28n08>
+                            <42*a28n09>
+                            <42*a28n10>
+                            <42*a28n11>
+                            <42*a28n12>
+                            <42*a28n13>
+                            <42*a28n14>
+                            <42*a28n15>
+                            <42*a28n16>
+                            <42*a28n17>
+                            <42*a28n18>
+                            <42*a29n01>
+                            <42*a29n02>
+                            <42*a29n03>
+                            <42*a29n04>
+                            <42*a29n05>
+                            <42*a29n06>
+                            <42*a29n07>
+                            <42*a29n08>
+                            <42*a29n09>
+                            <42*a29n10>
+                            <42*a29n11>
+                            <42*a29n12>
+                            <42*a29n13>
+                            <42*a29n15>
+                            <42*a29n16>
+                            <42*a29n17>
+                            <42*a29n18>
+                            <42*a30n01>
+                            <42*a30n02>
+                            <42*a30n03>
+                            <42*a30n04>
+                            <42*a30n05>
+                            <42*a30n06>
+                            <42*a30n07>
+                            <42*a30n09>
+                            <42*a30n10>
+                            <42*a30n11>
+                            <42*a30n12>
+                            <42*a30n13>
+                            <42*a30n14>
+                            <42*a30n15>
+                            <42*a30n16>
+                            <42*a30n17>
+                            <42*a30n18>
+                            <42*a31n01>
+                            <42*a31n02>
+                            <42*a31n03>
+                            <42*a31n04>
+                            <42*a31n05>
+                            <42*a31n06>
+                            <42*a31n07>
+                            <42*a31n08>
+                            <42*a31n09>
+                            <42*a31n10>
+                            <42*a31n11>
+                            <42*a31n12>
+                            <42*a31n13>
+                            <42*a31n14>
+                            <42*a31n15>
+                            <42*a31n16>
+                            <42*a31n17>
+                            <42*a31n18>
+                            <42*a32n01>
+                            <42*a32n02>
+                            <42*a32n03>
+                            <42*a32n04>
+                            <42*a32n05>
+                            <42*a32n06>
+                            <42*a32n07>
+                            <42*a32n08>
+                            <42*a32n09>
+                            <42*a32n10>
+                            <42*a32n11>
+                            <42*a32n12>
+                            <42*a32n13>
+                            <42*a32n14>
+                            <42*a32n15>
+                            <42*a32n16>
+                            <42*a32n17>
+                            <42*a32n18>
+                            <42*a33n01>
+                            <42*a33n02>
+                            <42*a33n03>
+                            <42*a33n04>
+                            <42*a33n05>
+                            <42*a33n06>
+                            <42*a33n07>
+                            <42*a33n08>
+                            <42*a33n10>
+                            <42*a33n11>
+                            <42*a33n12>
+                            <42*a33n13>
+                            <42*a33n14>
+                            <42*a33n15>
+                            <42*a33n16>
+                            <42*a33n17>
+                            <42*a33n18>
+                            <42*a34n01>
+                            <42*a34n02>
+</ccs/home/dappelh> was used as the home directory.
+</ccs/home/dappelh/codes/coral/umt2016-managed/runs> was used as the working directory.
+Started at Fri Apr  6 00:00:18 2018
+Terminated at Fri Apr  6 00:10:52 2018
+Results reported at Fri Apr  6 00:10:52 2018
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <56925.err> for stderr output of this job.
+

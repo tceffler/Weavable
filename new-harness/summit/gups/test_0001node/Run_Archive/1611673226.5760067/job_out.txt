@@ -1,0 +1,19 @@
+Starting directory is /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/gups/test_0001node/Scripts
+h31n18.5.out AGG 740.677 725.0
+h31n18.1.out AGG 740.597 725.0
+h31n18.2.out AGG 740.798 725.0
+h31n18.4.out AGG 740.489 725.0
+h31n18.3.out AGG 740.29 725.0
+h31n18.0.out AGG 740.143 725.0
+Correctness check passed successfully.
+check_exit_value = 0
+Make not required: binary executable already provided.
+Copying source tree ...
+/gpfs/alpine/scratch/bzf/csc425/gups/gups/test_0001node/1611673305.342502/build_directory
+['']
+['', 'Batch job not submitted. Please address the following and resubmit: ', '--------------------------------------------------------------------', '', '**  Project not specified.  Please specify a project using the -P flag. ', '', '**  Not a member of the specified project: .  You are currently a member of the following projects: ', '       STF010 GEN010 GEN119 BIF128 CSC425 GEN119BLAZINGSQL ', '', '**  Walltime not specified.  Please specify a walltime using the -W flag. ', '', '------------------------------------------------------------------', 'Please contact help@olcf.ornl.gov if you need assistance. ', '', 'Request aborted by esub. Job not submitted.', '']
+Unable to obtain job id.
+submit_executable.x: Job id = 
+Generated test unique id: 1611673305.342502
+build_exit_value = 0
+submit_exit_value = 0

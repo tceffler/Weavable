@@ -1,0 +1,11 @@
+August 14, 2018
+
+Summit, 192 nodes, smt1
+
+$  ./get_fom.sh 
+checking ./stream1_job1/out.cpu.08_14_09_06_39 ... FOM = 270.6
+checking ./stream1_job2/out.cpu.08_14_09_01_53 ... FOM = 269.2
+checking ./stream1_job2/out.cpu.08_14_09_42_11 ... FOM = 265.1
+
+total job time = 923 sec
+so set MAX_JOBS=20 for 5 hour stream

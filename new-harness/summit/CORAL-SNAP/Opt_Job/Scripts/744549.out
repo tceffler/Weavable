@@ -1,0 +1,25 @@
+starting job 1 in stream 1 at  Wed Feb 17 14:41:06 EST 2021
+job 1 returned status = 255 at  Wed Feb 17 14:41:07 EST 2021
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 744549: <snap> in cluster <summit> Done
+
+Job <snap> was submitted from host <login2> by user <bzf> in cluster <summit> at Wed Feb 17 14:40:14 2021
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <bzf> in cluster <summit> at Wed Feb 17 14:40:27 2021
+                            <42*e34n03>
+                            <42*e34n04>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-SNAP/Opt_Job/Scripts> was used as the working directory.
+Started at Wed Feb 17 14:40:27 2021
+Terminated at Wed Feb 17 14:41:08 2021
+Results reported at Wed Feb 17 14:41:08 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <744549.err> for stderr output of this job.
+

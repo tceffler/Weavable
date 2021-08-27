@@ -1,0 +1,18 @@
+/ccs/home/dappelh/.lsbatch/1534187670.143781.shell: line 81: Mon: command not found
+
+Batch job not submitted. Please address the following and resubmit: 
+--------------------------------------------------------------------
+
+**  Project not specified.  Please specify a project using the -P flag. 
+
+**  Not a member of the specified project: .  You are currently a member of the following projects: 
+       VEN201 
+
+**  Walltime not specified.  Please specify a walltime using the -W flag. 
+
+**  Not a member of queue: batch.  Please resubmit using another queue.  If a queue is not specified, the default will be selected. 
+
+------------------------------------------------------------------
+Please contact help@olcf.ornl..gov if you need assistance. 
+
+Request aborted by esub. Job not submitted.

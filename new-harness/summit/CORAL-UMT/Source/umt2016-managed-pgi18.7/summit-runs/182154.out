@@ -1,0 +1,585 @@
+1: 0: cudaDevAttrMaxSharedMemoryPerMultiprocessor = 98304
+1: 0: cudaDevAttrMaxSharedMemoryPerBlock = 49152
+1: 0: cudaDevAttrMaxSharedMemoryPerBlockOptin = 98304
+1: 0: cudaSuccess
+1: 0:  Executing UMT2015 Number of ranks =96
+1: 0:  and number of OMP threads  =14
+1: 0:  gridFileName: 4x4x6_38.cmg
+1: 0:  setting the number of groups=16
+1: 0:  Running with Product Quadrature 
+1: 0:  setting number of polar angles     = 8
+1: 0:  setting number of azimuthal angles = 4
+1: 0:  Building mesh...
+1: 0:  Mesh complete.
+1: 0:  Initializing Teton object...
+1: 0: [0] Done with resize!
+1: 0: [0] Done with resize!
+1: 0:     done.
+1: 0:  Starting time advance...
+1: 0:  sweep_mem =              22248612864
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0: CYCLE 1 timerad = 3e-06
+1: 0:  
+1: 0: TempIters = 4 FluxIters = 4 GTAIters = 0
+1: 0: TrMax =     0.0031622776601684 in Zone 67278 on Node 95
+1: 0: TeMax =     0.0031622776601684 in Zone 68238 on Node 73
+1: 0: Recommended time step for next rad cycle = 6e-05
+1: 0:  
+1: 0:  
+1: 0: ********** Run Time Statistics **********
+1: 0:                   Cycle Advance             Accumulated 
+1: 0:                      Time (sec)         Angle Loop Time (sec)
+1: 0: RADTR              = 18.525742             6.9695549129974
+1: 0:  
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             2
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             3
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0: CYCLE 2 timerad = 6.3e-05
+1: 0:  
+1: 0: TempIters = 4 FluxIters = 4 GTAIters = 0
+1: 0: TrMax =     0.36459219972498 in Zone 86428 on Node 48
+1: 0: TeMax =     0.0075234782306735 in Zone 76779 on Node 24
+1: 0: Recommended time step for next rad cycle = 6e-05
+1: 0:  
+1: 0:  
+1: 0: ********** Run Time Statistics **********
+1: 0:                   Cycle Advance             Accumulated 
+1: 0:                      Time (sec)         Angle Loop Time (sec)
+1: 0: RADTR              = 22.85086             17.813722371036
+1: 0:  
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             2
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             3
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0: CYCLE 3 timerad = 0.000123
+1: 0:  
+1: 0: TempIters = 8 FluxIters = 8 GTAIters = 0
+1: 0: TrMax =     0.43263702948747 in Zone 78379 on Node 24
+1: 0: TeMax =     0.1420712957895 in Zone 86428 on Node 48
+1: 0: Recommended time step for next rad cycle = 6e-05
+1: 0:  
+1: 0:  
+1: 0: ********** Run Time Statistics **********
+1: 0:                   Cycle Advance             Accumulated 
+1: 0:                      Time (sec)         Angle Loop Time (sec)
+1: 0: RADTR              = 31.883027             35.694007582089
+1: 0:  
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             2
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             2
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0: CYCLE 4 timerad = 0.000183
+1: 0:  
+1: 0: TempIters = 8 FluxIters = 8 GTAIters = 0
+1: 0: TrMax =     0.47777565112918 in Zone 87665 on Node 72
+1: 0: TeMax =     0.18768964085174 in Zone 78379 on Node 24
+1: 0: Recommended time step for next rad cycle = 6e-05
+1: 0:  
+1: 0:  
+1: 0: ********** Run Time Statistics **********
+1: 0:                   Cycle Advance             Accumulated 
+1: 0:                      Time (sec)         Angle Loop Time (sec)
+1: 0: RADTR              = 31.011612             52.697133906069
+1: 0:  
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             2
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             2
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0: CYCLE 5 timerad = 0.000243
+1: 0:  
+1: 0: TempIters = 8 FluxIters = 8 GTAIters = 0
+1: 0: TrMax =     0.51233672654568 in Zone 58229 on Node 72
+1: 0: TeMax =     0.22394100235695 in Zone 86429 on Node 48
+1: 0: Recommended time step for next rad cycle = 6e-05
+1: 0:  
+1: 0:  
+1: 0: ********** Run Time Statistics **********
+1: 0:                   Cycle Advance             Accumulated 
+1: 0:                      Time (sec)         Angle Loop Time (sec)
+1: 0: RADTR              = 31.046739             69.825383896066
+1: 0:  
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             2
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             2
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0: CYCLE 6 timerad = 0.000303
+1: 0:  
+1: 0: TempIters = 8 FluxIters = 8 GTAIters = 0
+1: 0: TrMax =     0.54062904636714 in Zone 85409 on Node 0
+1: 0: TeMax =     0.25504594781785 in Zone 86429 on Node 48
+1: 0: Recommended time step for next rad cycle = 6e-05
+1: 0:  
+1: 0:  
+1: 0: ********** Run Time Statistics **********
+1: 0:                   Cycle Advance             Accumulated 
+1: 0:                      Time (sec)         Angle Loop Time (sec)
+1: 0: RADTR              = 31.053579             86.795772350102
+1: 0:  
+1: 0:  SuOlson setting last step's dt=3.1e-05
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             2
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0:  set the func attribute with error = 
+1: 0:  no error                                                                                                                        
+1: 0:  True flux iterations =             1
+1: 0: CYCLE 7 timerad = 0.000334
+1: 0:  
+1: 0: TempIters = 5 FluxIters = 5 GTAIters = 0
+1: 0: TrMax =     0.55355936068436 in Zone 87071 on Node 72
+1: 0: TeMax =     0.27044841658371 in Zone 86429 on Node 48
+1: 0: Recommended time step for next rad cycle = 6e-05
+1: 0:  
+1: 0:  
+1: 0: ********** Run Time Statistics **********
+1: 0:                   Cycle Advance             Accumulated 
+1: 0:                      Time (sec)         Angle Loop Time (sec)
+1: 0: RADTR              = 22.589527             97.46016543507
+1: 0:  
+1: 0:  SuOlson Test version 1.0 completed at time= 0.000334  goalTime= 0.000334
+1: 95: [95] Done with resize!
+1: 95: [95] Done with resize!
+1: 87: [87] Done with resize!
+1: 87: [87] Done with resize!
+1: 50: [50] Done with resize!
+1: 50: [50] Done with resize!
+1: 21: [21] Done with resize!
+1: 21: [21] Done with resize!
+1: 31: [31] Done with resize!
+1: 31: [31] Done with resize!
+1: 36: [36] Done with resize!
+1: 36: [36] Done with resize!
+1: 10: [10] Done with resize!
+1: 10: [10] Done with resize!
+1: 73: [73] Done with resize!
+1: 73: [73] Done with resize!
+1: 54: [54] Done with resize!
+1: 54: [54] Done with resize!
+1: 26: [26] Done with resize!
+1: 26: [26] Done with resize!
+1: 65: [65] Done with resize!
+1: 65: [65] Done with resize!
+1: 81: [81] Done with resize!
+1: 81: [81] Done with resize!
+1: 71: [71] Done with resize!
+1: 71: [71] Done with resize!
+1: 42: [42] Done with resize!
+1: 42: [42] Done with resize!
+1: 17: [17] Done with resize!
+1: 17: [17] Done with resize!
+1: 92: [92] Done with resize!
+1: 92: [92] Done with resize!
+1: 88: [88] Done with resize!
+1: 88: [88] Done with resize!
+1: 18: [18] Done with resize!
+1: 18: [18] Done with resize!
+1: 32: [32] Done with resize!
+1: 32: [32] Done with resize!
+1: 37: [37] Done with resize!
+1: 37: [37] Done with resize!
+1: 11: [11] Done with resize!
+1: 11: [11] Done with resize!
+1: 74: [74] Done with resize!
+1: 74: [74] Done with resize!
+1: 59: [59] Done with resize!
+1: 59: [59] Done with resize!
+1: 27: [27] Done with resize!
+1: 27: [27] Done with resize!
+1: 62: [62] Done with resize!
+1: 62: [62] Done with resize!
+1: 79: [79] Done with resize!
+1: 79: [79] Done with resize!
+1: 70: [70] Done with resize!
+1: 70: [70] Done with resize!
+1: 0:  Computing error check along x=0.00328947, y=0.00328947
+1: 44: [44] Done with resize!
+1: 44: [44] Done with resize!
+1: 93: [93] Done with resize!
+1: 93: [93] Done with resize!
+1: 86: [86] Done with resize!
+1: 86: [86] Done with resize!
+1: 20: [20] Done with resize!
+1: 20: [20] Done with resize!
+1: 35: [35] Done with resize!
+1: 35: [35] Done with resize!
+1: 40: [40] Done with resize!
+1: 40: [40] Done with resize!
+1: 7: [7] Done with resize!
+1: 7: [7] Done with resize!
+1: 77: [77] Done with resize!
+1: 77: [77] Done with resize!
+1: 69: [69] Done with resize!
+1: 69: [69] Done with resize!
+1: 78: [78] Done with resize!
+1: 78: [78] Done with resize!
+1: 91: [91] Done with resize!
+1: 91: [91] Done with resize!
+1: 28: [28] Done with resize!
+1: 28: [28] Done with resize!
+1: 61: [61] Done with resize!
+1: 61: [61] Done with resize!
+1: 45: [45] Done with resize!
+1: 45: [45] Done with resize!
+1: 55: [55] Done with resize!
+1: 55: [55] Done with resize!
+1: 85: [85] Done with resize!
+1: 85: [85] Done with resize!
+1: 19: [19] Done with resize!
+1: 19: [19] Done with resize!
+1: 12: [12] Done with resize!
+1: 12: [12] Done with resize!
+1: 1: [1] Done with resize!
+1: 1: [1] Done with resize!
+1: 33: [33] Done with resize!
+1: 33: [33] Done with resize!
+1: 66: [66] Done with resize!
+1: 66: [66] Done with resize!
+1: 72: [72] Done with resize!
+1: 72: [72] Done with resize!
+1: 82: [82] Done with resize!
+1: 82: [82] Done with resize!
+1: 89: [89] Done with resize!
+1: 89: [89] Done with resize!
+1: 30: [30] Done with resize!
+1: 30: [30] Done with resize!
+1: 14: [14] Done with resize!
+1: 14: [14] Done with resize!
+1: 23: [23] Done with resize!
+1: 23: [23] Done with resize!
+1: 41: [41] Done with resize!
+1: 41: [41] Done with resize!
+1: 5: [5] Done with resize!
+1: 5: [5] Done with resize!
+1: 94: [94] Done with resize!
+1: 94: [94] Done with resize!
+1: 56: [56] Done with resize!
+1: 56: [56] Done with resize!
+1: 25: [25] Done with resize!
+1: 25: [25] Done with resize!
+1: 75: [75] Done with resize!
+1: 75: [75] Done with resize!
+1: 47: [47] Done with resize!
+1: 47: [47] Done with resize!
+1: 80: [80] Done with resize!
+1: 80: [80] Done with resize!
+1: 68: [68] Done with resize!
+1: 68: [68] Done with resize!
+1: 58: [58] Done with resize!
+1: 58: [58] Done with resize!
+1: 3: [3] Done with resize!
+1: 3: [3] Done with resize!
+1: 38: [38] Done with resize!
+1: 38: [38] Done with resize!
+1: 22: [22] Done with resize!
+1: 22: [22] Done with resize!
+1: 34: [34] Done with resize!
+1: 34: [34] Done with resize!
+1: 84: [84] Done with resize!
+1: 84: [84] Done with resize!
+1: 46: [46] Done with resize!
+1: 46: [46] Done with resize!
+1: 39: [39] Done with resize!
+1: 39: [39] Done with resize!
+1: 67: [67] Done with resize!
+1: 67: [67] Done with resize!
+1: 13: [13] Done with resize!
+1: 13: [13] Done with resize!
+1: 24: [24] Done with resize!
+1: 24: [24] Done with resize!
+1: 4: [4] Done with resize!
+1: 4: [4] Done with resize!
+1: 76: [76] Done with resize!
+1: 76: [76] Done with resize!
+1: 57: [57] Done with resize!
+1: 57: [57] Done with resize!
+1: 2: [2] Done with resize!
+1: 2: [2] Done with resize!
+1: 16: [16] Done with resize!
+1: 16: [16] Done with resize!
+1: 8: [8] Done with resize!
+1: 8: [8] Done with resize!
+1: 90: [90] Done with resize!
+1: 90: [90] Done with resize!
+1: 9: [9] Done with resize!
+1: 9: [9] Done with resize!
+1: 15: [15] Done with resize!
+1: 15: [15] Done with resize!
+1: 29: [29] Done with resize!
+1: 29: [29] Done with resize!
+1: 0:  z=    0.01 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653763
+1: 0:  z=     0.1 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653763
+1: 0:  z= 0.17783 tInterpolated=  0.00533376 tExact=    0.00468 error=0.000653761
+1: 0:  z= 0.31623 tInterpolated=  0.00533264 tExact=    0.00468 error=0.000652636
+1: 0:  z=    0.45 tInterpolated=  0.00502137 tExact=    0.00455 error=0.000471374
+1: 0:  z=     0.5 tInterpolated=  0.00270995 tExact=    0.00234 error=0.000369954
+1: 0:  z= 0.56234 tInterpolated=   0.0001964 tExact=      5e-05 error=  0.0001464
+1: 0:  z=    0.75 tInterpolated= 5.29419e-08 tExact=          0 error=5.29419e-08
+1: 0: ngroups = 16
+1: 0: nangsn = 256
+1: 0: tot zones = 8428800
+1: 0: numUnknowns = 2.76195e+11
+1: 64: [64] Done with resize!
+1: 64: [64] Done with resize!
+1: 43: [43] Done with resize!
+1: 43: [43] Done with resize!
+1: 49: [49] Done with resize!
+1: 49: [49] Done with resize!
+1: 60: [60] Done with resize!
+1: 60: [60] Done with resize!
+1: 83: [83] Done with resize!
+1: 83: [83] Done with resize!
+1: 6: [6] Done with resize!
+1: 6: [6] Done with resize!
+1: 48: [48] Done with resize!
+1: 48: [48] Done with resize!
+1: 52: [52] Done with resize!
+1: 52: [52] Done with resize!
+1: 63: [63] Done with resize!
+1: 63: [63] Done with resize!
+1: 53: [53] Done with resize!
+1: 53: [53] Done with resize!
+1: 51: [51] Done with resize!
+1: 51: [51] Done with resize!
+1: 0: cumulativeIterationCount= 45 cumulativeWorkTime=188.961 s.
+1: 0: figure of merit = 6.57742e+10
+1: 43: Cleaning up nvcache path
+1: 48: Cleaning up nvcache path
+1: 84: Cleaning up nvcache path
+1: 37: Cleaning up nvcache path
+1: 18: Cleaning up nvcache path
+1: 0: Cleaning up nvcache path
+1: 7: Cleaning up nvcache path
+1: 42: Cleaning up nvcache path
+1: 62: Cleaning up nvcache path
+1: 20: Cleaning up nvcache path
+1: 38: Cleaning up nvcache path
+1: 86: Cleaning up nvcache path
+1: 49: Cleaning up nvcache path
+1: 80: Cleaning up nvcache path
+1: 71: Cleaning up nvcache path
+1: 28: Cleaning up nvcache path
+1: 1: Cleaning up nvcache path
+1: 6: Cleaning up nvcache path
+1: 45: Cleaning up nvcache path
+1: 87: Cleaning up nvcache path
+1: 15: Cleaning up nvcache path
+1: 39: Cleaning up nvcache path
+1: 3: Cleaning up nvcache path
+1: 36: Cleaning up nvcache path
+1: 52: Cleaning up nvcache path
+1: 47: Cleaning up nvcache path
+1: 22: Cleaning up nvcache path
+1: 11: Cleaning up nvcache path
+1: 89: Cleaning up nvcache path
+1: 85: Cleaning up nvcache path
+1: 17: Cleaning up nvcache path
+1: 44: Cleaning up nvcache path
+1: 21: Cleaning up nvcache path
+1: 19: Cleaning up nvcache path
+1: 4: Cleaning up nvcache path
+1: 10: Cleaning up nvcache path
+1: 51: Cleaning up nvcache path
+1: 64: Cleaning up nvcache path
+1: 40: Cleaning up nvcache path
+1: 61: Cleaning up nvcache path
+1: 50: Cleaning up nvcache path
+1: 53: Cleaning up nvcache path
+1: 14: Cleaning up nvcache path
+1: 46: Cleaning up nvcache path
+1: 2: Cleaning up nvcache path
+1: 88: Cleaning up nvcache path
+1: 8: Cleaning up nvcache path
+1: 41: Cleaning up nvcache path
+1: 23: Cleaning up nvcache path
+1: 94: Cleaning up nvcache path
+1: 69: Cleaning up nvcache path
+1: 83: Cleaning up nvcache path
+1: 5: Cleaning up nvcache path
+1: 63: Cleaning up nvcache path
+1: 60: Cleaning up nvcache path
+1: 9: Cleaning up nvcache path
+1: 95: Cleaning up nvcache path
+1: 25: Cleaning up nvcache path
+1: 70: Cleaning up nvcache path
+1: 82: Cleaning up nvcache path
+1: 66: Cleaning up nvcache path
+1: 91: Cleaning up nvcache path
+1: 65: Cleaning up nvcache path
+1: 13: Cleaning up nvcache path
+1: 78: Cleaning up nvcache path
+1: 24: Cleaning up nvcache path
+1: 27: Cleaning up nvcache path
+1: 67: Cleaning up nvcache path
+1: 79: Cleaning up nvcache path
+1: 12: Cleaning up nvcache path
+1: 68: Cleaning up nvcache path
+1: 16: Cleaning up nvcache path
+1: 58: Cleaning up nvcache path
+1: 29: Cleaning up nvcache path
+1: 81: Cleaning up nvcache path
+1: 26: Cleaning up nvcache path
+1: 56: Cleaning up nvcache path
+1: 92: Cleaning up nvcache path
+1: 76: Cleaning up nvcache path
+1: 90: Cleaning up nvcache path
+1: 93: Cleaning up nvcache path
+1: 72: Cleaning up nvcache path
+1: 57: Cleaning up nvcache path
+1: 74: Cleaning up nvcache path
+1: 55: Cleaning up nvcache path
+1: 77: Cleaning up nvcache path
+1: 34: Cleaning up nvcache path
+1: 73: Cleaning up nvcache path
+1: 54: Cleaning up nvcache path
+1: 59: Cleaning up nvcache path
+1: 31: Cleaning up nvcache path
+1: 75: Cleaning up nvcache path
+1: 32: Cleaning up nvcache path
+1: 33: Cleaning up nvcache path
+1: 30: Cleaning up nvcache path
+1: 35: Cleaning up nvcache path
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 182154: <Not_Specified> in cluster <summit> Done
+
+Job <Not_Specified> was submitted from host <login3> by user <dappelh> in cluster <summit> at Fri Sep  7 15:37:08 2018
+Job was executed on host(s) <1*batch4>, in queue <tested>, as user <dappelh> in cluster <summit> at Fri Sep  7 15:37:15 2018
+                            <42*h31n14>
+                            <42*h32n06>
+                            <42*h32n07>
+                            <42*h32n14>
+                            <42*h32n15>
+                            <42*h32n16>
+                            <42*h32n17>
+                            <42*h32n18>
+                            <42*h33n01>
+                            <42*h33n02>
+                            <42*h33n03>
+                            <42*h33n04>
+                            <42*h33n05>
+                            <42*h33n06>
+                            <42*h33n07>
+                            <42*h33n08>
+</ccs/home/dappelh> was used as the home directory.
+</ccs/home/dappelh/codes/coral/umt2016-managed/summit-runs> was used as the working directory.
+Started at Fri Sep  7 15:37:15 2018
+Terminated at Fri Sep  7 15:46:18 2018
+Results reported at Fri Sep  7 15:46:18 2018
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <182154.err> for stderr output of this job.
+

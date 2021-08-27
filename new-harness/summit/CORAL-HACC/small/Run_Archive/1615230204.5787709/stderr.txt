@@ -1,0 +1,12 @@
+[a29n10:153710] *** Process received signal ***
+[a29n10:153710] Signal: Segmentation fault (11)
+[a29n10:153710] Signal code: Address not mapped (1)
+[a29n10:153710] Failing at address: 0xc0
+[a29n10:153710] [ 0] [0x2000000504d8]
+[a29n10:153710] [ 1] [0x20001ff20010]
+[a29n10:153710] [ 2] /lib64/libc.so.6(_IO_fprintf+0x34)[0x2000006f2d94]
+[a29n10:153710] [ 3] /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-HACC/small/1615230204.5787709/build_directory/bin/hacc_tpm[0x100177f4]
+[a29n10:153710] [ 4] /autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/Scratch/CORAL-HACC/small/1615230204.5787709/build_directory/bin/hacc_tpm[0x1000a8b8]
+[a29n10:153710] [ 5] /lib64/libc.so.6(+0x25200)[0x2000006b5200]
+[a29n10:153710] [ 6] /lib64/libc.so.6(__libc_start_main+0xc4)[0x2000006b53f4]
+[a29n10:153710] *** End of error message ***

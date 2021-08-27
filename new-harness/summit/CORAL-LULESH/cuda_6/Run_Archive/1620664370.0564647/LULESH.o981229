@@ -1,0 +1,27 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch1>
+Subject: Job 981229: <LULESH> in cluster <summit> Done
+
+Job <LULESH> was submitted from host <login2> by user <bzf> in cluster <summit> at Mon May 10 12:32:50 2021
+Job was executed on host(s) <1*batch1>, in queue <batch>, as user <bzf> in cluster <summit> at Mon May 10 12:33:56 2021
+                            <42*e27n02>
+                            <42*e27n04>
+                            <42*e27n05>
+                            <42*e29n17>
+                            <42*g35n02>
+                            <42*g35n03>
+</ccs/home/bzf> was used as the home directory.
+</autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_6/Run_Archive/1620664370.0564647> was used as the working directory.
+Started at Mon May 10 12:33:56 2021
+Terminated at Mon May 10 12:34:15 2021
+Results reported at Mon May 10 12:34:15 2021
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-LULESH/cuda_6/Run_Archive/1620664370.0564647/LULESH.e981229> for stderr output of this job.
+

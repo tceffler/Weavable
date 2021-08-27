@@ -1,0 +1,10 @@
+At line 34 of file F_readSingleAtomData_bigcell.f90 (unit = 55)
+Fortran runtime error: Cannot open file 'v_fe2.1': No such file or directory
+At line 34 of file F_readSingleAtomData_bigcell.f90 (unit = 55)
+Fortran runtime error: Cannot open file 'v_fe2.1': No such file or directory
+At line 34 of file F_readSingleAtomData_bigcell.f90 (unit = 55)
+Fortran runtime error: Cannot open file 'v_fe2.1': No such file or directory
+At line 34 of file F_readSingleAtomData_bigcell.f90 (unit = 55)
+Fortran runtime error: Cannot open file 'v_fe2.1': No such file or directory
+At line 34 of file F_readSingleAtomData_bigcell.f90 (unit = 55)
+Fortran runtime error: Cannot open file 'v_fe2.1': No such file or directory

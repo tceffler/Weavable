@@ -1,0 +1,19 @@
+
+Inactive Modules:
+  1) spectrum-mpi
+
+
+Activating Modules:
+  1) spectrum-mpi/10.3.1.2-20200121
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5            6) python/3.6.6-anaconda3-5.3.0
+  2) xalt/1.2.1              7) olcf_harness
+  3) lsf-tools/2.0           8) gcc/6.4.0
+  4) darshan-runtime/3.1.7   9) spectrum-mpi/10.3.1.2-20200121
+  5) DefApps
+
+ 
+
+mv: cannot stat '__batch_file_name__': No such file or directory

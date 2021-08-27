@@ -1,0 +1,76 @@
+#BHEADER**********************************************************************
+# Copyright (c) 2008,  Lawrence Livermore National Security, LLC.
+# Produced at the Lawrence Livermore National Laboratory.
+# This file is part of HYPRE.  See file COPYRIGHT for details.
+#
+# HYPRE is free software; you can redistribute it and/or modify it under the
+# terms of the GNU Lesser General Public License (as published by the Free
+# Software Foundation) version 2.1 dated February 1999.
+#
+# $Revision: 2.4 $
+#EHEADER**********************************************************************
+
+
+# set the compiler & CUDA path here
+ifdef CRAY_CPU_TARGET
+CC = cc
+CUDA_HOME = $(CRAY_CUDATOOLKIT_DIR)
+else
+CC = mpicc 
+CUDA_HOME=$(dir $(shell which nvcc))../
+endif
+
+OMP_FLAGS=-fopenmp
+#OMP_FLAGS=-openmp -qsmp
+#OMP_FLAGS=-qsmp=omp
+#OMP_FLAGS=-mp
+
+# set compile flags here
+# MPI only:
+#   add '-DTIMER_USE_MPI'  to 'INCLUDE_CFLAGS'
+# MPI with OpenMP:
+#   add '-DHYPRE_USING_OPENMP -DTIMER_USE_MPI'  to 'INCLUDE_CFLAGS'
+# Use assumed partition (for thousands of processors):
+#   add '-DHYPRE_NO_GLOBAL_PARTITION'  to 'INCLUDE_CFLAGS'
+# Use 64-bit integers for global variables (needed for large problems
+#	with more than 2 billion variables)
+#   add '-DHYPRE_LONG_LONG'  to 'INCLUDE_CFLAGS'
+INCLUDE_CFLAGS = -O2 -DTIMER_USE_MPI -DHYPRE_USING_OPENMP -DHYPRE_LONG_LONG -DHYPRE_NO_GLOBAL_PARTITION $(OMP_FLAGS) -DMPIPCONTROL
+
+
+# set link flags here
+INCLUDE_LFLAGS = -lm $(OMP_FLAGS)
+
+## GPU-specific options below ##
+
+# enable GPU acceleration
+OPT_FLAGS += -DHYPRE_USING_GPU
+
+# enable additional output including # of nnz and timings per level
+#OPT_FLAGS += -DLEVEL_TIMING
+
+# store transpose matrix explicitly (more efficient, but requires additional memory)
+OPT_FLAGS += -DGPU_STORE_EXPLICIT_TRANSPOSE
+
+# use CUSPARSE library call for matvec (otherwise use custom written CUDA kernel)
+OPT_FLAGS += -DGPU_USE_CUSPARSE_MATVEC 
+
+# use HYB format for CUSPARSE calls
+#OPT_FLAGS += -DGPU_USE_CUSPARSE_HYB -DHYB_LEVEL=0
+
+#  switching at V-cycle between host and device
+OPT_FLAGS += -DSWITCH_HOST_DEVICE
+
+## Update include/link settings ##
+ 
+# modify include directory accordingly to your CUDA path
+INCLUDE_CFLAGS += -I$(CUDA_HOME)/include $(OPT_FLAGS)
+#INCLUDE_CFLAGS += $(OPT_FLAGS)
+
+# link with NVIDIA libraries
+INCLUDE_LFLAGS += -lcusparse -lcudart -lcublas -lnvToolsExt -L$(CUDA_HOME)/lib64 -lstdc++
+
+#INCLUDE_LFLAGS += $(CUDA_HOME)/lib64/libcusparse_static.a $(CUDA_HOME)/lib64/libcudart_static.a $(CUDA_HOME)/lib64/libcublas_static.a $(CUDA_HOME)/lib64/libculibos.a $(CUDA_HOME)/lib64/libnvToolsExt.so  -lstdc++ -lrt
+
+
+

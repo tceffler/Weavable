@@ -1,0 +1,41 @@
+Checking CORAL-FTQ (fwq serial) for 1 nodes
+
+Lmod is automatically replacing "xl/16.1.1-5" with "gcc/4.8.5".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) darshan-runtime/3.1.7     4) netlib-lapack/3.8.0
+  2) hdf5/1.10.4               5) parallel-netcdf/1.8.1
+  3) netcdf-fortran/4.4.4      6) spectrum-mpi/10.3.1.2-20200121
+
+
+The following have been reloaded with a version change:
+  1) python/3.6.6-anaconda3-5.3.0 => python/2.7.12
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5   10) netlib-lapack/3.8.0
+  2) xalt/1.2.1     11) spectrum-mpi/10.3.1.2-20200121
+  3) lsf-tools/2.0  12) darshan-runtime/3.1.7
+  4) DefApps        13) hdf5/1.10.4
+  5) olcf_harness   14) parallel-netcdf/1.8.1
+  6) netcdf/4.6.2   15) netcdf-fortran/4.4.4
+  7) cmake/3.18.2   16) python/2.7.12
+  8) cuda/10.1.243  17) py-numpy/1.11.2-py2
+  9) gcc/4.8.5
+
+ 
+
+tail: cannot open 'fwq_times.*' for reading: No such file or directory
+/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20171006/linux-rhel7-ppc64le/gcc-4.8.5/py-numpy-1.11.2-bpeot7wy37gsp44zea6oc63v66o73qkm/lib/python2.7/site-packages/numpy-1.11.2-py2.7-linux-ppc64le.egg/numpy/lib/npyio.py:893: UserWarning: loadtxt: Empty input file: "fwq_times.*.dat"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+Traceback (most recent call last):
+  File "/autofs/nccs-svm1_proj/csc425/olcf-acceptance-harness/applications/new-harness/summit/CORAL-FTQ/test_1n/Scripts/./check-fwq.py", line 17, in <module>
+    fwqd_min = np.min(fwqd)
+  File "/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20171006/linux-rhel7-ppc64le/gcc-4.8.5/py-numpy-1.11.2-bpeot7wy37gsp44zea6oc63v66o73qkm/lib/python2.7/site-packages/numpy-1.11.2-py2.7-linux-ppc64le.egg/numpy/core/fromnumeric.py", line 2397, in amin
+    out=out, **kwargs)
+  File "/autofs/nccs-svm1_sw/summit/.swci/1-compute/opt/spack/20171006/linux-rhel7-ppc64le/gcc-4.8.5/py-numpy-1.11.2-bpeot7wy37gsp44zea6oc63v66o73qkm/lib/python2.7/site-packages/numpy-1.11.2-py2.7-linux-ppc64le.egg/numpy/core/_methods.py", line 29, in _amin
+    return umr_minimum(a, axis, None, out, keepdims)
+ValueError: zero-size array to reduction operation minimum which has no identity
+CHECK RESULTS: pass rate is 0 % (npass=0, nfail=1)
+PERF FAILURE: pass rate % < 80

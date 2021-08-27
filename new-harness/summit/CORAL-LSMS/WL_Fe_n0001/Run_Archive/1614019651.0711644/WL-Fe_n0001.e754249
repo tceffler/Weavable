@@ -1,0 +1,32 @@
+/ccs/home/bzf/.lsbatch/1614019667.754249.shell: line 13: __rgtenvironmentalfile__: No such file or directory
+Lmod has detected the following error: The following module(s) are unknown:
+"olcf_harness_summit"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "olcf_harness_summit"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+
+Lmod is automatically replacing "xl/16.1.1-5" with "gcc/6.4.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) spectrum-mpi/10.3.1.2-20200121
+
+
+Currently Loaded Modules:
+  1) hsi/5.0.2.p5                   7) olcf_harness
+  2) xalt/1.2.1                     8) gcc/6.4.0
+  3) lsf-tools/2.0                  9) cuda/10.1.243
+  4) darshan-runtime/3.1.7         10) spectrum-mpi/10.3.1.2-20200121
+  5) DefApps                       11) essl/6.1.0-2
+  6) python/3.6.6-anaconda3-5.3.0  12) hdf5/1.10.4
+
+ 
+
+User defined signal 2

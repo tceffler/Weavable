@@ -1,0 +1,17 @@
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+./device-bind.sh: line 26: 54018 Aborted                 $executable "$@"
+ft Found Error CQE c,81,0, WR ID 0x0
+ft Found Error CQE c,81,0, WR ID 0x0
+ft Found Error CQE c,81,0, WR ID 0x0
+ft Found Error CQE c,81,0, WR ID 0x0
+ft Found Error CQE c,81,0, WR ID 0x0
+ft Found Error CQE c,81,0, WR ID 0x0
+ft Found Error CQE c,81,0, WR ID 0x0
+ft Found Error CQE c,81,0, WR ID 0x0
+ERROR: The connection to the JSM daemon has failed.
+  This is a strong indication that the JSM daemon has exited unexpectedly.
+  When this occurs, error logs are left on the affected nodes in
+/tmp/JSMDIAG-LOG-<hostname>-<pid> or in
+/tmp/jsm.batch5.12954/71863/JSMD-LOG-<hostname>-<pid>
+[batch5:39543] PMIX ERROR: UNPACK-PAST-END in file tool/pmix_tool.c at line 105

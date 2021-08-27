@@ -1,0 +1,12 @@
+./device-bind.sh: line 26: [: 3: unary operator expected
+./device-bind.sh: line 26: [: 2: unary operator expected
+./device-bind.sh: line 26: [: 5: unary operator expected
+./device-bind.sh: line 26: [: 0: unary operator expected
+./device-bind.sh: line 26: [: 1: unary operator expected
+./device-bind.sh: line 26: [: 4: unary operator expected
+ERROR: The connection to the JSM daemon has failed.
+  This is a strong indication that the JSM daemon has exited unexpectedly.
+  When this occurs, error logs are left on the affected nodes in
+/tmp/JSMDIAG-LOG-<hostname>-<pid> or in
+/tmp/jsm.batch4.12954/74172/JSMD-LOG-<hostname>-<pid>
+[batch4:05600] PMIX ERROR: UNPACK-PAST-END in file tool/pmix_tool.c at line 105
